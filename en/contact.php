@@ -78,6 +78,12 @@ if(isset($_POST['submitted'])) {
 	   	<header>
 			<div class="holder">
 		 		<div id="logo"><h1><a href="index.html"><span>avotz</span></a></h1></div>
+		 		<div id="idiomas">
+		 			<ul>
+		 				<li><a href="http://www.avotz.com">Spanish</a></li>
+		 				<li><a href="http://en.avotz.com">English</a></li>
+		 			</ul>
+		 		</div>
 				<nav id="menu">
 					<ul>
 						<li><a href="index.html" id="inicio" ><span class="icon-home"></span><span>Home</span></a></li>
