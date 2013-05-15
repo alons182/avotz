@@ -58,7 +58,7 @@ body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial
 #idiomas ul li{padding:2px;}
 #idiomas ul li a{display:block;color:#fff;text-decoration:none}
 #idiomas ul li a:hover{text-decoration:underline;color:#a9bf04}
-#menu{display:inline-block;margin:0 10px;vertical-align:top;width:700px;}
+#menu{display:inline-block;margin:0 10px;vertical-align:top;width:500px;}
 #menu ul{float:right;margin:0;margin-top:10px;padding:0;width:390px;}
 #menu ul li{border-bottom:1px solid #333;border-top:1px solid #333;display:inline-block;padding:10px 0 7px;vertical-align:top;}
 #menu ul li a{border-right:1px solid #333;color:#fff;display:block;height:70px;line-height:37px;padding:0 15px;position:relative;text-decoration:none;}
