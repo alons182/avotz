@@ -53,7 +53,12 @@ body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial
 #logo h1{background:url("../img/logo.png") no-repeat scroll left top transparent;height:60px;margin:20px 0 0;width:187px;}
 #logo h1 a{display:block;}
 #logo h1 a span{display:block;text-indent:-9999px}
-#menu{display:inline-block;margin:0 10px;vertical-align:top;width:700px;}
+#idiomas{width:200px;height:90px;border-left:1px solid #333;display:inline-block;padding:30px 10px 0;}
+#idiomas ul{margin:0;padding:0;list-style:none;}
+#idiomas ul li{padding:2px;}
+#idiomas ul li a{display:block;color:#fff;text-decoration:none}
+#idiomas ul li a:hover{text-decoration:underline;color:#a9bf04}
+#menu{display:inline-block;margin:0 10px;vertical-align:top;width:500px;}
 #menu ul{float:right;margin:0;margin-top:10px;padding:0;width:390px;}
 #menu ul li{border-bottom:1px solid #333;border-top:1px solid #333;display:inline-block;padding:10px 0 7px;vertical-align:top;}
 #menu ul li a{border-right:1px solid #333;color:#fff;display:block;height:70px;line-height:37px;padding:0 15px;position:relative;text-decoration:none;}
@@ -141,7 +146,9 @@ footer #suscripcion input[type="text"],footer #suscripcion .mini-buscador input[
 @media only screen and (max-width:  975px){.servicios header,.trabajos header,.contacto header{height:auto}
 .holder{width:auto}
 #logo{margin:0;text-align:center;width:100%;}
-#logo h1{background:url("../img/logo_big.png") no-repeat scroll left top transparent;height:99px;margin:29px auto 33px;width:256px}
+#logo h1{background:url("../img/logo_big.png") no-repeat scroll left top transparent;height:80px;margin:29px auto 33px;width:256px}
+#idiomas{display:block;border:none;margin:0 auto;padding:0;width:110px;height:40px;}
+#idiomas ul li{display:inline-block}
 #menu{background-color:rgba(0,0,0,0.55);border-top:1px solid #333;margin:0;width:100%;}
 #menu ul{float:none;margin:0 auto;}
 #menu ul li{border:0 none}
