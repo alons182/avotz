@@ -188,7 +188,7 @@ if(isset($_POST['submitted'])) {
 		   
 	  					</form>
 	  					<div class="ultimo">
-							<img src="img/ajax.gif" class="ajaxgif hidden" />
+							<img src="img/ajax.gif" width="16" height="16" class="ajaxgif hidden" />
 							<div class="msg"></div>
 	  					</div>
 	  
