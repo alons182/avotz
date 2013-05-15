@@ -1,0 +1,195 @@
+@font-face{font-family:'avotz_icon';src:url("../fonts/avotz_icon.eot");src:url("../fonts/avotz_icon.eot?#iefix") format('embedded-opentype'),url("../fonts/avotz_icon.woff") format('woff'),url("../fonts/avotz_icon.ttf") format('truetype'),url("../fonts/avotz_icon.svg#avotz_icon") format('svg');font-weight:normal;font-style:normal}
+[data-icon]:before{font-family:'avotz_icon';content:attr(data-icon);speak:none;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}
+.icon-envelop,.icon-home,.icon-hammer,.icon-briefcase,.icon-share,.icon-embed,.icon-image,.icon-html5,.icon-joomla,.icon-facebook,.icon-twitter,.icon-wrench,.icon-wordpress,.icon-images,.icon-IE,.icon-arrow-right,.icon-arrow-left{font-family:'avotz_icon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}
+.icon-envelop:before{content:"\e000"}
+.icon-home:before{content:"\e001"}
+.icon-hammer:before{content:"\e002"}
+.icon-briefcase:before{content:"\e003"}
+.icon-share:before{content:"\e004"}
+.icon-embed:before{content:"\e005"}
+.icon-image:before{content:"\e006"}
+.icon-html5:before{content:"\e007"}
+.icon-joomla:before{content:"\e008"}
+.icon-facebook:before{content:"\e009"}
+.icon-twitter:before{content:"\e00a"}
+.icon-wrench:before{content:"\e00b"}
+.icon-wordpress:before{content:"\e00c"}
+.icon-images:before{content:"\e00d"}
+.icon-IE:before{content:"\e00e"}
+.icon-arrow-right:before{content:"\e00f"}
+.icon-arrow-left:before{content:"\e010"}
+#lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;opacity:.85;display:none}
+#lightbox{position:absolute;left:0;width:100%;z-index:10000;text-align:center;line-height:0;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:normal}
+#lightbox img{width:auto;height:auto}
+#lightbox a img{border:none}
+.lb-outerContainer{position:relative;background-color:#fff;*zoom:1;width:250px;height:250px;margin:0 auto;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px}
+.lb-outerContainerafter{content:"";display:table;clear:both}
+.lb-container{padding:10px}
+.lb-loader{position:absolute;top:40%;left:0%;height:25%;width:100%;text-align:center;line-height:0}
+.lb-nav{position:absolute;top:0;left:0;height:100%;width:100%;z-index:10}
+.lb-container > .nav{left:0}
+.lb-nav a{outline:none}
+.lb-prev,.lb-next{width:49%;height:100%;background-image:url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");display:block}
+.lb-prev{left:0;float:left}
+.lb-next{right:0;float:right}
+.lb-prevhover{background:url("../img/prev.png") left 48% no-repeat}
+.lb-nexthover{background:url("../img/next.png") right 48% no-repeat}
+.lb-dataContainer{margin:0 auto;padding-top:5px;*zoom:1;width:100%;-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;-ms-border-bottom-left-radius:4px;-o-border-bottom-left-radius:4px;border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;-ms-border-bottom-right-radius:4px;-o-border-bottom-right-radius:4px;border-bottom-right-radius:4px}
+.lb-dataContainerafter{content:"";display:table;clear:both}
+.lb-data{padding:0 10px;color:#bbb}
+.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em}
+.lb-data .lb-caption{font-size:13px;font-weight:bold;line-height:1em}
+.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:11px}
+.lb-data .lb-close{width:35px;float:right;padding-bottom:.7em;outline:none}
+.lb-data .lb-closehover{cursor:pointer}
+@font-face{font-family:'SourceSansProRegular';src:url("../fonts/SourceSansPro-Regular-webfont.eot");src:url("../fonts/SourceSansPro-Regular-webfont.eot?#iefix") format('embedded-opentype'),url("../fonts/SourceSansPro-Regular-webfont.woff") format('woff'),url("../fonts/SourceSansPro-Regular-webfont.ttf") format('truetype'),url("../fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular") format('svg');font-weight:normal;font-style:normal}
+body{background:#000;color:#7c7c7c;line-height:1.4;}
+body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial}
+.servicios header,.contacto header,.trabajos header{height:330px}
+.trabajos{background:url("../img/trabajos.jpg") no-repeat top center #000}
+.servicios{background:url("../img/servicios.jpg") no-repeat top center #000}
+.contacto{background:url("../img/contacto.jpg") no-repeat top center #000}
+#logo{display:inline-block;vertical-align:top;margin:0 10px;}
+#logo h1{background:url("../img/logo.png") no-repeat scroll left top transparent;height:60px;margin:20px 0 0;width:187px;}
+#logo h1 a span{display:block;text-indent:-9999px}
+#menu{display:inline-block;margin:0 10px;vertical-align:top;width:700px;}
+#menu ul{float:right;margin:0;margin-top:10px;padding:0;width:390px;}
+#menu ul li{border-bottom:1px solid #333;border-top:1px solid #333;display:inline-block;padding:10px 0 7px;vertical-align:top;}
+#menu ul li a{border-right:1px solid #333;color:#fff;display:block;height:70px;line-height:37px;padding:0 15px;position:relative;text-decoration:none;}
+#menu ul li a span{display:block}
+#menu ul li a .icon-home,#menu ul li a .icon-hammer,#menu ul li a .icon-briefcase,#menu ul li a .icon-envelop{font-size:2.3em;text-align:center}
+#menu ul li a:hover .icon-home,#menu ul li a:hover .icon-hammer,#menu ul li a:hover .icon-briefcase,#menu ul li a:hover .icon-envelop{color:#a9bf04}
+#menu ul .last a{border-right:medium none;padding-right:0}
+#menu ul .current a .icon-home,#menu ul .current a .icon-hammer,#menu ul .current a .icon-briefcase,#menu ul .current a .icon-envelop{color:#a9bf04}
+#banner{height:427px;margin-top:16px;width:100%;}
+#banner #slideshow-nav{left:50%;margin-left:-470px;margin-top:389px;position:absolute;text-align:right;width:940px;z-index:50;}
+#banner #slideshow-nav a{background:url("../img/heroes-nav.png") no-repeat scroll left top transparent;display:inline-block;height:12px;overflow:hidden;text-indent:999px;width:12px}
+#banner #slideshow-nav a.activeSlide{background-position:right top}
+#banner #slideshow{height:427px;margin:0 auto;width:100%;}
+#banner #slideshow .slide{background-position:center top;background-repeat:no-repeat;height:100%;text-align:center;width:100%}
+.blanco{background-color:#fff6f4}
+.verde{background-color:#a9bf04}
+.holder{margin:0 auto;width:960px}
+#contenido{padding-top:40px;padding-bottom:40px;}
+#contenido #diseno,#contenido #web,#contenido #social{display:inline-block;margin:0 10px;vertical-align:top;width:290px;}
+#contenido #diseno .titulo,#contenido #web .titulo,#contenido #social .titulo{border-bottom:1px solid #333;}
+#contenido #diseno .titulo h1,#contenido #web .titulo h1,#contenido #social .titulo h1{color:#a9bf04;margin:0;text-align:center}
+#contenido #diseno .titulo .icon-image,#contenido #web .titulo .icon-image,#contenido #social .titulo .icon-image,#contenido #diseno .titulo .icon-embed,#contenido #web .titulo .icon-embed,#contenido #social .titulo .icon-embed,#contenido #diseno .titulo .icon-share,#contenido #web .titulo .icon-share,#contenido #social .titulo .icon-share{color:#a9bf04;font-size:3em;text-align:center;padding-bottom:.2em}
+#contenido #contenedor-servicios h1{border-bottom:1px solid #333;color:#a9bf04;margin:0}
+#contenido #contenedor-servicios article{margin:0 10px;padding-bottom:10px}
+#contenido #contenedor-servicios .servicio-logo,#contenido #contenedor-servicios .servicio-descripcion{display:inline-block;vertical-align:middle}
+#contenido #contenedor-servicios .servicio-logo{padding-right:10px;width:10%;}
+#contenido #contenedor-servicios .servicio-logo .icon-html5,#contenido #contenedor-servicios .servicio-logo .icon-facebook,#contenido #contenedor-servicios .servicio-logo .icon-wrench,#contenido #contenedor-servicios .servicio-logo .icon-wordpress,#contenido #contenedor-servicios .servicio-logo .icon-images{color:#a9bf04;font-size:4.5em}
+#contenido #contenedor-servicios .servicio-descripcion{width:80%;}
+#contenido #contenedor-servicios .servicio-descripcion h2{border-bottom:1px solid #333;color:#a9bf04}
+#contenido #contenedor-trabajos h1{border-bottom:1px solid #333;color:#a9bf04;margin:0}
+#contenido #contenedor-trabajos .tabs{border-bottom:1px solid #333;margin-top:20px;height:30px;position:relative;}
+#contenido #contenedor-trabajos .tabs input{cursor:pointer;height:40px;left:0;opacity:0;position:absolute;top:0;width:120px;z-index:1000}
+#contenido #contenedor-trabajos .tabs #tab-2{left:120px}
+#contenido #contenedor-trabajos .tabs #tab-3{left:240px}
+#contenido #contenedor-trabajos .tabs #tab-4{left:360px}
+#contenido #contenedor-trabajos .tabs label{background:linear-gradient(top,#5ba4a4 0%,#4e8c8a 100%);border-radius:3px 3px 0 0;box-shadow:2px 0 2px rgba(0,0,0,0.1),-2px 0 2px rgba(0,0,0,0.1);color:#fff;display:block;float:left;font-size:1em;height:30px;letter-spacing:1px;line-height:30px;padding:0 20px;position:relative;text-align:center;text-shadow:1px 1px 1px rgba(255,255,255,0.3);transition:all .5s ease;width:70px}
+#contenido #contenedor-trabajos .tabs input:hover + label{color:#a9bf04}
+#contenido #contenedor-trabajos .tabs label:first-of-type{box-shadow:2px 0 2px rgba(0,0,0,0.1);z-index:4}
+#contenido #contenedor-trabajos .tabs .tab-label-2{z-index:3}
+#contenido #contenedor-trabajos .tabs .tab-label-3{z-index:2}
+#contenido #contenedor-trabajos .tabs .tab-label-4{z-index:1}
+#contenido #contenedor-trabajos .tabs label:after{bottom:-2px;content:'';display:block;height:2px;left:0;position:absolute;width:100%}
+#contenido #contenedor-trabajos .tabs input:checked + label{background:#a9bf04;color:#fff;z-index:6}
+#contenido #contenedor-trabajos .trabajo{border:1px solid #333;display:inline-block;height:150px;margin:.5em .5em;position:relative;vertical-align:top;width:270px;}
+#contenido #contenedor-trabajos .trabajo .botones{display:none;left:30%;position:absolute;top:40%}
+#contenido #contenedor-trabajos .trabajo .overlay{background:#000;display:block;height:150px;opacity:0;position:absolute;transition:all .5s ease;width:270px}
+#contenido #contenedor-trabajos .trabajo figure img{height:100%;width:100%}
+#contenido #contenedor-trabajos .trabajo p{display:inline}
+#contenido #contenedor-trabajos .trabajo .icon-IE,#contenido #contenedor-trabajos .trabajo .icon-image{color:#a9bf04;display:inline-block;vertical-align:middle}
+#contenido #contenedor-trabajos .trabajo a{color:#fff;text-decoration:none}
+#contenido #contenedor-trabajos .trabajo a:hover{text-decoration:underline}
+#contenido #contenedor-trabajos .trabajo:hover .overlay{opacity:.8}
+#contenido #contenedor-trabajos .trabajo:hover .botones{display:block}
+#contenido #contenedor-trabajos .pagination{margin:10px auto 0;width:50px;}
+#contenido #contenedor-trabajos .pagination ul{margin:0;padding:0}
+#contenido #contenedor-trabajos .pagination .left-btn,#contenido #contenedor-trabajos .pagination .right-btn{display:inline-block;padding:.5em;vertical-align:top;}
+#contenido #contenedor-trabajos .pagination .left-btn .icon-arrow-left,#contenido #contenedor-trabajos .pagination .right-btn .icon-arrow-left,#contenido #contenedor-trabajos .pagination .left-btn .icon-arrow-right,#contenido #contenedor-trabajos .pagination .right-btn .icon-arrow-right{color:#a9bf04;font-size:1.5em;text-decoration:none;transition:all .5s ease}
+#contenido #contenedor-trabajos .pagination .left-btn .icon-arrow-left:hover,#contenido #contenedor-trabajos .pagination .right-btn .icon-arrow-left:hover,#contenido #contenedor-trabajos .pagination .left-btn .icon-arrow-right:hover,#contenido #contenedor-trabajos .pagination .right-btn .icon-arrow-right:hover{color:#fff}
+#contenido .results-content{overflow:hidden;padding:26px 0 0 6px}
+#contenido .resultados{overflow:hidden}
+#contenido #contenedor-contacto h1{border-bottom:1px solid #333;color:#a9bf04;margin:0}
+#contenido #contenedor-contacto .desc h1{color:#a9bf04;font-size:2.4em;font-weight:normal;letter-spacing:-.03em;margin-bottom:8px}
+#contenido #contenedor-contacto .desc p{color:#7c7c7c}
+#contenido #contenedor-contacto #contacto-form{border-top:solid 1px #333}
+#contenido #contenedor-contacto .formblock{display:block;margin-bottom:11px;}
+#contenido #contenedor-contacto .formblock label{color:#a9bf04;display:block;font-size:1.1em}
+#contenido #contenedor-contacto .formblock .txt{color:#666;font-size:1em;padding:4px 6px;width:95%}
+#contenido #contenedor-contacto .formblock .txtarea{color:#666;font-size:1em;height:140px;padding:3px 5px;width:95%}
+#contenido #contenedor-contacto .formblock .error{color:#9d3131;font-size:1em;font-style:normal;font-weight:bold}
+#contenido #contenedor-contacto .info{color:#a9bf04;font-size:1.3em;font-weight:bold;margin-bottom:10px}
+#contenido #contenedor-contacto .tick{color:#a9bf04;font-size:1.2em;font-style:italic}
+#contenido .alert{color:#f9b30a}
+footer{background:#242424;font-size:14px;height:195px;padding-top:5px;}
+footer h5{margin-bottom:2px;text-transform:uppercase}
+footer #menu-footer,footer #informacion,footer #redes{display:inline-block;margin:0 10px;vertical-align:top;}
+footer #menu-footer ul,footer #informacion ul,footer #redes ul{margin:0;padding:0;}
+footer #menu-footer ul li a,footer #informacion ul li a,footer #redes ul li a{color:#a9bf04;text-decoration:none}
+footer #menu-footer ul li a:hover,footer #informacion ul li a:hover,footer #redes ul li a:hover{color:#fff;text-decoration:underline}
+footer #menu-footer ul .icon-twitter,footer #informacion ul .icon-twitter,footer #redes ul .icon-twitter,footer #menu-footer ul .icon-facebook,footer #informacion ul .icon-facebook,footer #redes ul .icon-facebook{padding-right:5px;vertical-align:middle}
+footer #informacion a{color:#a9bf04;text-decoration:none}
+footer #suscripcion{display:inline;float:right;margin:0 10px;}
+footer #suscripcion input[type="text"],footer #suscripcion .mini-buscador input[type="text"]{border:1px solid rgba(0,0,0,0.1);border-radius:5px;font-size:1em;height:28px}
+.btn_submit,.mini-buscador .btn_submit,.subbutton{background:-moz-linear-gradient(top,#85a315 0%,#b2da1d 100%);background:-webkit-linear-gradient(top,#85a315 0%,#b2da1d 100%);background:linear-gradient(top,#85a315 0%,#b2da1d 100%);background-color:#a9bf04;border:1px solid rgba(0,0,0,0.1);border-radius:5px;color:#fff;height:2.375em;line-height:2.25em;position:relative}
+.hidden{display:none}
+@media only screen and (max-width:  975px){.servicios header,.trabajos header,.contacto header{height:auto}
+.holder{width:auto}
+#logo{margin:0;text-align:center;width:100%;}
+#logo h1{background:url("../img/logo_big.png") no-repeat scroll left top transparent;height:99px;margin:29px auto 33px;width:256px}
+#menu{background-color:rgba(0,0,0,0.55);border-top:1px solid #333;margin:0;width:100%;}
+#menu ul{float:none;margin:0 auto;}
+#menu ul li{border:0 none}
+#slideshow-nav{margin-left:0;right:67px;width:auto}
+#contenido{background-color:rgba(0,0,0,0.55);margin:0 auto;width:auto;}
+#contenido #contenedor-inicio{margin:0 auto;width:100%;}
+#contenido #contenedor-inicio article{width:45%}
+#contenido #contenedor-servicios{margin:0 auto;width:100%}
+#contenido #contenedor-trabajos{margin:0 auto;width:100%;}
+#contenido #contenedor-trabajos h1{text-align:center}
+#contenido #contenedor-trabajos .results-content,#contenido #contenedor-trabajos .tabs{margin:0 auto;width:584px}
+#contenido #contenedor-trabajos .tabs{margin-top:20px}
+#contenido #contenedor-servicios h1{text-align:center;margin-bottom:1em}
+#contenido #contenedor-servicios article{width:45%;display:inline-block;vertical-align:top;}
+#contenido #contenedor-servicios article .servicio-descripcion{display:block;width:100%;}
+#contenido #contenedor-servicios article .servicio-descripcion h2{text-align:center}
+#contenido #contenedor-servicios article .servicio-logo{display:block;padding-right:0;width:100%;}
+#contenido #contenedor-servicios article .servicio-logo .icon-html5,#contenido #contenedor-servicios article .servicio-logo .icon-facebook,#contenido #contenedor-servicios article .servicio-logo .icon-wrench,#contenido #contenedor-servicios article .servicio-logo .icon-wordpress,#contenido #contenedor-servicios article .servicio-logo .icon-images{color:#a9bf04;text-align:center}
+#contenido #contenedor-contacto h1{text-align:center}
+#contenido #contenedor-contacto .desc{padding:.5em}
+#contenido #contenedor-contacto #contacto-form{padding:.5em}
+}@media only screen and (max-width:  707px){#banner{height:0;margin-top:0}
+#slideshow-nav,#slideshow{display:none}
+footer{height:auto;}
+footer #suscripcion{display:inline-block;float:none}
+#contenido #contenedor-trabajos .results-content{width:286px}
+#contenido #contenedor-trabajos .tabs{width:286px;}
+#contenido #contenedor-trabajos .tabs label{font-size:1em;height:30px;width:50px}
+#contenido #contenedor-trabajos .tabs input{width:100px}
+#contenido #contenedor-trabajos .tabs #tab-2{left:90px}
+#contenido #contenedor-trabajos .tabs #tab-3{left:180px}
+#contenido #contenedor-inicio,#contenido #contenedor-servicios{width:100%;}
+#contenido #contenedor-inicio article,#contenido #contenedor-servicios article{width:95%}
+}@media only screen and (max-width:  400px){#logo h1{background:url("../img/logo.png") no-repeat scroll left top transparent;height:60px;margin:20px auto;width:187px}
+#menu ul{width:auto;}
+#menu ul li{display:block;}
+#menu ul li a{border-bottom:1px solid #333;padding:0 15px;text-align:center;height:auto;}
+#menu ul li a span{text-align:center;display:inline;font-size:1.5em}
+#menu ul li a .icon-home,#menu ul li a .icon-hammer,#menu ul li a .icon-briefcase,#menu ul li a .icon-envelop{font-size:1.5em;text-align:center;padding-right:.5em}
+#contenido #contenedor-servicios h1,#contenido #contenedor-trabajos h1,#contenido #contenedor-contacto h1{font-size:1.5em}
+#contenido #contenedor-servicios .servicio-descripcion h2,#contenido #contenedor-trabajos .servicio-descripcion h2,#contenido #contenedor-contacto .servicio-descripcion h2{font-size:1.2em;text-align:center}
+#contenido #contenedor-servicios .servicio-logo,#contenido #contenedor-trabajos .servicio-logo,#contenido #contenedor-contacto .servicio-logo{display:block;padding-right:0;width:100%;}
+#contenido #contenedor-servicios .servicio-logo .icon-html5,#contenido #contenedor-trabajos .servicio-logo .icon-html5,#contenido #contenedor-contacto .servicio-logo .icon-html5,#contenido #contenedor-servicios .servicio-logo .icon-facebook,#contenido #contenedor-trabajos .servicio-logo .icon-facebook,#contenido #contenedor-contacto .servicio-logo .icon-facebook,#contenido #contenedor-servicios .servicio-logo .icon-wrench,#contenido #contenedor-trabajos .servicio-logo .icon-wrench,#contenido #contenedor-contacto .servicio-logo .icon-wrench,#contenido #contenedor-servicios .servicio-logo .icon-wordpress,#contenido #contenedor-trabajos .servicio-logo .icon-wordpress,#contenido #contenedor-contacto .servicio-logo .icon-wordpress,#contenido #contenedor-servicios .servicio-logo .icon-images,#contenido #contenedor-trabajos .servicio-logo .icon-images,#contenido #contenedor-contacto .servicio-logo .icon-images{color:#a9bf04;font-size:3em;text-align:center}
+#contenido #contenedor-inicio article .titulo h1{font-size:1.2em}
+}.pagination{margin:15px 0}
+.pagination a{display:inline-block;font-size:12px;cursor:pointer;margin:0 5px;color:#333;padding:6px;border-radius:50%;background-color:#777}
+.pagination a:hover{background-color:#a9bf04;color:#fff}
+.pagination a.jp-previous{margin-right:15px}
+.pagination a.jp-next{margin-left:15px}
+.pagination a.jp-current,a.jp-current:hover{color:#ff4242;font-weight:bold;background-color:#a9bf04}
+.pagination a.jp-disabled,a.jp-disabled:hover{color:#bbb}
+.pagination span{margin:0 5px}
