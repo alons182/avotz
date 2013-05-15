@@ -147,7 +147,7 @@ footer #suscripcion input[type="text"],footer #suscripcion .mini-buscador input[
 .holder{width:auto}
 #logo{margin:0;text-align:center;width:100%;}
 #logo h1{background:url("../img/logo_big.png") no-repeat scroll left top transparent;height:99px;margin:29px auto 33px;width:256px}
-#idiomas{display:block;border:none;margin:0 auto;}
+#idiomas{display:block;border:none;margin:0 auto;padding:0;height:50px;}
 #idiomas ul li{display:inline-block}
 #menu{background-color:rgba(0,0,0,0.55);border-top:1px solid #333;margin:0;width:100%;}
 #menu ul{float:none;margin:0 auto;}
