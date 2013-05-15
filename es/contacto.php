@@ -149,10 +149,10 @@ if(isset($_POST['submitted'])) {
 	  				<h5>Menu</h5>
 	  				<nav>
 						<ul>
-							<li class="current"><a href="#" id="inicio" ><span>Inicio</span></a></li>
-						  	<li><a href="#" id="servicios"><span>Servicios</span></a></li>
-						  	<li><a href="#" id="trabajos"><span>Trabajos</span></a></li>
-						  	<li><a href="#" id="contactos"><span>Contactos</span></a></li>
+							<li><a href="index.html" id="inicio" ><span>Inicio</span></a></li>
+						  	<li><a href="servicios.html" id="servicios"><span>Servicios</span></a></li>
+						  	<li><a href="trabajos.html" id="trabajos"><span>Trabajos</span></a></li>
+						  	<li class="current"><a href="contacto.php" id="contactos"><span>Contactos</span></a></li>
 						</ul>
 	  				</nav>
 				</div>
