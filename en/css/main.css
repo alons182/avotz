@@ -51,6 +51,7 @@ body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial
 .contacto{background:url("../img/contacto.jpg") no-repeat top center #000}
 #logo{display:inline-block;vertical-align:top;margin:0 10px;}
 #logo h1{background:url("../img/logo.png") no-repeat scroll left top transparent;height:60px;margin:20px 0 0;width:187px;}
+#logo h1 a{display:block;}
 #logo h1 a span{display:block;text-indent:-9999px}
 #menu{display:inline-block;margin:0 10px;vertical-align:top;width:700px;}
 #menu ul{float:right;margin:0;margin-top:10px;padding:0;width:390px;}
