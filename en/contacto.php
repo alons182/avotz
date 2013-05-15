@@ -57,8 +57,8 @@ if(isset($_POST['submitted'])) {
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Avotz Web Works | Contactenos</title>
-		<meta name="description" content="Avotz web works nos dedicamos a crear sitios web funcionales, con diseños de acorde a lo que usted necesita exponer a sus clientes">
+		<title>Avotz Web Works | Contact us</title>
+		<meta name="description" content="Avotz web works are dedicated to creating functional websites with designs according to what you need to expose their customers">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<link rel="stylesheet" href="css/normalize.min.css">
@@ -80,10 +80,10 @@ if(isset($_POST['submitted'])) {
 		 		<div id="logo"><h1><a href="index.html"><span>avotz</span></a></h1></div>
 				<nav id="menu">
 					<ul>
-						<li><a href="index.html" id="inicio" ><span class="icon-home"></span><span>Inicio</span></a></li>
-					  	<li><a href="servicios.html" id="servicios"><span class="icon-hammer"></span><span>Servicios</span></a></li>
-					  	<li><a href="trabajos.html" id="trabajos"><span class="icon-briefcase"></span><span>Trabajos</span></a></li>
-					  	<li class="last current"><a href="contacto.php" id="contactos"><span class="icon-envelop"></span><span>Contactos</span></a></li>
+						<li><a href="index.html" id="inicio" ><span class="icon-home"></span><span>Home</span></a></li>
+					  	<li><a href="servicios.html" id="servicios"><span class="icon-hammer"></span><span>Services</span></a></li>
+					  	<li><a href="trabajos.html" id="trabajos"><span class="icon-briefcase"></span><span>Works</span></a></li>
+					  	<li class="last current"><a href="contacto.php" id="contactos"><span class="icon-envelop"></span><span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -93,26 +93,26 @@ if(isset($_POST['submitted'])) {
 	  	<section id="contenido">
 			<div class="holder">
 		  		<div id="contenedor-contacto" class="section">
-          			<h1>Contactenos</h1>
+          			<h1>Contact Us</h1>
           			<?php if(isset($emailSent) && $emailSent == true) { ?>
-		                <p class="info">Tu correo ha sido enviado. Gracias!</p>
+		                <p class="info">Your email has been sent. thanks!</p>
 		            <?php } else {?>
 		            
 			        <div class="desc">
 			          
 			          
-			          <p class="destext">En AVOTZ Webworks, nos gusta siempre mejorar y evacuar cualquiera de sus dudas. Por eso no dude en escribirnos en menos de 24 horas le vamos a responder!</p>
+			          <p class="destext">In AVOTZ Webworks, we like to always improve and evacuate any of your questions. So please write in less than 24 hours we will answer!</p>
 			        </div>
 			        
 			        <div id="contacto-form">
 			          <?php if(isset($hasError) || isset($captchaError) ) { ?>
-			                        <p class="alert">Error al enviar el formulario</p>
+			                        <p class="alert">Failed to submit the form</p>
 			                    <?php } ?>
 			        
 			          <form id="contactenos" action="contacto.php" method="post">
 			            <div class="formblock">
-			              <label class="screen-reader-text">Nombre</label>
-			              <input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="Nombre:" />
+			              <label class="screen-reader-text">Name</label>
+			              <input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="Name:" />
 			              <?php if($nameError != '') { ?>
 			              <br />  <span class="error"><?php echo $nameError;?></span> 
 			              <?php } ?>
@@ -127,14 +127,14 @@ if(isset($_POST['submitted'])) {
 			            </div>
 			                        
 			            <div class="formblock">
-			              <label class="screen-reader-text">Mensaje</label>
-			               <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Mensaje:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+			              <label class="screen-reader-text">Message</label>
+			               <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
 			              <?php if($commentError != '') { ?>
 			               <br /> <span class="error"><?php echo $commentError;?></span> 
 			              <?php } ?>
 			            </div>
 			                        
-			              <button name="submit" type="submit" class="subbutton">Enviar</button>
+			              <button name="submit" type="submit" class="subbutton">Send</button>
 			              <input type="hidden" name="submitted" id="submitted" value="true" />
 			          </form>     
 			        </div>
@@ -149,17 +149,17 @@ if(isset($_POST['submitted'])) {
 	  				<h5>Menu</h5>
 	  				<nav>
 						<ul>
-							<li><a href="index.html" id="inicio" ><span>Inicio</span></a></li>
-						  	<li><a href="servicios.html" id="servicios"><span>Servicios</span></a></li>
-						  	<li><a href="trabajos.html" id="trabajos"><span>Trabajos</span></a></li>
-						  	<li class="current"><a href="contacto.php" id="contactos"><span>Contactos</span></a></li>
+							<li><a href="index.html" id="inicio" ><span>Home</span></a></li>
+						  	<li><a href="servicios.html" id="servicios"><span>Services</span></a></li>
+						  	<li><a href="trabajos.html" id="trabajos"><span>Works</span></a></li>
+						  	<li class="current"><a href="contacto.php" id="contactos"><span>Contact</span></a></li>
 						</ul>
 	  				</nav>
 				</div>
 				<div id="informacion">
 	  				<h5>Informacion</h5>
 						<address>
-					  		Teléfono: (506) 8703-4552 <br/>
+					  		Phone: (506) 8703-4552 <br/>
 					  		Apdo. Postal: 259 50101 <br/>
 					  		Email: <a href="mailto:info@avotz.com">
 					  		info@avotz.com</a> <br/>
@@ -169,7 +169,7 @@ if(isset($_POST['submitted'])) {
 	  
 				</div>
 				<div id="redes">
-	  				<h5>Siguenos en:</h5>
+	  				<h5>Follow us:</h5>
 	  					<nav>
 							<ul>
 								<li><a href="http://www.facebook.com/AVOTZ" id="facebook" target="_blank" ><span class="icon-facebook" ></span><span>facebook</span></a></li>
@@ -178,12 +178,12 @@ if(isset($_POST['submitted'])) {
 	  					</nav>
 				</div>
 				<div id="suscripcion">
-	  				<h5>Suscribite para mas información</h5>
+	  				<h5>Subscribe for more information</h5>
 			   
 	  					<form id="suscription" method="post">
 		   					<input type="text" name="emailsuscription" id="emailsuscription" />
 		   
-		   					<button type="submit" class="btn_submit" name="suscribite" value="Suscribete">Suscribete</button>
+		   					<button type="submit" class="btn_submit" name="suscribite" value="Suscribete">Subscribe</button>
 
 		   
 	  					</form>
