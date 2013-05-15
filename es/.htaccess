@@ -199,7 +199,7 @@ AddType text/vtt                            vtt
 # "access plus 1 week".
 
 <IfModule mod_expires.c>
-  ExpiresActive on
+  ExpiresActive off
 
 # Perhaps better to whitelist expires rules? Perhaps.
   ExpiresDefault                          "access plus 1 month"
