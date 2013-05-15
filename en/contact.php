@@ -6,7 +6,7 @@ if(isset($_POST['submitted'])) {
   
   // require a name from user
   if(trim($_POST['contactName']) === '') {
-    $nameError =  'Olvido su nombre!'; 
+    $nameError =  'Forgot your name!'; 
     $hasError = true;
   } else {
     $name = trim($_POST['contactName']);
@@ -14,7 +14,7 @@ if(isset($_POST['submitted'])) {
   
   // need valid email
   if(trim($_POST['email']) === '')  {
-    $emailError = 'Olvido su dirección de correo.';
+    $emailError = 'Forgot your email address.';
     $hasError = true;
   } else if (!preg_match("/^[[:alnum:]][a-z0-9_.-]*@[a-z0-9.-]+\.[a-z]{2,4}$/i", trim($_POST['email']))) {
     $emailError = 'Correo invalido.';
@@ -25,7 +25,7 @@ if(isset($_POST['submitted'])) {
     
   // we need at least some content
   if(trim($_POST['comments']) === '') {
-    $commentError = 'Olvido escribir un mensaje!';
+    $commentError = 'Forgot to post a message!';
     $hasError = true;
   } else {
     if(function_exists('stripslashes')) {
@@ -53,7 +53,7 @@ if(isset($_POST['submitted'])) {
 
 ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -81,9 +81,9 @@ if(isset($_POST['submitted'])) {
 				<nav id="menu">
 					<ul>
 						<li><a href="index.html" id="inicio" ><span class="icon-home"></span><span>Home</span></a></li>
-					  	<li><a href="servicios.html" id="servicios"><span class="icon-hammer"></span><span>Services</span></a></li>
-					  	<li><a href="trabajos.html" id="trabajos"><span class="icon-briefcase"></span><span>Works</span></a></li>
-					  	<li class="last current"><a href="contacto.php" id="contactos"><span class="icon-envelop"></span><span>Contact</span></a></li>
+					  	<li><a href="services.html" id="servicios"><span class="icon-hammer"></span><span>Services</span></a></li>
+					  	<li><a href="works.html" id="trabajos"><span class="icon-briefcase"></span><span>Works</span></a></li>
+					  	<li class="last current"><a href="contact.php" id="contactos"><span class="icon-envelop"></span><span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -150,14 +150,14 @@ if(isset($_POST['submitted'])) {
 	  				<nav>
 						<ul>
 							<li><a href="index.html" id="inicio" ><span>Home</span></a></li>
-						  	<li><a href="servicios.html" id="servicios"><span>Services</span></a></li>
-						  	<li><a href="trabajos.html" id="trabajos"><span>Works</span></a></li>
-						  	<li class="current"><a href="contacto.php" id="contactos"><span>Contact</span></a></li>
+						  	<li><a href="services.html" id="servicios"><span>Services</span></a></li>
+						  	<li><a href="works.html" id="trabajos"><span>Works</span></a></li>
+						  	<li class="current"><a href="contact.php" id="contactos"><span>Contact</span></a></li>
 						</ul>
 	  				</nav>
 				</div>
 				<div id="informacion">
-	  				<h5>Informacion</h5>
+	  				<h5>Information</h5>
 						<address>
 					  		Phone: (506) 8703-4552 <br/>
 					  		Apdo. Postal: 259 50101 <br/>
