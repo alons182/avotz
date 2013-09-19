@@ -39,7 +39,7 @@ if(isset($_POST['submitted'])) {
   if(!isset($hasError)) {
     
     $emailTo = 'info@avotz.com';
-    $subject = 'Sitio Avotz - Submitted message from '.$name;
+    $subject = 'Desde el formulario de contactenos del Sitio Avotz - Submitted message from '.$name;
     $sendCopy = trim($_POST['sendCopy']);
     $body = "Name: $name \n\nEmail: $email \n\nComments: $comments";
     $headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
