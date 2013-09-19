@@ -38,8 +38,8 @@ if(isset($_POST['submitted'])) {
   // upon no failure errors let's email now!
   if(!isset($hasError)) {
     
-    $emailTo = 'alons182@hotmail.com';
-    $subject = 'Submitted message from '.$name;
+    $emailTo = 'info@avotz.com';
+    $subject = 'Sitio Avotz - Submitted message from '.$name;
     $sendCopy = trim($_POST['sendCopy']);
     $body = "Name: $name \n\nEmail: $email \n\nComments: $comments";
     $headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
