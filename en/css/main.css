@@ -65,7 +65,8 @@ body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial
 #menu ul li a span{display:block}
 #menu ul li a .icon-home,#menu ul li a .icon-hammer,#menu ul li a .icon-briefcase,#menu ul li a .icon-envelop{font-size:2.3em;text-align:center}
 #menu ul li a:hover .icon-home,#menu ul li a:hover .icon-hammer,#menu ul li a:hover .icon-briefcase,#menu ul li a:hover .icon-envelop{color:#a9bf04}
-#menu ul .last a{border-right:medium none;padding-right:0}
+#menu ul .last a{border-right:medium none;padding-right:0;}
+#menu ul .last a .icon-envelop{color:#f26522}
 #menu ul .current a .icon-home,#menu ul .current a .icon-hammer,#menu ul .current a .icon-briefcase,#menu ul .current a .icon-envelop{color:#a9bf04}
 #banner{height:427px;margin-top:16px;width:100%;}
 #banner #slideshow-nav{left:50%;margin-left:-470px;margin-top:389px;position:absolute;text-align:right;width:940px;z-index:50;}
