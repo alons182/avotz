@@ -112,7 +112,7 @@ body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial
 #contenido #contenedor-trabajos .trabajo a:hover{text-decoration:underline}
 #contenido #contenedor-trabajos .trabajo:hover .overlay{opacity:.8}
 #contenido #contenedor-trabajos .trabajo:hover .botones{display:block}
-#contenido #contenedor-trabajos .pagination{margin:10px auto 0;width:50px;}
+#contenido #contenedor-trabajos .pagination{margin:10px auto 0;text-align:center;}
 #contenido #contenedor-trabajos .pagination ul{margin:0;padding:0}
 #contenido #contenedor-trabajos .pagination .left-btn,#contenido #contenedor-trabajos .pagination .right-btn{display:inline-block;padding:.5em;vertical-align:top;}
 #contenido #contenedor-trabajos .pagination .left-btn .icon-arrow-left,#contenido #contenedor-trabajos .pagination .right-btn .icon-arrow-left,#contenido #contenedor-trabajos .pagination .left-btn .icon-arrow-right,#contenido #contenedor-trabajos .pagination .right-btn .icon-arrow-right{color:#a9bf04;font-size:1.5em;text-decoration:none;transition:all .5s ease}
