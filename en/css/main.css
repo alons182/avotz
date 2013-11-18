@@ -128,8 +128,8 @@ body h1,body h2,body h3,body h4,body h5{font-family:'SourceSansProRegular',arial
 #contenido #contenedor-contacto #contacto-form{border-top:solid 1px #333}
 #contenido #contenedor-contacto .formblock{display:block;margin-bottom:11px;}
 #contenido #contenedor-contacto .formblock label{color:#a9bf04;display:block;font-size:1.1em}
-#contenido #contenedor-contacto .formblock .txt{color:#666;font-size:1em;padding:4px 6px;width:95%}
-#contenido #contenedor-contacto .formblock .txtarea{color:#666;font-size:1em;height:140px;padding:3px 5px;width:95%}
+#contenido #contenedor-contacto .formblock .txt{color:#666;font-size:1em;padding:4px 6px;width:40%}
+#contenido #contenedor-contacto .formblock .txtarea{color:#666;font-size:1em;height:140px;padding:3px 5px;width:40%}
 #contenido #contenedor-contacto .formblock .error{color:#9d3131;font-size:1em;font-style:normal;font-weight:bold}
 #contenido #contenedor-contacto .info{color:#a9bf04;font-size:1.3em;font-weight:bold;margin-bottom:10px}
 #contenido #contenedor-contacto .tick{color:#a9bf04;font-size:1.2em;font-style:italic}
@@ -173,6 +173,8 @@ footer #suscripcion input[type="text"],footer #suscripcion .mini-buscador input[
 #contenido #contenedor-contacto h1{text-align:center}
 #contenido #contenedor-contacto .desc{padding:.5em}
 #contenido #contenedor-contacto #contacto-form{padding:.5em}
+#contenido #contenedor-contacto .formblock .txt{width:50%}
+#contenido #contenedor-contacto .formblock .txtarea{width:50%}
 }@media only screen and (max-width:  707px){#banner{height:0;margin-top:0}
 #slideshow-nav,#slideshow{display:none}
 footer{height:auto;}
@@ -196,6 +198,8 @@ footer #suscripcion{display:inline-block;float:none}
 #contenido #contenedor-servicios .servicio-logo,#contenido #contenedor-trabajos .servicio-logo,#contenido #contenedor-contacto .servicio-logo{display:block;padding-right:0;width:100%;}
 #contenido #contenedor-servicios .servicio-logo .icon-html5,#contenido #contenedor-trabajos .servicio-logo .icon-html5,#contenido #contenedor-contacto .servicio-logo .icon-html5,#contenido #contenedor-servicios .servicio-logo .icon-facebook,#contenido #contenedor-trabajos .servicio-logo .icon-facebook,#contenido #contenedor-contacto .servicio-logo .icon-facebook,#contenido #contenedor-servicios .servicio-logo .icon-wrench,#contenido #contenedor-trabajos .servicio-logo .icon-wrench,#contenido #contenedor-contacto .servicio-logo .icon-wrench,#contenido #contenedor-servicios .servicio-logo .icon-wordpress,#contenido #contenedor-trabajos .servicio-logo .icon-wordpress,#contenido #contenedor-contacto .servicio-logo .icon-wordpress,#contenido #contenedor-servicios .servicio-logo .icon-images,#contenido #contenedor-trabajos .servicio-logo .icon-images,#contenido #contenedor-contacto .servicio-logo .icon-images{color:#a9bf04;font-size:3em;text-align:center}
 #contenido #contenedor-inicio article .titulo h1{font-size:1.2em}
+#contenido #contenedor-contacto .formblock .txt{width:95%}
+#contenido #contenedor-contacto .formblock .txtarea{width:95%}
 }.pagination{margin:15px 0}
 .pagination a{display:inline-block;font-size:12px;cursor:pointer;margin:0 5px;color:#333;padding:6px;border-radius:50%;background-color:#777}
 .pagination a:hover{background-color:#a9bf04;color:#fff}
