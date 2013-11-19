@@ -396,9 +396,10 @@ body
             position relative
             vertical-align top
             width 270px
+            overflow hidden
             
             .botones
-                display none
+                display block
                 left 30%
                 position absolute
                 top 40%
@@ -407,10 +408,11 @@ body
                 background #000
                 display block
                 height 150px
-                opacity 0
+                opacity .8
                 position absolute
                 transition all 0.5s ease
                 width 270px
+                top -150px
 
             figure img
                 height 100%
@@ -433,10 +435,10 @@ body
 
 
         .trabajo:hover .overlay
-            opacity 0.8
+            top 0
 
-        .trabajo:hover .botones
-            display block
+        /*.trabajo:hover .botones
+            display block*/
 
         .pagination
             margin 10px auto 0
