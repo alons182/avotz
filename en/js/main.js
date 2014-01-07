@@ -42,6 +42,7 @@ function filterChange()
                       
                       var sitio = $('input.sitio');
                       var diseno = $('input.diseno');
+                      var multimedia = $('input.multimedia');
                       //var category = $('select.sort').val();
                       //filter aplied
                       //if(category != ""){
@@ -52,6 +53,9 @@ function filterChange()
                       }
                        if(diseno.is(':checked')){
                       selector += '.diseno';
+                      }
+                      if(multimedia.is(':checked')){
+                      selector += '.multimedia';
                       }
                       $('.result').hide();
 
