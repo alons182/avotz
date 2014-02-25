@@ -1,0 +1,637 @@
+@import "iconos.styl"
+@import "lightbox.styl"
+
+@font-face 
+    font-family: 'SourceSansProRegular';
+    src: url('../fonts/SourceSansPro-Regular-webfont.eot');
+    src: url('../fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+body
+    background #000
+    color #7c7c7c
+    line-height 1.4
+
+    h1, h2, h3, h4, h5
+        font-family 'SourceSansProRegular', arial
+
+    
+
+.servicios, .contacto, .trabajos
+    header
+        height 330px
+
+.trabajos 
+    background url("../img/trabajos.jpg") no-repeat top center #000
+  
+.servicios
+    background url("../img/servicios.jpg") no-repeat top center #000
+    
+.contacto
+    background url("../img/contacto.jpg") no-repeat top center #000
+     
+
+        
+
+#logo
+    display inline-block
+    vertical-align top
+    margin 0 10px
+
+    h1
+        background url("../img/logo.png") no-repeat scroll left top transparent
+        height 60px
+        margin 20px 0 0
+        width 187px
+
+        a
+            display block
+
+            span
+                display block
+                text-indent -9999px
+
+#idiomas
+    width 200px
+    height 90px
+    border-left 1px solid #333
+    display inline-block
+    padding 30px 10px 0
+
+    ul
+        margin 0
+        padding 0
+        list-style none
+
+        li
+            padding 2px
+
+            a
+                display block
+                color #FFF
+                text-decoration none
+            a:hover
+                text-decoration underline
+                color #a9bf04     
+
+            
+
+#menu
+    display inline-block
+    margin 0 10px
+    vertical-align top
+    width 500px
+
+    ul
+        float right
+        margin 0
+        margin-top 10px
+        padding 0
+        width 390px
+
+        li
+            border-bottom 1px solid #333333
+            border-top 1px solid #333333
+            display inline-block
+            padding 10px 0 7px
+            vertical-align top
+
+
+            a
+                border-right 1px solid #333333
+                color #FFF
+                display block
+                height 70px
+                line-height 37px
+                padding 0 15px
+                position relative
+                text-decoration none
+                
+
+                
+                span
+                    display block
+                    
+
+                .icon-home, .icon-hammer, .icon-briefcase, .icon-envelop
+                    font-size 2.3em
+                    text-align center
+                
+            a:hover .icon-home, a:hover .icon-hammer, a:hover .icon-briefcase, a:hover .icon-envelop
+                color #a9bf04
+
+
+
+
+                
+
+
+
+        .last a
+            border-right medium none
+            padding-right 0
+
+            
+            .icon-envelop
+                color #f26522
+  
+        .current a .icon-home, .current a .icon-hammer, .current a .icon-briefcase, .current a .icon-envelop    
+            color #a9bf04
+    // a#inicio
+    //     background url("../img/menu.png") -4px -14px
+    //     width 42px
+
+    // a#servicios
+    //     background url("../img/menu.png") -86px -14px
+    //     width 70px
+
+    // a#trabajos
+    //     background url("../img/menu.png") -198px -14px
+    //     width 70px
+
+    // a#contactos
+    //     background url("../img/menu.png") -315px -14px
+    //     width 80px
+
+    // a#inicio:hover , .current a#inicio
+    //     background-position -4px -101px
+  
+    // a#servicios:hover , .current a#servicios
+    //     background-position -86px -101px
+  
+    // a#trabajos:hover , .current a#trabajos
+    //     background-position -198px -101px
+  
+    // a#contactos:hover , .current a#contactos
+    //     background-position -315px -101px
+  
+
+
+#banner
+    height 427px
+    margin-top 16px
+    width 100%
+
+
+    #slideshow-nav
+        left 50%
+        margin-left -470px
+        margin-top 389px
+        position absolute
+        text-align right
+        width 940px
+        z-index 50
+
+
+        a
+            background url("../img/heroes-nav.png") no-repeat scroll left top transparent
+            display inline-block
+            height 12px
+            overflow hidden
+            text-indent 999px
+            width 12px
+
+        a.activeSlide
+            background-position right top
+  
+    #slideshow
+        height 427px
+        margin 0 auto
+        width 100%
+
+
+        .slide
+            background-position center top
+            background-repeat no-repeat
+            height 100%
+            text-align center
+            width 100%
+
+            .btn-trabajos
+                background #f26522
+                padding 1em
+                text-align center
+                text-transform uppercase
+                -moz-box-shadow 0 3px 5px rgba(0,0,0,0.5),0 0 1px rgba(0,0,0,0.5),inset 0 0 1px 1px rgba(255,255,255,0.2),inset 0 1px 0 rgba(255,255,255,0.2),inset 0 -1px 2px rgba(0,0,0,0.05)
+                -webkit-box-shadow 0 3px 5px rgba(0,0,0,0.5),0 0 1px rgba(0,0,0,0.5),inset 0 0 1px 1px rgba(255,255,255,0.2),inset 0 1px 0 rgba(255,255,255,0.2),inset 0 -1px 2px rgba(0,0,0,0.05)
+                box-shadow 0 3px 5px rgba(0,0,0,0.5),0 0 1px rgba(0,0,0,0.5),inset 0 0 1px 1px rgba(255,255,255,0.2),inset 0 1px 0 rgba(255,255,255,0.2),inset 0 -1px 2px rgba(0,0,0,0.05)
+                font-size 18px
+                //font-weight bold
+                color #FFF 
+                text-decoration none
+            .btn-trabajos:hover
+                background #ea4e05
+
+.blanco
+   
+    background-color #fff6f4
+.verde
+   
+    background-color #a9bf04
+
+
+.holder
+    margin 0 auto
+    //overflow hidden
+    width 960px
+
+#contenido
+    padding-top 40px
+    padding-bottom 40px
+
+
+    #diseno, #web, #social
+        display inline-block;
+        margin 0 10px
+        vertical-align top
+        width 290px
+
+        .titulo
+            border-bottom 1px solid #333333
+            
+            
+
+            h1
+                color #a9bf04
+                margin 0
+                text-align center
+
+            .icon-image, .icon-embed, .icon-share
+                color #a9bf04
+                font-size 3em
+                text-align center
+                padding-bottom .2em
+    
+    #contenedor-servicios
+        h1
+            border-bottom 1px solid #333333
+            color #a9bf04
+            margin 0
+           
+
+        article
+            margin 0 10px
+            padding-bottom 10px
+
+
+        .servicio-logo, .servicio-descripcion
+            display inline-block
+            vertical-align middle
+
+        .servicio-logo
+            padding-right 10px
+            width 10%
+        
+
+            .icon-html5, .icon-facebook, .icon-wrench, .icon-wordpress, .icon-images
+                color #a9bf04
+                font-size 4.5em
+        
+
+        .servicio-descripcion
+            width 80%
+        
+
+            h2
+                border-bottom 1px solid #333333
+                color #a9bf04
+               
+               
+
+
+    #contenedor-trabajos
+        h1
+            border-bottom 1px solid #333333
+            color #a9bf04
+            margin 0
+           
+
+        .tabs
+            border-bottom 1px solid #333333
+            margin-top 20px
+            height 30px
+            position relative
+
+
+
+            input 
+                cursor pointer
+                height 40px
+                left 0px
+                opacity 0
+                position absolute
+                top 0px
+                width 120px
+                z-index 1000
+
+            #tab-2
+                left 120px
+
+            #tab-3
+                left 240px
+
+            #tab-4
+                left 360px
+
+            label 
+                background linear-gradient(top, #5ba4a4 0%,#4e8c8a 100%)
+                border-radius 3px 3px 0 0
+                box-shadow 2px 0 2px rgba(0,0,0,0.1), -2px 0 2px rgba(0,0,0,0.1)
+                color #FFF
+                display block
+                float left
+                font-size 1em
+                height 30px
+                letter-spacing 1px
+                line-height 30px
+                padding 0 20px
+                position relative
+                text-align center
+                text-shadow 1px 1px 1px rgba(255,255,255,0.3)
+                transition all 0.5s ease
+                width 70px
+
+
+
+            input:hover + label 
+                color #a9bf04
+            
+         
+            label:first-of-type 
+                box-shadow 2px 0 2px rgba(0,0,0,0.1)
+                z-index 4
+
+         
+            .tab-label-2 
+                z-index 3
+            
+
+            .tab-label-3 
+                z-index 2
+            
+         
+            .tab-label-4 
+                z-index 1
+
+            label:after 
+                bottom -2px
+                content ''
+                display block
+                height 2px
+                left 0
+                position absolute
+                width 100%
+
+            input:checked + label 
+                background #a9bf04
+                color #FFF
+                z-index 6
+
+        .trabajo
+            border 1px solid #333333
+            display inline-block
+            height 150px
+            margin .5em .5em
+            position relative
+            vertical-align top
+            width 270px
+            overflow hidden
+            
+            .botones
+                display block
+                left 30%
+                position absolute
+                top 40%
+
+            .overlay
+                background #000
+                display block
+                height 150px
+                opacity .8
+                position absolute
+                transition all 0.5s ease
+                width 270px
+                top -150px
+
+            figure img
+                height 100%
+                width 100%
+
+            p
+                display inline
+
+            .icon-IE, .icon-image
+                color #a9bf04
+                display inline-block
+                vertical-align middle
+
+            a
+                color white
+                text-decoration none
+
+            a:hover
+                text-decoration underline
+
+
+        .trabajo:hover .overlay
+            top 0
+
+        /*.trabajo:hover .botones
+            display block*/
+
+        .pagination
+            margin 10px auto 0
+            text-align center
+        
+
+            // .icon-arrow-left,  .icon-arrow-right
+            //         color #a9bf04
+            //         font-size 1.5em
+            //         text-decoration none
+            //         transition all 0.5s ease
+
+            // .icon-arrow-left:hover, .icon-arrow-right:hover
+            //     color #fff
+
+             
+                
+
+            ul
+                margin 0
+                padding 0
+
+            .left-btn, .right-btn 
+                display inline-block
+                padding .5em
+                vertical-align top
+
+                .icon-arrow-left,  .icon-arrow-right
+                    color #a9bf04
+                    font-size 1.5em
+                    text-decoration none
+                    transition all 0.5s ease
+
+                .icon-arrow-left:hover, .icon-arrow-right:hover
+                    color #fff
+
+    
+
+
+    .results-content 
+        overflow hidden
+        padding 26px 0 0 6px
+
+       
+    
+    .resultados
+        overflow hidden
+        //width 876px
+    
+    #contenedor-contacto 
+        h1
+            border-bottom 1px solid #333333
+            color #a9bf04
+            margin 0
+        
+        .desc
+            //border-top solid 1px #333333
+
+            h1
+                color #a9bf04
+                font-size 2.4em
+                font-weight normal
+                letter-spacing -0.03em
+                margin-bottom 8px
+            p
+                color #7c7c7c
+
+        #contacto-form
+            border-top solid 1px #333333
+
+
+        .formblock
+            display block
+            margin-bottom 11px
+
+            label
+                color #a9bf04
+                display block 
+                font-size 1.1em
+            .txt
+                color #666
+                font-size 1em
+                padding 4px 6px
+                width 40%
+
+            .txtarea
+                color #666
+                font-size 1em
+                height 140px
+                padding 3px 5px
+                width 40%
+
+
+            .error 
+                color #9d3131
+                font-size 1em
+                font-style normal
+                font-weight bold
+        .info
+            color #a9bf04
+            font-size 1.3em
+            font-weight bold
+            margin-bottom 10px
+
+
+        .tick 
+            color #a9bf04
+            font-size 1.2em
+            font-style italic
+
+    .alert
+         color #f9b30a
+
+       
+
+footer
+    background #242424
+    font-size 14px
+    height 195px
+    padding-top 5px
+  
+    h5
+        margin-bottom 2px
+        text-transform uppercase
+  
+
+    #menu-footer, #informacion, #redes
+        display inline-block
+        margin 0 10px
+        vertical-align top
+  
+        ul
+            margin 0
+            padding 0
+
+            li
+                a
+                    color #a9bf04
+                    text-decoration none
+
+
+                a:hover
+                    color #FFF     
+                    text-decoration underline
+
+                 
+                   
+            
+            .icon-twitter, .icon-facebook
+                padding-right 5px
+                vertical-align middle
+
+    #informacion a
+        color #a9bf04
+        text-decoration none
+  
+    #suscripcion
+        display inline
+        float right
+        margin 0 10px
+  
+
+        input[type="text"] , .mini-buscador input[type="text"] 
+            border 1px solid rgba(0, 0, 0, 0.1)
+            border-radius 5px
+            font-size 1em
+            height 28px
+
+.btn_submit, .mini-buscador .btn_submit, .subbutton
+    background -moz-linear-gradient(top, #85a315 0%,#b2da1d 100%)
+    background -webkit-linear-gradient(top, #85a315 0%,#b2da1d 100%)
+    background linear-gradient(top, #85a315 0%,#b2da1d 100%)
+    background-color#a9bf04
+    border 1px solid rgba(0, 0, 0, 0.1)
+    border-radius 5px
+    color #FFFFFF
+    height 2.375em
+    line-height 2.25em
+    position relative
+   
+.hidden
+    display none
+
+
+
+
+
+
+@import "responsive.styl"
+@import "jPages.styl"
