@@ -120,7 +120,7 @@ header #menu ul li:hover{border-top:2px solid #fff}
 #home article #devices-animation{position:absolute;right:0}
 #services #services-info{margin-top:40px;}
 #services #services-info .service{display:inline-block;vertical-align:top;width:270px;margin:1em;}
-#services #services-info .service .icon{text-align:center;display:block;font-size:4em;color:#63ad73}
+#services #services-info .service .icon{text-align:center;display:block;font-size:4em;color:#f00}
 #services #services-info .service h3{text-align:center;font-size:1.2em;font-weight:bold;margin-top:10px;margin-bottom:0}
 #works{background:#3b434e;}
 #works h1,#works p{color:#fff}
@@ -136,7 +136,7 @@ header #menu ul li:hover{border-top:2px solid #fff}
 #works #works-gallery .tabs .tab-label-3{z-index:2}
 #works #works-gallery .tabs .tab-label-4{z-index:1}
 #works #works-gallery .tabs label:after{bottom:-2px;content:'';display:block;height:2px;left:0;position:absolute;width:100%}
-#works #works-gallery .tabs input:checked + label{background:#63ad73;color:#fff;z-index:6}
+#works #works-gallery .tabs input:checked + label{background:#f00;color:#fff;z-index:6}
 #works #works-gallery .trabajo{display:inline-block;position:relative;vertical-align:top;width:16.84%;overflow:hidden;}
 #works #works-gallery .trabajo .botones{display:block;left:30%;position:absolute;top:40%}
 #works #works-gallery .trabajo .overlay{background:rgba(59,67,78,0.4);display:block;height:98%;position:absolute;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;width:100%;top:0}
@@ -148,7 +148,7 @@ header #menu ul li:hover{border-top:2px solid #fff}
 #works #works-gallery #results-content{min-height:375px !important}
 #about #info-about,#about #legend{display:inline-block;vertical-align:top}
 #about #info-about{width:650px;margin-right:30px;margin-top:30px}
-#about #legend{font-size:1.5em;color:#63ad73;width:275px}
+#about #legend{font-size:1.5em;color:#f00;width:275px}
 #about #testimonials{background:url("../img/bg_testimonials.jpg") repeat #3b434e;height:450px;color:#fff;margin-top:30px;}
 #about #testimonials #testimonial-wrapper{width:800px;margin:0 auto;padding-top:120px}
 #about #testimonials .icon-uniF6BA{font-size:5em;color:#fff;display:inline-block;margin-top:10px;margin-right:10px}
@@ -184,10 +184,10 @@ header #menu ul li:hover{border-top:2px solid #fff}
 .section-page .wrapper,.section-page > article{padding-top:100px;}
 .section-page .wrapper h1,.section-page > article h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#3b434e;margin:0}
 .btn_yellow{background:#ffc43a;padding:1em 4em;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 3px 1px #f39c12;box-shadow:2px 3px 1px #f39c12;text-decoration:none;color:#b26500;font-weight:bold;min-width:98px;text-align:center;display:inline-block}
-.border-title{height:8px;width:200px;background:#63ad73;display:block;margin:20px 0}
+.border-title{height:8px;width:200px;background:#f00;display:block;margin:20px 0}
 .white-space-fix{margin-right:-4px;margin-bottom:-4px}
-.afix header{background:#63ad73;height:70px}
-.form-btn{background:transparent;-webkit-border-radius:10px;border-radius:10px;border:1px solid #63ad73;padding:.5em 1em;color:#63ad73}
+.afix header{background:#f00;height:70px}
+.form-btn{background:transparent;-webkit-border-radius:10px;border-radius:10px;border:1px solid #f00;padding:.5em 1em;color:#f00}
 .error{color:#f39c12;font-size:13px}
 .ok{color:#a9bf04}
 #sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff}
@@ -222,7 +222,7 @@ div.sb-message{font-size:12px;padding:10px;text-align:center}
 div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline}
 .pagination{margin:15px 0}
 .pagination a{display:inline-block;font-size:12px;cursor:pointer;margin:0 5px;color:#333;padding:6px;-webkit-border-radius:50%;border-radius:50%;background-color:transparent;border:1px solid #fff}
-.pagination a:hover{background-color:#63ad73;color:#fff}
+.pagination a:hover{background-color:#f00;color:#fff}
 .pagination a.jp-previous{margin-right:15px}
 .pagination a.jp-next{margin-left:15px}
 .pagination a.jp-current,a.jp-current:hover{color:#ff4242;font-weight:bold;background-color:#fff}
