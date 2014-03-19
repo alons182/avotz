@@ -23,11 +23,15 @@ $(function () {
 
     $menu.find( 'a' ).on( 'click', goPage);
     $('#up-arrow').on( 'click', goPage);
+    
     function goPage(){
+		
 		var href = $(this).attr( 'href' );
+		
 		$('html, body').animate({
 			scrollTop: $( href ).offset().top
 		});
+		
 		return false;
     }
 
@@ -45,21 +49,32 @@ $(function () {
 	}
 
 	function WorkTemplate(work) {
-	  var rel ='';
-	  var html = '';
-	  if(work.type == 'multimedia')
-	  	rel ='shadowbox;width=480;height=340;';
-	  else if(work.type == 'diseno')
-	  	rel ='shadowbox' 
-
-	   
-	  
-	  html += '<article class="white-space-fix trabajo result '+ work.type +'">';
-	  html += '<div class="overlay"></div>';
-	  html += '<figure><a href="'+ work.link +'" target="_blank" rel="'+rel +'"  ><img src="img/blank.png" alt="'+ work.name +'" data-src="img/trabajos/' + work.img + '"></figure>';
-	  html += '</article>';
 	 
-	  return html;
+	  
+	  var templateHtml = $.trim( $('#workTemplate').html() );
+
+	 
+ 	   switch(work.type) {
+ 	   	case 'multimedia': 
+ 	   		work.rel = 'shadowbox;width=480;height=340;';
+ 	   		break;
+ 	   	case 'diseno':
+ 	   		work.rel = 'shadowbox';
+ 	   		break;
+ 	   	case 'sitio':
+ 	   		work.rel = '';
+ 	   		break;
+ 	   	
+ 	   	default:
+ 	   		work.rel = 'shadowbox';
+ 	   		break;
+ 	   }
+	 
+	  var template = Handlebars.compile( templateHtml );
+
+	 	
+	  return template(work);
+	  
 
 	 
 	}
@@ -85,11 +100,13 @@ $(function () {
 	  var html = WorkListTemplate(jsonData);
 	  $resultOut.html( html );
 
-	   $("#works-gallery img[data-src]").bind("inview", function() {
-	    var $this = $(this);
-	    $this.attr("src", $this.attr("data-src"));
-	    // Remove it from the set of matching elements in order to avoid that the handler gets re-executed
-	    $this.removeAttr("data-src");
+	   $('#works-gallery').find('img[data-src]').bind("inview", function() {
+		    
+		    var $this = $(this);
+		    
+		    $this.attr("src", $this.attr("data-src"));
+		    // Remove it from the set of matching elements in order to avoid that the handler gets re-executed
+		    $this.removeAttr("data-src");
 
 
 	  });
@@ -105,33 +122,34 @@ $(function () {
 
 	    
 	 //EVENTS FILTER WORKS
-	$('input:radio').on('click',function(){
+	$('div.tabs').find('input:radio').on('click',function(){
 
+		var result =  $('.result');
 		$("div.pagination").jPages("destroy");
 	      
 	      currentPage = 1;
 	      var selector = ".result";
 	      
-	      $('.result').show();
+	      result.show();
 	      
 	      var sitio = $('input.sitio');
 	      var diseno = $('input.diseno');
 	      var multimedia = $('input.multimedia');
 	     
 	      if(sitio.is(':checked')){
-	      selector += '.sitio';
+	      	selector += '.sitio';
 	      }
 	       if(diseno.is(':checked')){
-	      selector += '.diseno';
+	      	selector += '.diseno';
 	      }
 	      if(multimedia.is(':checked')){
-	      selector += '.multimedia';
+	     	 selector += '.multimedia';
 	      }
-	      $('.result').hide();
+	      result.hide();
 
 	      $(selector).show();
 
-	     
+	     //console.log(this);
 	      
 	     initPagination();
 
@@ -193,26 +211,42 @@ $(function () {
 
 		  submitHandler: function(form) {
 
-		    var formInput =  $('#contact-form').serializeArray();
-			var url = "helpers/contact.php";
-		
+		    var contactForm = $('#contact-form'),
+		    	formInput =  contactForm.serializeArray(),
+			 	url = "helpers/contact.php",
+			 	mensaje = $('.mensaje');
+				
 			$.post(url, formInput, function(data){
-						console.log(data);
-						limpiaForm($("#contact-form"));
+						
+						limpiaForm(contactForm);
 
-						if(data=="ok")
-							$('.mensaje').html('<span class="ok">Información enviada correctamente</span>');
+						
+
+						if(data === "ok")
+						{
+							$('<span></span>',{
+								class: 'ok',
+								text: 'Información enviada correctamente'
+							}).appendTo(mensaje);
+						}	
 						else
-							$('.mensaje').html('<span class="error">A ocurrido un error. intentalo nuevamente</span>');
+						{
+							$('<span></span>',{
+								class: 'error',
+								text: 'A ocurrido un error. intentalo nuevamente'
+							}).appendTo(mensaje);
+						}
+							
 
 
 						setTimeout(function(){  
-					        $('.mensaje').fadeOut(200,function() {
+					        mensaje.fadeOut(200,function() {
 
-							    $('.mensaje span').remove();
-							    $('.mensaje').show();
+							    mensaje.find('span').remove();
+							    mensaje.show();
 							    
-							  });}, 2000);  
+							  })
+					        ;}, 2000);  
 					});
 		   // form.submit();
 
