@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Contáctenos</title>
+        <meta name="description" content="Contacta Avotz Webworks para realizar tu proyecto">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" href="favicon_16x16.ico">
+
+        
+        <link rel="stylesheet" href="css/main.css">
+        <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
+
+    </head>
+    <body class="afix page_works">
+        <header>
+            <div class="wrapper">
+                <figure id="logo">
+                    <a href="/"><img src="img/logo.png" alt="Avotz Webworks" /></a>
+                </figure>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html" title="Inicio">Inicio</a> </li>
+                        <li><a href="servicios.html" title="Servicios">Servicios</a></li>
+                        <li><a href="trabajos.html" title="Trabajos">Trabajos</a></li>
+                        <li><a href="nosotros.html" title="Nosotros">Nosotros</a></li>
+                        <li><a href="#" title="Blog">Blog</a></li>
+                        <li class="current"><a href="contacto.html" title="Contactenos">Contáctenos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        
+        <section id="contact" class="section-page">
+            <div class="wrapper">
+                <article>
+                    <h1>Contacto</h1>
+                    <span class="border-title"></span>
+                    
+                    <div id="info-form">
+                       <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will.</p>
+                        <h3>Avotz Webworks</h3>
+                        <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will.</p>
+                       
+                       <form id="contact-form" action="#" name="contact-form">
+                            <div class="form-input-block">
+                                <input type="text" name="name" id="name" placeholder="Nombre:" required/>
+                            </div>
+                            <div class="form-input-block">
+                                <input type="email" name="email" id="email" placeholder="Email:" required/>
+                            </div>
+                            <div class="form-input-block">
+                                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Commentario:" required></textarea>
+                                
+                            </div>
+                            <div class="form-input-block">
+                                <button class="form-btn">Enviar</button>
+                                
+                            </div>
+                           
+
+                       </form> 
+                       <p class="mensaje"></p>
+
+                    </div>
+                    <a href="#home" id="up-arrow" title="Inicio">
+                        <span class="icon-uniF48A"></span>
+                    </a>
+                    
+                    
+                </article>
+            </div>
+        </section>
+        <footer id="footer" class="section-page">
+            <div class="wrapper">
+                <figure>
+                    <img src="img/small_logo.png" alt="Avotz Webworks">
+                </figure>
+                 <span class="border-title"></span>
+                <div id="social">
+                    <a href="http://www.facebook.com/AVOTZ" title="Facebook Avotz" target="_blank"><span class="icon-facebook"></span></a>
+                    <a href="http://www.twitter.com/avotz" title="Twitter Avotz" target="_blank"><span class="icon-twitter"></span></a>
+                </div>
+            </div>
+
+            <div id="copyright">
+               <div class="copyright-wrapper">
+                    <p>Copyright &copy; 2014</p>
+                </div>
+            </div>
+        </footer>
+        <script id="workTemplate" type="text/x-handlebars-template">
+          <article class="white-space-fix trabajo result {{ type }}">
+                <div class="overlay"></div>
+                <figure><a href="{{ link }}" target="_blank" rel="{{ rel }}"  ><img src="img/blank.png" alt="{{ name }}" data-src="img/trabajos/{{ img }}"></figure>
+          </article>
+        </script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.validate.min.js"></script>
+        <script src="js/vendor/jquery.inview.min.js"></script>
+        <script src="js/vendor/shadowbox/shadowbox.js"></script>
+        <script src="js/vendor/jPages.min.js"></script>
+        <script src="js/vendor/jquery.cycle2.min.js"></script>
+        <script src="js/vendor/handlebars-v1.3.0.js"></script>
+        <script src="js/main.js"></script>
+        <!--<script data-main="js/maintest" src="js/vendor/require.js"></script>-->
+
+        <!-- <script src="js/main.min.js"></script>-->
+       
+        <script>
+                        
+            /*(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');*/
+        </script>
+    </body>
+</html>

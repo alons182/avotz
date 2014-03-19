@@ -64,7 +64,7 @@ header
 			li 
 				display inline-block
 				vertical-align top
-
+				border-top 2px solid transparent
 
 				a 
 					display block
@@ -75,8 +75,11 @@ header
 					font-size 13px
 					text-transform uppercase
 					
-				&:hover
-					border-top 2px solid #FFF
+					
+				&:hover 
+					border-top-color #FFF
+			.current
+				border-top-color #FFF
 
 #home
 	background-image url('../img/bg_home.jpg')
@@ -285,46 +288,53 @@ header
 		font-size 1.5em
 		color $turquesa
 		width 275px
-	#testimonials
-		background url('../img/bg_testimonials.jpg') repeat $oscuro
-		height 450px
+#testimonials
+	background url('../img/bg_testimonials.jpg') repeat $oscuro
+	height 450px
+	color white
+	margin-top 30px
+
+	#testimonial-wrapper
+		width 800px
+		margin 0 auto
+		padding-top 120px
+	
+	.icon-uniF6BA
+		font-size 5em
 		color white
-		margin-top 30px
-
-		#testimonial-wrapper
-			width 800px
-			margin 0 auto
-			padding-top 120px
-		
-		.icon-uniF6BA
-			font-size 5em
-			color white
-			display inline-block
-			margin-top 10px
-			margin-right 10px
-		#slider-testimonials
-			display inline-block
-			vertical-align top
+		display inline-block
+		margin-top 10px
+		margin-right 10px
+	#slider-testimonials
+		display inline-block
+		vertical-align top
+		width 600px
+		font-size 18px
+		.border-title
 			width 600px
-			font-size 18px
-			.border-title
-				width 600px
-				position absolute
-				top -25px
-			#testimonial-pager 
-				a 
-					font-size: 12px;
-					padding: 6px;
-					border-radius: 50%;
-					display inline-block
-					color $oscuro
-					cursor pointer
-					border 1px solid white
-					background-color transparent
-					margin 0 3px
+			position absolute
+			top -25px
+		#testimonial-pager 
+			a 
+				font-size: 12px;
+				padding: 6px;
+				border-radius: 50%;
+				display inline-block
+				color $oscuro
+				cursor pointer
+				border 1px solid white
+				background-color transparent
+				margin 0 3px
 
-				.cycle-pager-active 
-					background-color #fff
+			.cycle-pager-active 
+				background-color #fff
+.page_about #testimonials 
+	background-image url('../img/bg_home.jpg')
+	background-attachment fixed
+	background-color $lima
+	background-position center  center
+	background-repeat no-repeat
+	background-size cover, cover
 
 #news
 	#last-post

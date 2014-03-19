@@ -2,17 +2,17 @@ $(function () {
 	
 	
  	
-	var body = $('body'),
+	var body = $('body.page_home'),
 		$menu = $('#menu'),
 		$resultOut = $('#results-content');
 
 	
 
 	//SCROLL ANIMATE MENU
-	$('html, body').animate({
+	/*$('html, body').animate({
 		scrollTop: 0
 	});
-		    
+		*/    
     $(window).scroll(function () {
         if ($(this).scrollTop() > 610) {
             body.addClass("afix");
@@ -21,7 +21,7 @@ $(function () {
         }
     });
 
-    $menu.find( 'a' ).on( 'click', goPage);
+   /* $menu.find( 'a' ).on( 'click', goPage);
     $('#up-arrow').on( 'click', goPage);
     
     function goPage(){
@@ -33,7 +33,7 @@ $(function () {
 		});
 		
 		return false;
-    }
+    }*/
 
 
 	//LOAD WORKS
@@ -123,8 +123,8 @@ $(function () {
 	    
 	 //EVENTS FILTER WORKS
 	$('div.tabs').find('input:radio').on('click',function(){
-
-		var result =  $('.result');
+		console.log(this);
+		/*var result =  $('.result');
 		$("div.pagination").jPages("destroy");
 	      
 	      currentPage = 1;
@@ -151,7 +151,7 @@ $(function () {
 
 	     //console.log(this);
 	      
-	     initPagination();
+	     initPagination();*/
 
 	});
 	
@@ -180,7 +180,7 @@ $(function () {
        steps = 4, 
   
    setInterval( function() {
-    	document.querySelector( '.dispositivo' ).setAttribute( 'data-animation-step', step = ++step > steps ? 1 : step );
+    	 	$('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step);
   }, duration / steps );
 
 //FORM CONTACT VALIDATION
