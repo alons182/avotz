@@ -124,7 +124,7 @@ $(function () {
 	 //EVENTS FILTER WORKS
 	$('div.tabs').find('input:radio').on('click',function(){
 		console.log(this);
-		/*var result =  $('.result');
+		var result =  $('.result');
 		$("div.pagination").jPages("destroy");
 	      
 	      currentPage = 1;
@@ -151,7 +151,7 @@ $(function () {
 
 	     //console.log(this);
 	      
-	     initPagination();*/
+	     initPagination();
 
 	});
 	
@@ -180,7 +180,9 @@ $(function () {
        steps = 4, 
   
    setInterval( function() {
+
     	 	$('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step);
+  
   }, duration / steps );
 
 //FORM CONTACT VALIDATION
