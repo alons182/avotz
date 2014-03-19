@@ -123,36 +123,26 @@ $(function () {
 	    
 	 //EVENTS FILTER WORKS
 	$('div.tabs').find('input:radio').on('click',function(){
-		console.log(this);
-		var result =  $('.result');
+		
+		
+		var result =  $('.result'),
+			selector = ".result",
+			selected =  $(this).data('selected');
+
 		$("div.pagination").jPages("destroy");
 	      
-	      currentPage = 1;
-	      var selector = ".result";
-	      
+	      //currentPage = 1;
+	      	      
 	      result.show();
 	      
-	      var sitio = $('input.sitio');
-	      var diseno = $('input.diseno');
-	      var multimedia = $('input.multimedia');
-	     
-	      if(sitio.is(':checked')){
-	      	selector += '.sitio';
-	      }
-	       if(diseno.is(':checked')){
-	      	selector += '.diseno';
-	      }
-	      if(multimedia.is(':checked')){
-	     	 selector += '.multimedia';
-	      }
+	      selector += ( selected === 'all' ) ? '' :'.'+ selected;
+	      
 	      result.hide();
 
 	      $(selector).show();
-
-	     //console.log(this);
-	      
+	    	      
 	     initPagination();
-
+		
 	});
 	
 
