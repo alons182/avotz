@@ -178,7 +178,7 @@ header #menu ul .current{background:#3b434e}
 #contact #info-form .form-input-block textarea{height:90px}
 #contact #info-form .form-input-block button,#contact #info-form .form-input-block input[type=submit]{position:absolute;right:0}
 #contact #up-arrow{background:#303843;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;padding:.5em;width:25px;height:25px;font-size:1.5em;color:#545c68;display:block;text-decoration:none}
-#footer{background:#303843;text-align:center;position:relative;min-height:400px;}
+#footer{background:#303843;text-align:center;position:relative;min-height:350px;}
 #footer .border-title{display:inline-block}
 #footer figure{margin-bottom:20px}
 #footer #social{text-align:center;}
@@ -188,8 +188,8 @@ header #menu ul .current{background:#3b434e}
 #footer #copyright p{margin:10px 0;font-size:13px}
 .wrapper{margin:0 auto;max-width:960px}
 .section-page{min-height:450px;}
-.section-page .wrapper,.section-page > article{padding-top:50px;padding-left:1em;padding-right:1em;}
-.section-page .wrapper h1,.section-page > article h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#3b434e;margin:0;text-align:center}
+.section-page .wrapper{padding-top:50px;padding-left:1em;padding-right:1em;}
+.section-page .wrapper h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#3b434e;margin:0;text-align:center}
 .page_services .section-page .wrapper,.page_works .section-page .wrapper,.page_about .section-page .wrapper,.page_contact .section-page .wrapper{padding-top:100px}
 .btn_yellow{background:#ffc43a;padding:1em 4em;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 3px 1px #f39c12;box-shadow:2px 3px 1px #f39c12;text-decoration:none;color:#b26500;font-weight:bold;min-width:98px;text-align:center;display:inline-block}
 .border-title{height:8px;width:200px;background:#63ad73;display:block;margin:20px auto}
@@ -211,7 +211,7 @@ header #menu ul li:hover{border-top-color:#fff;background:transparent}
 header #menu ul .current{border-top-color:#fff;background:transparent}
 #home article{padding:0 1em;}
 #home article #info{width:350px;position:absolute;}
-#home article #info a{position:relative;left:33px}
+#home article #info a{position:relative;left:33px;display:inline-block}
 #home article #devices-animation{display:block;right:100px}
 #services #services-info .service{display:inline-block;vertical-align:top;width:270px;margin:1em}
 #testimonials{display:block}
@@ -225,15 +225,14 @@ header #menu ul .current{border-top-color:#fff;background:transparent}
 #works #works-gallery .tabs label{padding:5px 10px;margin-right:30px}
 #works #works-gallery .trabajo{width:33.64%}
 .section-page{min-height:650px;}
-.section-page .wrapper,.section-page > article{padding-top:100px;}
-.section-page .wrapper h1,.section-page > article h1{text-align:left}
+.section-page .wrapper{padding-top:65px;}
+.section-page .wrapper h1{text-align:left}
 .border-title{margin:20px 0}
 }@media only screen and (min-width:  870px){header #menu ul li{margin:.5em .5em 0}
 }@media only screen and (min-width:  1100px){#home article #info{width:475px;position:absolute;padding:0;}
 #home article #info h1{font-size:4em}
 #home article #devices-animation{right:0}
 #works #works-gallery .trabajo{width:16.84%}
-}@media only screen and (min-width:  1400px){.list-items li a .info{padding:2em}
 }#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none}
 #sb-overlay{position:relative;height:100%;width:100%}
