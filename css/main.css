@@ -151,7 +151,7 @@ p{line-height:1.5em}
 #about blockquote{color:#63ad73;font-size:1.5em;line-height:1.5em;margin:0 40px;width:275px}
 #testimonials{background:url("../img/bg_testimonials.jpg") repeat #3b434e;color:#fff;height:450px;}
 #testimonials #testimonial-wrapper{margin:0 auto;padding-top:120px;width:100%}
-#testimonials .icon-uniF6BA{color:#fff;display:inline-block;font-size:5em;margin-right:10px;margin-top:10px}
+#testimonials .icon-uniF6BA{color:#fff;display:inline-block;font-size:4em;margin-right:10px;margin-top:10px}
 #testimonials #slider-testimonials{display:inline-block;font-size:1em;vertical-align:top;width:75%;}
 #testimonials #slider-testimonials .border-title{position:absolute;top:-25px;width:90%}
 #testimonials #slider-testimonials #testimonial-pager a{background-color:transparent;border:1px solid #fff;-webkit-border-radius:50%;border-radius:50%;color:#3b434e;cursor:pointer;display:inline-block;font-size:12px;margin:0 3px;padding:6px}
@@ -218,6 +218,7 @@ p{line-height:1.5em}
 #services #services-info .service p{text-align:left}
 #testimonials,#news{display:block}
 #testimonials #testimonial-wrapper{width:750px}
+#testimonials .icon-uniF6BA{font-size:5em}
 #testimonials #slider-testimonials{font-size:18px;width:600px;}
 #testimonials #slider-testimonials .border-title{width:600px}
 #contact #info-form{width:450px}
