@@ -128,7 +128,7 @@ header #menu ul .current{background:#3b434e}
 #services #services-info .service p{text-align:center}
 #works{background:#3b434e;}
 #works h1,#works p{color:#fff}
-#works #works-gallery .tabs{width:560px;margin:100px auto 0;height:30px;position:relative;}
+#works #works-gallery .tabs{width:390px;margin:100px auto 0;height:30px;position:relative;}
 #works #works-gallery .tabs input{cursor:pointer;height:40px;left:0;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:absolute;top:0;width:90px;z-index:1000}
 #works #works-gallery .tabs #tab-2{left:90px}
 #works #works-gallery .tabs #tab-3{left:189px}
@@ -214,6 +214,7 @@ header #menu ul .current{border-top-color:#fff;background:transparent}
 #testimonials{display:block}
 #news{display:block}
 #contact #info-form{width:450px}
+#works #works-gallery .tabs{width:560px;}
 #works #works-gallery .tabs input{width:120px}
 #works #works-gallery .tabs #tab-2{left:135px}
 #works #works-gallery .tabs #tab-3{left:275px}
