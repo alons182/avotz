@@ -116,13 +116,13 @@ header #menu ul li:hover{background:#3b434e}
 header #menu ul .current{background:#3b434e}
 #home{background-image:url("../img/bg_home.jpg");background-attachment:fixed;background-color:#a9bf04;background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover;}
 #home article{position:relative;top:100px;}
-#home article #info{width:100%;padding:.5em;}
+#home article #info{width:100%;}
 #home article #info h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#fff;margin:0}
 #home article #info p{color:#fff}
 #home article #info a{position:relative;left:22%}
 #home article #devices-animation{position:absolute;right:0;display:none}
 #services #services-info{margin-top:40px;}
-#services #services-info .service{display:block;vertical-align:top;width:100%;}
+#services #services-info .service{display:block;width:100%;}
 #services #services-info .service .icon{text-align:center;display:block;font-size:4em;color:#63ad73}
 #services #services-info .service h3{text-align:center;font-size:1.2em;font-weight:bold;margin-top:10px;margin-bottom:0}
 #services #services-info .service p{text-align:center}
