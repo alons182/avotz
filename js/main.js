@@ -7,7 +7,11 @@ $(function () {
 		$resultOut = $('#results-content');
 
 	
-
+	 // NAV MOBILE
+	    $('#btn_nav').click(function(){
+	        $('#menu').toggle();
+	       
+	    });
 	//SCROLL ANIMATE MENU
 	/*$('html, body').animate({
 		scrollTop: 0

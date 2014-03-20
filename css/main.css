@@ -104,23 +104,25 @@ table{border-collapse:collapse;border-spacing:0}
 body{background:#f8f8f8;font-family:Arial}
 h1{font-family:'montserratbold'}
 p{line-height:1.5em}
-header{height:60px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;position:fixed;width:100%;z-index:100;}
-header #logo{float:left;width:200px;margin-top:10px}
-header #menu{float:right;margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
+header{height:60px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;position:absolute;width:100%;z-index:100;}
+header #logo{width:200px;margin-top:10px}
+header #btn_nav{position:absolute;right:20px;top:20px;font-size:1.5em;cursor:pointer;}
+header #btn_nav .icon-menu{vertical-align:middle;color:$azul}
+header #menu{margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;display:none;}
 header #menu ul{margin:0;padding:0;}
-header #menu ul li{display:inline-block;vertical-align:top;border-top:2px solid transparent;}
+header #menu ul li{display:block;text-align:center;background:#63ad73;}
 header #menu ul li a{display:block;padding:1.5em .4em;text-decoration:none;color:#fff;font-family:'montserratregular';font-size:13px;text-transform:uppercase}
-header #menu ul li:hover{border-top-color:#fff}
-header #menu ul .current{border-top-color:#fff}
+header #menu ul li:hover{background:#3b434e}
+header #menu ul .current{background:#3b434e}
 #home{background-image:url("../img/bg_home.jpg");background-attachment:fixed;background-color:#a9bf04;background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover;}
 #home article{position:relative;top:100px;}
-#home article #info{width:475px;position:absolute;}
-#home article #info h1{font-size:4em;text-transform:uppercase;line-height:1em;color:#fff;margin:0}
+#home article #info{width:100%;padding:.5em;}
+#home article #info h1{font-size:3em;text-transform:uppercase;line-height:1em;color:#fff;margin:0}
 #home article #info p{color:#fff}
-#home article #info a{position:relative;left:33px}
-#home article #devices-animation{position:absolute;right:0}
+#home article #info a{position:relative;left:22%}
+#home article #devices-animation{position:absolute;right:0;display:none}
 #services #services-info{margin-top:40px;}
-#services #services-info .service{display:inline-block;vertical-align:top;width:270px;margin:1em;}
+#services #services-info .service{display:block;vertical-align:top;width:100%;margin:1em;}
 #services #services-info .service .icon{text-align:center;display:block;font-size:4em;color:#63ad73}
 #services #services-info .service h3{text-align:center;font-size:1.2em;font-weight:bold;margin-top:10px;margin-bottom:0}
 #works{background:#3b434e;}
@@ -150,7 +152,7 @@ header #menu ul .current{border-top-color:#fff}
 #about #info-about,#about #legend{display:inline-block;vertical-align:top}
 #about #info-about{width:650px;margin-right:30px;margin-top:30px}
 #about #legend{font-size:1.5em;color:#63ad73;width:275px}
-#testimonials{background:url("../img/bg_testimonials.jpg") repeat #3b434e;height:450px;color:#fff;margin-top:30px;}
+#testimonials{background:url("../img/bg_testimonials.jpg") repeat #3b434e;height:450px;color:#fff;margin-top:30px;display:none;}
 #testimonials #testimonial-wrapper{width:800px;margin:0 auto;padding-top:120px}
 #testimonials .icon-uniF6BA{font-size:5em;color:#fff;display:inline-block;margin-top:10px;margin-right:10px}
 #testimonials #slider-testimonials{display:inline-block;vertical-align:top;width:600px;font-size:18px;}
@@ -158,6 +160,7 @@ header #menu ul .current{border-top-color:#fff}
 #testimonials #slider-testimonials #testimonial-pager a{font-size:12px;padding:6px;-webkit-border-radius:50%;border-radius:50%;display:inline-block;color:#3b434e;cursor:pointer;border:1px solid #fff;background-color:transparent;margin:0 3px}
 #testimonials #slider-testimonials #testimonial-pager .cycle-pager-active{background-color:#fff}
 .page_about #testimonials{background-image:url("../img/bg_home.jpg");background-attachment:fixed;background-color:#a9bf04;background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover}
+#news{display:none;}
 #news #last-post{margin-top:40px;}
 #news #last-post ul{list-style:none;}
 #news #last-post ul li{margin:30px 0;}
@@ -181,18 +184,43 @@ header #menu ul .current{border-top-color:#fff}
 #footer #copyright{position:absolute;bottom:0;height:40px;width:100%;background:#282f38;color:#959595;}
 #footer #copyright #copyright-wrapper{margin:0 auto}
 #footer #copyright p{margin:10px 0;font-size:13px}
-.wrapper{margin:0 auto;width:960px}
+.wrapper{margin:0 auto;max-width:960px}
 .section-page{min-height:650px;}
-.section-page .wrapper,.section-page > article{padding-top:100px;}
-.section-page .wrapper h1,.section-page > article h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#3b434e;margin:0}
+.section-page .wrapper,.section-page > article{padding-top:50px;padding-left:1em;padding-right:1em;}
+.section-page .wrapper h1,.section-page > article h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#3b434e;margin:0;text-align:center}
 .btn_yellow{background:#ffc43a;padding:1em 4em;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 3px 1px #f39c12;box-shadow:2px 3px 1px #f39c12;text-decoration:none;color:#b26500;font-weight:bold;min-width:98px;text-align:center;display:inline-block}
-.border-title{height:8px;width:200px;background:#63ad73;display:block;margin:20px 0}
+.border-title{height:8px;width:200px;background:#63ad73;display:block;margin:20px auto}
 .white-space-fix{margin-right:-4px;margin-bottom:-4px}
 .afix header{background:#63ad73;height:70px}
 .form-btn{background:transparent;-webkit-border-radius:10px;border-radius:10px;border:1px solid #63ad73;padding:.5em 1em;color:#63ad73}
 .error{color:#f39c12;font-size:13px}
 .ok{color:#a9bf04}
-#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff}
+@media only screen and (min-width:  480px){.list-items li{width:33.33%}
+.item_text:after{bottom:-15px;margin-left:-16px;border-left:16px solid transparent;border-right:16px solid transparent;border-top:16px solid #fff}
+}@media only screen and (min-width:  750px){header{position:fixed;}
+header #logo{float:left}
+header #btn_nav{display:none}
+header #menu{float:right;margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;display:block !important;}
+header #menu ul{margin:0;padding:0;}
+header #menu ul li{display:inline-block;vertical-align:top;border-top:2px solid transparent;background:transparent;}
+header #menu ul li a{display:block;padding:1.5em .4em;text-decoration:none;color:#fff;font-family:'montserratregular';font-size:13px;text-transform:uppercase}
+header #menu ul li:hover{border-top-color:#fff;background:transparent}
+header #menu ul .current{border-top-color:#fff;background:transparent}
+#home article #info{width:350px;position:absolute;}
+#home article #info a{left:33px}
+#home article #devices-animation{display:block;right:100px}
+#services #services-info .service{display:inline-block;vertical-align:top;width:270px}
+#testimonials{display:block}
+#news{display:block}
+.section-page .wrapper,.section-page > article{padding-top:100px;padding-left:0;padding-right:0;}
+.section-page .wrapper h1,.section-page > article h1{text-align:left}
+.border-title{margin:20px 0}
+}@media only screen and (min-width:  870px){header #menu ul li{margin:.5em .5em 0}
+}@media only screen and (min-width:  1100px){#home article #info{width:475px;position:absolute;padding:0;}
+#home article #info h1{font-size:4em}
+#home article #devices-animation{right:0}
+}@media only screen and (min-width:  1400px){.list-items li a .info{padding:2em}
+}#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none}
 #sb-overlay{position:relative;height:100%;width:100%}
 #sb-wrapper{position:absolute;visibility:hidden;width:100px}
