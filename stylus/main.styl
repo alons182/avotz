@@ -3,6 +3,7 @@
 @import "normalize.styl"
 @import "icons.styl"
 @import "devices.styl"
+
 @font-face {
 	font-family: 'montserratbold';
 	src: url('../fonts/montserrat-bold-webfont.eot');
@@ -41,55 +42,51 @@ h1
 p 
 	line-height 1.5em
 
-header
+
+.header
 	height 60px
 	transition: all .3s 
-	position absolute
 	width 100%
 	z-index 100
 
 	#logo
 		
-		width 200px
-		margin-top 10px
 		margin-left 10px
+		margin-top 10px
+		width 200px
 	#btn_nav
-		position absolute
+		background $oscuro
+		color #FFF
+		cursor pointer
+		font-size 1.5em
+		padding .3em
 		right 20px
 		top 20px
-		font-size 1.5em
-		cursor pointer
-		background $oscuro
-		padding .3em
-		color #FFF
 
 
 		.icon-menu
-			vertical-align middle
 			color $azul
+			vertical-align middle
 	#menu
-		
 		margin-top 10px
-		transition: all .3s
-		display none
+		transition all .3s
 
 		ul 
 			margin 0
 			padding 0
 
 			li 
-				display block
-				//border-top 2px solid transparent
-				text-align center
 				background $turquesa
+				display block
+				text-align center
 
 				a 
-					display block
-					padding 1.5em .4em
-					text-decoration none
 					color #fff
+					display block
 					font-family 'montserratregular'
 					font-size 13px
+					padding 1.5em .4em
+					text-decoration none
 					text-transform uppercase
 					
 					
@@ -99,90 +96,85 @@ header
 				background $oscuro
 
 #home
-	background-image url('../img/bg_home.jpg')
 	background-attachment fixed
 	background-color $lima
+	background-image url('../img/bg_home.jpg')
 	background-position center  center
 	background-repeat no-repeat
 	background-size cover, cover
 
 	article
-		position relative
 		top 100px
 
 		#info
 			width 100%
-			//padding .5em
+			
 			
 			h1
-				font-size 2.5em
-				text-transform uppercase
-				line-height 1em
 				color #fff
+				font-size 2.5em
+				line-height 1em
 				margin 0
+				text-transform uppercase
 			p 
 				color #fff
 				
 			a 
 				display block
-				//position relative
-				//left 22%
+				
 				
 				
 
 				
 		#devices-animation
-			position absolute
-			right 80px
 			display none
+			right 80px
 #services
 	#services-info
 		margin-top 40px
+		
 		.service 
 			display block
 			width 100%
-			//margin 1em
+			
 			
 
 			.icon
-				text-align center
+				color $turquesa
 				display block
 				font-size 4em
-				color $turquesa
+				
 			h3 
-				text-align center
 				font-size 1.2em
 				font-weight bold
-				margin-top 10px
 				margin-bottom 0
-			p 
-				text-align center
+				margin-top 10px
+			
 #works
 	background $oscuro
-	//height 984px
-	h1, p
+	
+	h1
+	p
 		color #fff
 
 	
 	#works-gallery
 		
 		#select-gallery
+			background #303843
+			border none
+			border-radius 10px
 			color #FFF
 			font-size 14px
-			padding 10px
-			background #303843
-			border-radius 10px
-			border none
-			width 96%
 			margin .5em
+			padding 10px
+			width 96%
 			
 		.tabs
-			
-			width 390px
-			margin 100px auto 0
 			height 30px
+			margin 100px auto 0
 			position relative
-			display none
+			width 390px
 
 
 
@@ -191,10 +183,17 @@ header
 				height 40px
 				left 0px
 				opacity 0
-				position absolute
 				top 0px
 				width 90px
 				z-index 1000
+				
+				&:hover + label
+					color $lima
+
+				&:checked + label 
+					background $turquesa
+					color #FFF
+					z-index 6
 
 			#tab-2
 				left 90px
@@ -206,7 +205,6 @@ header
 				left 284px
 
 			label 
-				
 				border-radius 10px
 				color #FFF
 				display block
@@ -215,22 +213,23 @@ header
 				height 30px
 				letter-spacing 1px
 				line-height 30px
+				margin-right 5px
 				padding 5px 0px
-				position relative
 				text-align center
 				text-transform uppercase
 				transition all 0.5s ease
 				width 90px
-				margin-right 5px
-
-
-
-			input:hover + label 
-				color $lima
-			
 		 
-			label:first-of-type 
-				z-index 4
+				&:first-of-type 
+					z-index 4
+				&:after 
+					bottom -2px
+					content ''
+					display block
+					height 2px
+					left 0
+					position absolute
+					width 100%
 
 		 
 			.tab-label-2 
@@ -244,44 +243,19 @@ header
 			.tab-label-4 
 				z-index 1
 
-			label:after 
-				bottom -2px
-				content ''
-				display block
-				height 2px
-				left 0
-				position absolute
-				width 100%
-
-			input:checked + label 
-				background $turquesa
-				color #FFF
-				z-index 6
 
 		.trabajo
-			
 			display inline-block
-			//height 150px
-			
-			position relative
 			vertical-align top
 			width 50%//16.84%//270px
-			overflow hidden
 			
-			.botones
-				display block
-				left 30%
-				position absolute
-				top 40%
-
 			.overlay
 				background rgba(59,67,78,0.4)
 				display block
 				height 98%
-				position absolute
+				top 0
 				transition all 0.5s ease
 				width 100%
-				top 0
 
 			figure img
 				height 100%
@@ -290,18 +264,14 @@ header
 
 			a
 				color white
-				text-decoration none
 				display block
+				text-decoration none
 
-			a:hover
-				text-decoration underline
+			&:hover 
+				.overlay
+					top -180px
 
-
-		.trabajo:hover .overlay
-			top -180px
-
-		/*.trabajo:hover .botones
-			display block*/
+	
 
 		.pagination
 			margin: 15px auto;
@@ -309,70 +279,69 @@ header
 		#results-content
 			min-height 375px !important
 #about
-	#info-about,#legend
-		display inline-block
-		vertical-align top
-	#info-about
-		width 650px
-		margin-right 30px
-		margin-top 30px
-	#legend
-		font-size 1.5em
+	blockquote
 		color $turquesa
+		font-size 1.5em
+		line-height 1.5em
+		margin 0 40px
 		width 275px
 #testimonials
 	background url('../img/bg_testimonials.jpg') repeat $oscuro
-	height 450px
 	color white
-	margin-top 30px
-	display none
+	height 450px
+	
 
 	#testimonial-wrapper
-		width 750px
 		margin 0 auto
 		padding-top 120px
+		width 750px
 	
 	.icon-uniF6BA
-		font-size 5em
 		color white
 		display inline-block
-		margin-top 10px
+		font-size 5em
 		margin-right 10px
+		margin-top 10px
+
 	#slider-testimonials
 		display inline-block
+		font-size 18px
 		vertical-align top
 		width 600px
-		font-size 18px
+
 		.border-title
-			width 600px
 			position absolute
 			top -25px
+			width 600px
+
 		#testimonial-pager 
 			a 
-				font-size: 12px;
-				padding: 6px;
-				border-radius: 50%;
-				display inline-block
+				background-color transparent
+				border 1px solid white
+				border-radius 50%
 				color $oscuro
 				cursor pointer
-				border 1px solid white
-				background-color transparent
+				display inline-block
+				font-size 12px
 				margin 0 3px
+				padding 6px
 
 			.cycle-pager-active 
 				background-color #fff
-.page_about #testimonials 
-	background-image url('../img/bg_home.jpg')
-	background-attachment fixed
-	background-color $lima
-	background-position center  center
-	background-repeat no-repeat
-	background-size cover, cover
+
+.page_about 
+	#testimonials 
+		background-attachment fixed
+		background-color $lima
+		background-image url('../img/bg_home.jpg')
+		background-position center  center
+		background-repeat no-repeat
+		background-size cover, cover
 
 #news
-	display none
 	#last-post
 		margin-top 40px
+		
 		ul 
 			list-style none
 
@@ -381,16 +350,17 @@ header
 
 				a 
 					color $oscuro
-					text-transform uppercase
-					text-decoration none
 					display block 
 					font-weight bold
+					text-decoration none
+					text-transform uppercase
+					
 					&:hover
 						text-decoration underline
 
 				span 
-					display inline-block
 					color #959595
+					display inline-block
 					font-size 13px
 
 				.date-post
@@ -398,68 +368,74 @@ header
 
 #contact
 	background url('../img/bg_avotz.png') no-repeat top right $oscuro
-	h1, p, h3
+	
+	h1
+	p
+	h3
 		color #fff
 
 	#info-form
-		width 95%//450px
 		padding-bottom 160px
+		width 95%//450px
 
 		.form-input-block
 			margin-bottom 15px
-			position relative
-
-			input,textarea 
+			
+			input
+			textarea 
+				background #303843
+				border none
+				border-radius 10px
 				color #666
 				font-size 14px
 				padding 10px
-				background #303843
-				border-radius 10px
-				border none
 				width 100%
 			textarea
 				height 90px
 
-			button, input[type=submit]
+			button
+			input[type=submit]
 				position absolute
 				right 0
 	#up-arrow
 		background #303843
 		border-radius 10px 10px 0 0
-		padding .5em
-		width 25px 
-		height 25px
-		font-size 1.5em
 		color #545c68
 		display block
+		font-size 1.5em
+		height 25px
+		padding .5em
 		text-decoration none
+		width 25px 
 
 
 #footer
 	background #303843
-	text-align center
-	position relative
 	min-height 350px
+	text-align center
+
 	.border-title
 		display inline-block
+
 	figure
 		margin-bottom 20px
 
 	#social
 		text-align center
+
 		a 
-			text-decoration none
 			color #959595
-			font-size 2em
 			display inline-block
+			font-size 2em
 			margin 5px
+			text-decoration none
+
 	#copyright
-		position absolute
+		background #282f38
 		bottom 0
+		color #959595
 		height 40px
 		width 100%
-		background #282f38
-		color #959595
 
 		#copyright-wrapper
 			margin 0 auto
@@ -481,17 +457,22 @@ header
 
 	//> article
 		
-		padding-top 50px
 		padding-left 1em
 		padding-right 1em
+		padding-top 50px
+		
 		h1 
-			font-size 2.5em
-			text-transform uppercase
-			line-height 1em
 			color $oscuro
+			font-size 2.5em
+			line-height 1em
 			margin 0
 			text-align center
-.page_services, .page_works, .page_about, .page_contact
+			text-transform uppercase
+
+.page_services
+.page_works
+.page_about
+.page_contact
 		.section-page
 			.wrapper
 				padding-top 100px
@@ -499,40 +480,61 @@ header
 
 .btn_yellow
 	background $amarillo
-	padding 1em 4em
 	border-radius 10px
 	box-shadow 2px 3px 1px $naranja
-	text-decoration none
 	color #b26500
+	display inline-block
 	font-weight bold
 	min-width 98px
+	padding 1em 4em
 	text-align center
-	display inline-block
+	text-decoration none
 
 .border-title
-	height 8px
-	width 200px
 	background $turquesa
 	display block
+	height 8px
 	margin 20px auto
+	width 200px
+
 .white-space-fix
-	margin-right -4px
 	margin-bottom -4px
-.afix header
-	background $turquesa
-	height 70px
+	margin-right -4px
+
+.afix 
+	header
+		background $turquesa
+		height 70px
+
 .form-btn
 	background transparent
-	border-radius 10px
 	border 1px solid $turquesa
-	padding .5em 1em
+	border-radius 10px
 	color $turquesa
+	padding .5em 1em
+
 .error
 	color $naranja
 	font-size 13px
+
 .ok
 	color $lima
-	
+
+.clear 
+	clear both
+
+.overflow
+	overflow hidden
+.center-text
+	text-align center
+.absolute
+	position absolute
+.relative
+	position relative
+.right 
+	float right
+.hidden
+	display none
 
 @import "responsive.styl"	
 @import "shadowbox.styl"

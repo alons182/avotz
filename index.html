@@ -5,7 +5,7 @@
         <title>Avotz Webworks</title>
         <meta name="description" content="Avotz web works nos dedicamos a crear sitios web funcionales, con diseños de acorde a lo que usted necesita exponer a sus clientes">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
         <link rel="icon" type="image/png" href="favicon_16x16.ico">
 
         
@@ -14,13 +14,13 @@
 
     </head>
     <body class="page_home">
-        <header>
+        <header class="header absolute">
             <div class="wrapper">
                 <figure id="logo">
                     <a href="/"><img src="img/logo.png" alt="Avotz Webworks" /></a>
                 </figure>
-                <div id="btn_nav">Menu <i class="icon-menu"></i></div>
-                <nav id="menu">
+                <div id="btn_nav" class="absolute">Menu <i class="icon-menu"></i></div>
+                <nav id="menu" class="hidden">
                     <ul>
                         <li class="current"><a href="index.html" title="Inicio">Inicio</a> </li>
                         <li><a href="servicios.html" title="Servicios">Servicios</a></li>
@@ -35,13 +35,13 @@
         </header>
         <section id="home" class="section-page">
             <div class="wrapper">
-                <article>
+                <article class="relative">
                     <div id="info">
                         <h1>Diseños + Adaptativos</h1>
                         <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. </p>
                         <a href="#" class="btn_yellow" title="contactenos">Contactenos</a>
                     </div>
-                    <div id="devices-animation">
+                    <div id="devices-animation" class="absolute">
                         <div class="dispositivo">
                                 <div class="carcasa">
                                         <div class="pantalla"></div>
@@ -58,44 +58,9 @@
                 </article>
             </div>
         </section>
-        <section id="services" class="section-page">
-            <div class="wrapper">
-                <article>
-                    <h1>Servicios</h1>
-                    <span class="border-title"></span>
-                    <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will.</p>
-                    <div id="services-info">
-                        <article id="art-web" class="service">
-                            <span class="icon icon-html5"></span>
-                            <h3>Creacion de sitios web</h3>
-                            <p>Creamos sitio web con lo último en tecnología (HTML5, CCS3, Jquery, Responsive Design).</p>
-                        </article>
-                        <article id="art-social" class="service">
-                            <span class="icon icon-facebook"></span>
-                             <h3>Personalización de redes sociales</h3>
-                            <p>Personalizamos página de Facebook, twitter y youtube, así como todo lo relacionado con el marketing social que esto conlleva.</p>
-                        </article>
-                        <article id="art-multimedio" class="service">
-                            <span class="icon icon-pictures"></span>
-                             <h3>Creación de multimedios</h3>
-                            <p>Desarrollo de todo tipo de publicidad digital como boletines publicitarios, afiches, logos, etc.</p>
-                        </article>
-                        <article id="art-reparacion" class="service">
-                            <span class="icon icon-tools"></span>
-                             <h3>Mantenimiento y reparación de sitios web</h3>
-                            <p>Reparacion y mantenimiento de sus sitios web ya creados.</p>
-                        </article>
-                        <article id="art-cms" class="service">
-                            <span class="icon icon-wordpress"></span>
-                             <h3>Sistemas de administración de contenidos (CMS)</h3>
-                            <p>Instalacion y mantenimiento de CMS como Joomla y wordpress dada las necesidad que el cliente requiera.</p>
-                        </article>
-                    </div>
-                </article>
-            </div>
-        </section>
         
-        <section id="testimonials">
+        
+        <section id="testimonials" class="hidden">
                   <div id="testimonial-wrapper">
                       
                       <span class="icon-uniF6BA"></span>
@@ -119,7 +84,7 @@
                       </div>
                 </div> 
              </section>
-        <section id="news" class="section-page">
+        <section id="news" class="section-page hidden">
             <div class="wrapper">
                 <article>
                     <h1>Ultimas<br /> Noticias</h1>
@@ -139,7 +104,7 @@
             </div>
         </section>
        
-        <footer id="footer" class="section-page">
+        <footer id="footer" class="section-page relative">
             <div class="wrapper">
                 <figure>
                     <img src="img/small_logo.png" alt="Avotz Webworks">
@@ -151,7 +116,7 @@
                 </div>
             </div>
 
-            <div id="copyright">
+            <div id="copyright" class="absolute">
                <div class="copyright-wrapper">
                     <p>Copyright &copy; 2014</p>
                 </div>

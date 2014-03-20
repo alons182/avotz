@@ -14,13 +14,13 @@
 
     </head>
     <body class="afix page_works">
-        <header>
+        <header class="header absolute">
             <div class="wrapper">
                 <figure id="logo">
                     <a href="/"><img src="img/logo.png" alt="Avotz Webworks" /></a>
                 </figure>
-                <div id="btn_nav">Menu <i class="icon-menu"></i></div>
-                <nav id="menu">
+                <div id="btn_nav" class="absolute">Menu <i class="icon-menu"></i></div>
+                <nav id="menu" class="hidden">
                     <ul>
                         <li><a href="index.html" title="Inicio">Inicio</a> </li>
                         <li><a href="servicios.html" title="Servicios">Servicios</a></li>
@@ -51,18 +51,18 @@
                         <option value="diseno">Diseños</option>
                         <option value="multimedia">Multimedia</option>
                     </select>
-                    <div class="tabs">
-                            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1 all" checked="checked" data-selected="all" />
-                            <label for="tab-1" class="tab-label-1">Todos</label>
+                    <div class="tabs hidden">
+                            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1 absolute all" checked="checked" data-selected="all" />
+                            <label for="tab-1" class="tab-label-1 relative">Todos</label>
                              
-                            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2 sitio" data-selected="sitio" />
-                            <label for="tab-2" class="tab-label-2">Sitios</label>
+                            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2 absolute sitio" data-selected="sitio" />
+                            <label for="tab-2" class="tab-label-2 relative">Sitios</label>
                              
-                            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3 diseno " data-selected="diseno" />
-                            <label for="tab-3" class="tab-label-3">Diseños</label>
+                            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3 absolute diseno " data-selected="diseno" />
+                            <label for="tab-3" class="tab-label-3 relative">Diseños</label>
                             
-                            <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4 multimedia " data-selected="multimedia" />
-                            <label for="tab-4" class="tab-label-4">Multimedia</label>
+                            <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4 absolute multimedia " data-selected="multimedia" />
+                            <label for="tab-4" class="tab-label-4 relative">Multimedia</label>
                              
                             
                         </div>
@@ -99,8 +99,8 @@
             </div>
         </footer>
         <script id="workTemplate" type="text/x-handlebars-template">
-          <article class="white-space-fix trabajo result {{ type }}">
-                <div class="overlay"></div>
+          <article class="white-space-fix trabajo relative overflow result {{ type }}">
+                <div class="overlay absolute"></div>
                 <figure><a href="{{ link }}" target="_blank" rel="{{ rel }}"  ><img src="img/blank.png" alt="{{ name }}" data-src="img/trabajos/{{ img }}"></figure>
           </article>
         </script>
