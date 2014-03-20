@@ -105,8 +105,8 @@ body{background:#f8f8f8;font-family:Arial}
 h1{font-family:'montserratbold'}
 p{line-height:1.5em}
 header{height:60px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;position:absolute;width:100%;z-index:100;}
-header #logo{width:200px;margin-top:10px}
-header #btn_nav{position:absolute;right:20px;top:20px;font-size:1.5em;cursor:pointer;}
+header #logo{width:200px;margin-top:10px;margin-left:10px}
+header #btn_nav{position:absolute;right:20px;top:20px;font-size:1.5em;cursor:pointer;background:#3b434e;padding:.3em;color:#fff;}
 header #btn_nav .icon-menu{vertical-align:middle;color:$azul}
 header #menu{margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;display:none;}
 header #menu ul{margin:0;padding:0;}
@@ -119,7 +119,7 @@ header #menu ul .current{background:#3b434e}
 #home article #info{width:100%;}
 #home article #info h1{font-size:2.5em;text-transform:uppercase;line-height:1em;color:#fff;margin:0}
 #home article #info p{color:#fff}
-#home article #info a{position:relative;left:22%}
+#home article #info a{display:block}
 #home article #devices-animation{position:absolute;right:0;display:none}
 #services #services-info{margin-top:40px;}
 #services #services-info .service{display:block;width:100%;}
@@ -196,9 +196,7 @@ header #menu ul .current{background:#3b434e}
 .form-btn{background:transparent;-webkit-border-radius:10px;border-radius:10px;border:1px solid #63ad73;padding:.5em 1em;color:#63ad73}
 .error{color:#f39c12;font-size:13px}
 .ok{color:#a9bf04}
-@media only screen and (min-width:  480px){.list-items li{width:33.33%}
-.item_text:after{bottom:-15px;margin-left:-16px;border-left:16px solid transparent;border-right:16px solid transparent;border-top:16px solid #fff}
-}@media only screen and (min-width:  750px){header{position:fixed;}
+@media only screen and (min-width:  750px){header{position:fixed;}
 header #logo{float:left}
 header #btn_nav{display:none}
 header #menu{float:right;margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;display:block !important;}
@@ -207,8 +205,9 @@ header #menu ul li{display:inline-block;vertical-align:top;border-top:2px solid 
 header #menu ul li a{display:block;padding:1.5em .4em;text-decoration:none;color:#fff;font-family:'montserratregular';font-size:13px;text-transform:uppercase}
 header #menu ul li:hover{border-top-color:#fff;background:transparent}
 header #menu ul .current{border-top-color:#fff;background:transparent}
+#home article{padding:0 1em;}
 #home article #info{width:350px;position:absolute;}
-#home article #info a{left:33px}
+#home article #info a{position:relative;left:33px}
 #home article #devices-animation{display:block;right:100px}
 #services #services-info .service{display:inline-block;vertical-align:top;width:270px;margin:1em}
 #testimonials{display:block}
