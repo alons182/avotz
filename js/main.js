@@ -25,7 +25,7 @@ $(function () {
         }
     });
 
-   /* $menu.find( 'a' ).on( 'click', goPage);
+   /* $menu.find( 'a' ).on( 'click', goPage);*/
     $('#up-arrow').on( 'click', goPage);
     
     function goPage(){
@@ -37,7 +37,7 @@ $(function () {
 		});
 		
 		return false;
-    }*/
+    }
 
 
 	//LOAD WORKS
