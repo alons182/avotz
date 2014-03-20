@@ -128,7 +128,8 @@ header #menu ul .current{background:#3b434e}
 #services #services-info .service p{text-align:center}
 #works{background:#3b434e;}
 #works h1,#works p{color:#fff}
-#works #works-gallery .tabs{width:390px;margin:100px auto 0;height:30px;position:relative;}
+#works #works-gallery #select-gallery{color:#fff;font-size:14px;padding:10px;background:#303843;-webkit-border-radius:10px;border-radius:10px;border:none;width:96%;margin:.5em}
+#works #works-gallery .tabs{width:390px;margin:100px auto 0;height:30px;position:relative;display:none;}
 #works #works-gallery .tabs input{cursor:pointer;height:40px;left:0;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:absolute;top:0;width:90px;z-index:1000}
 #works #works-gallery .tabs #tab-2{left:90px}
 #works #works-gallery .tabs #tab-3{left:189px}
@@ -197,7 +198,9 @@ header #menu ul .current{background:#3b434e}
 .form-btn{background:transparent;-webkit-border-radius:10px;border-radius:10px;border:1px solid #63ad73;padding:.5em 1em;color:#63ad73}
 .error{color:#f39c12;font-size:13px}
 .ok{color:#a9bf04}
-@media only screen and (min-width:  750px){header{position:fixed;}
+@media only screen and (min-width:  480px){#works #works-gallery #select-gallery{display:none}
+#works #works-gallery .tabs{display:block}
+}@media only screen and (min-width:  750px){header{position:fixed;}
 header #logo{float:left}
 header #btn_nav{display:none}
 header #menu{float:right;margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;display:block !important;}

@@ -128,10 +128,18 @@ $(function () {
 	 //EVENTS FILTER WORKS
 	$('div.tabs').find('input:radio').on('click',function(){
 		
+		filterWorks($(this).data('selected'));
 		
+		
+	});
+	$('#select-gallery').on('change',function(){
+		filterWorks($(this).val());
+	});
+
+	function filterWorks(option){
 		var result =  $('.result'),
 			selector = ".result",
-			selected =  $(this).data('selected');
+			selected =  option;
 
 		$("div.pagination").jPages("destroy");
 	      
@@ -146,8 +154,7 @@ $(function () {
 	      $(selector).show();
 	    	      
 	     initPagination();
-		
-	});
+	}
 	
 
 	function initPagination()
