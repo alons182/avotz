@@ -30,6 +30,7 @@
 $lima = #a9bf04
 $amarillo = #ffc43a
 $turquesa = #63ad73
+$turquesa2 = #7cb585
 $oscuro = #3b434e
 $naranja = #f39c12
 
@@ -42,7 +43,9 @@ h1
 p 
 	line-height 1.5em
 
-
+ul 
+	margin 0
+	padding 0
 .header
 	height 60px
 	transition: all .3s 
@@ -159,7 +162,27 @@ p
 				font-weight bold
 				margin-bottom 0
 				margin-top 10px
-			
+	.habilidades
+		list-style none
+		li 
+			background $turquesa
+			margin .3em
+
+			&:nth-child(even)
+				background $turquesa2
+
+			&:before
+				content '+'
+				float left
+				color #FFF
+				padding .3em
+				background rgba(255,255,255,.2)
+			a 
+				color white
+				padding .5em 0em .5em 1.8em
+				display block
+				font-size .8em
+				text-decoration none			
 #works
 	background $oscuro
 	

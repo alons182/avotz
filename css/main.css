@@ -99,6 +99,7 @@ table{border-collapse:collapse;border-spacing:0}
 body{background:#f8f8f8;font-family:Arial}
 h1{font-family:'montserratbold'}
 p{line-height:1.5em}
+ul{margin:0;padding:0}
 .header{height:60px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;width:100%;z-index:100;}
 .header #logo{margin-left:10px;margin-top:10px;width:200px}
 .header #btn_nav{background:#3b434e;color:#fff;cursor:pointer;font-size:1.5em;padding:.3em;right:20px;top:20px;}
@@ -122,6 +123,11 @@ p{line-height:1.5em}
 #services #services-info .service{display:block;width:100%;}
 #services #services-info .service .icon{color:#63ad73;display:block;font-size:4em}
 #services #services-info .service h3{font-size:1.2em;font-weight:bold;margin-bottom:0;margin-top:10px}
+#services .habilidades{list-style:none;}
+#services .habilidades li{background:#63ad73;margin:.3em;}
+#services .habilidades li:nth-child(even){background:#7cb585}
+#services .habilidades li:before{content:'+';float:left;color:#fff;padding:.3em;background:rgba(255,255,255,0.2)}
+#services .habilidades li a{color:#fff;padding:.5em 0 .5em 1.8em;display:block;font-size:.8em;text-decoration:none}
 #works{background:#3b434e;}
 #works h1,#works p{color:#fff}
 #works #works-gallery #select-gallery{background:#303843;border:none;-webkit-border-radius:10px;border-radius:10px;color:#fff;font-size:14px;margin:.5em;padding:10px;width:96%}
@@ -235,7 +241,7 @@ p{line-height:1.5em}
 .border-title{margin:20px 0}
 }@media only screen and (min-width:  870px){.header #menu ul li{margin:.5em .5em 0;}
 .header #menu ul li:last-child{margin-right:0}
-#services .services-video{width:20em;height:200px}
+#services .services-video{width:20em}
 #services #services-info{margin-top:40px;width:39em;margin-left:.5em;}
 #services #services-info .service:nth-child(even){margin-right:0}
 }@media only screen and (min-width:  1100px){#home article #info{padding:0;position:absolute;width:475px;}
