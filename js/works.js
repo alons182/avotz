@@ -4,14 +4,14 @@ define(function (require) {
 
     var $                   = require('jquery'),
         Handlebars          = require('handlebars'),
-        jPages            = require('jpages'),
-        validate                 = require('validate'),
+        jPages            	= require('jpages'),
+        validate            = require('validate'),
         inview				= require('inview'),
-        Shadowbox    = require('shadowbox'),
-        $resultOut = $('#results-content');
+        Shadowbox    		= require('shadowbox'),
+        $resultOut 			= $('#results-content');
 
 
-	//LOAD WORKS
+		//LOAD WORKS
 			
 			function getWorks(callback){
 				$.ajax({
