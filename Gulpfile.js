@@ -24,7 +24,7 @@ var gulp        = require('gulp'),
 gulp.task('requirejsBuild', function() {
     rjs({
         baseUrl: './js',
-        out: 'main.js',
+        out: 'main.min.js',
         name: 'main',
          paths: {
             jquery: 'vendor/jquery-1.10.2.min',
@@ -72,7 +72,8 @@ gulp.task('requirejsBuild', function() {
         // ... more require.js options
     })
      .pipe(uglify({ compress: true }))    
-    .pipe(gulp.dest('./public/js')); // pipe it to the output DIR
+    //.pipe(gulp.dest('./public/js')); // pipe it to the output DIR
+    .pipe(gulp.dest('./js')); // pipe it to the output DIR
 
     gulp.src('./js/vendor/require.js')
     .pipe(uglify({ compress: true }))
