@@ -110,7 +110,7 @@ p{line-height:1.5em}
 .header #menu ul li:hover{background:#3b434e}
 .header #menu ul .current{background:#3b434e}
 #home{background-attachment:fixed;background-color:#a9bf04;background-image:url("../img/bg_home.jpg");background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover;}
-#home article{top:100px;}
+#home article{top:60px;}
 #home article #info{width:100%;}
 #home article #info h1{color:#fff;font-size:2.5em;line-height:1em;margin:0;text-transform:uppercase}
 #home article #info p{color:#fff}
@@ -207,7 +207,7 @@ p{line-height:1.5em}
 .header #menu ul li a{color:#fff;display:block;font-family:'montserratregular';font-size:13px;padding:1.5em .4em;text-decoration:none;text-transform:uppercase}
 .header #menu ul li:hover{background:transparent;border-top-color:#fff}
 .header #menu ul .current{background:transparent;border-top-color:#fff}
-#home article{padding:0 1em;}
+#home article{padding:0 1em;top:100px;}
 #home article #info{position:absolute;width:350px;}
 #home article #info a{display:inline-block;left:33px;position:relative}
 #home article #devices-animation{display:block;right:100px}
