@@ -268,7 +268,7 @@ p{line-height:1.5em}
 div.sb-message{font-size:12px;padding:10px;text-align:center}
 div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline}
 .pagination{margin:15px 0}
-.pagination a{display:inline-block;font-size:12px;cursor:pointer;margin:0 5px;color:#333;padding:6px;-webkit-border-radius:50%;border-radius:50%;background-color:transparent;border:1px solid #fff}
+.pagination a{display:inline-block;font-size:12px;cursor:pointer;margin:0 5px;color:#333;padding:8px;-webkit-border-radius:50%;border-radius:50%;background-color:transparent;border:1px solid #fff}
 .pagination a:hover{background-color:#63ad73;color:#fff}
 .pagination a.jp-previous{margin-right:15px}
 .pagination a.jp-next{margin-left:15px}
