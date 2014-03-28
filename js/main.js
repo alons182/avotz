@@ -48,7 +48,7 @@ require.config({
     }
 });
 
-require(['jquery', 'cycle2','./utils','./works','./formvalidation'], function ($) {
+require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
 	  
 	  
 	  var body 		= $('body.page_home'),
