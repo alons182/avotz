@@ -114,5 +114,9 @@ gulp.task('data', function () {
    gulp.src('./data/works.json')
     .pipe(gulp.dest('./public/data'));
 });
+gulp.task('watch', function () {
+   gulp.watch('./js/main.js',['requirejsBuild'])
+   
+});
 
-gulp.task('default', [ 'requirejsBuild', 'css', 'images', 'html', 'fonts', 'data' ]);
+gulp.task('default', [ 'requirejsBuild', 'css', 'images', 'html', 'fonts', 'data','watch' ]);

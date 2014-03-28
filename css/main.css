@@ -116,7 +116,9 @@ p{line-height:1.5em}
 #home article #info p{color:#fff}
 #home article #info a{display:block}
 #home article #devices-animation{display:none;right:80px}
-#services #services-info{margin-top:40px;}
+#services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
+#services .services-video{width:100%;}
+#services .services-video video{width:100%;height:auto}
 #services #services-info .service{display:block;width:100%;}
 #services #services-info .service .icon{color:#63ad73;display:block;font-size:4em}
 #services #services-info .service h3{font-size:1.2em;font-weight:bold;margin-bottom:0;margin-top:10px}
@@ -211,7 +213,7 @@ p{line-height:1.5em}
 #home article #info{position:absolute;width:350px;}
 #home article #info a{display:inline-block;left:33px;position:relative}
 #home article #devices-animation{display:block;right:100px}
-#services #services-info .service{display:inline-block;margin:1em;vertical-align:top;width:270px;}
+#services #services-info .service{display:inline-block;margin:0 1em 1em 1em;vertical-align:top;width:270px;}
 #services #services-info .service p{text-align:left}
 #testimonials,#news{display:block}
 #testimonials #testimonial-wrapper{width:750px;padding-top:120px;padding-left:0}
@@ -233,6 +235,9 @@ p{line-height:1.5em}
 .border-title{margin:20px 0}
 }@media only screen and (min-width:  870px){.header #menu ul li{margin:.5em .5em 0;}
 .header #menu ul li:last-child{margin-right:0}
+#services .services-video{width:20em;height:200px}
+#services #services-info{margin-top:40px;width:39em;margin-left:.5em;}
+#services #services-info .service:nth-child(even){margin-right:0}
 }@media only screen and (min-width:  1100px){#home article #info{padding:0;position:absolute;width:475px;}
 #home article #info h1{font-size:4em}
 #home article #devices-animation{right:0}

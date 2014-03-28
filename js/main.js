@@ -54,6 +54,7 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
 	  var body 		= $('body.page_home'),
 		  menu 		= $('#menu'),
 		  btnMovil 	= $('#btn_nav');
+
 		
 
 	
