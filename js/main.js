@@ -97,26 +97,26 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
   
    	setInterval( function() {
             
-            $('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step).find('.pantalla a img').css('opacity', 0);
+            $('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step);
            // $('.dispositivo').find('.pantalla a img').css('opacity', 0);
             if(step === 1)
             {
-                $('.dispositivo').find('.pantalla a img').attr('src','img/notebook.jpg').css('opacity', 1);
+                $('.dispositivo').find('.pantalla a img').attr('src','img/notebook.jpg');
                 
             }
              if(step === 2)
             {
-                $('.dispositivo').find('.pantalla a img').attr('src','img/ipad.jpg').css('opacity', 1);
+                $('.dispositivo').find('.pantalla a img').attr('src','img/ipad.jpg');
               
             }
              if(step === 3)
             {
-                $('.dispositivo').find('.pantalla a img').attr('src','img/movil.jpg').css('opacity', 1);
+                $('.dispositivo').find('.pantalla a img').attr('src','img/movil.jpg');
                
             }
             if(step === 4)
             {
-                $('.dispositivo').find('.pantalla a img').attr('src','img/desktop.jpg').css('opacity', 1);
+                $('.dispositivo').find('.pantalla a img').attr('src','img/desktop.jpg');
                
             }
 
