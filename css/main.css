@@ -65,6 +65,7 @@ table{border-collapse:collapse;border-spacing:0}
 .dispositivo{position:relative}
 .dispositivo .carcasa{background-color:#464e59;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;height:175px;left:13px;padding:13px;position:relative;width:300px;-webkit-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-moz-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-o-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-ms-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-webkit-transition:all .5s cubic-bezier(0,.65,0,1.54)}
 .dispositivo .pantalla{background-color:#3b434e;height:170px;position:relative;width:300px;-webkit-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-moz-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-o-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-ms-transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);transition:all 0.5s cubic-bezier(0, 0.65, 0, 1.54);-webkit-transition:all .5s cubic-bezier(0,.65,0,1.54)}
+.dispositivo .pantalla a img{width:100%;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease}
 .dispositivo .sam{bottom:-4px;left:94px;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:relative;position:relative;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;-webkit-transition:all .3s ease}
 .dispositivo .lg{bottom:80px;left:214px;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:relative;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;-webkit-transition:all .3s ease}
 .apple i{background-color:#bbb;font-size:21px;-webkit-background-clip:text;-moz-background-clip:text;-webkit-background-clip:text;color:transparent;text-shadow:rgba(255,255,255,0.5) 0 3px 3px}
@@ -87,9 +88,9 @@ table{border-collapse:collapse;border-spacing:0}
 .dispositivo[data-animation-step="2"] .base{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 .dispositivo[data-animation-step="2"] .soporte{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 .dispositivo[data-animation-step="2"] .sop2{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
-.dispositivo[data-animation-step="3"] .carcasa{background-color:#3b3e42;-webkit-border-radius:7px;border-radius:7px;border:1px solid #9c9c9c;height:132px;padding:8px;position:relative;width:276px;left:20px}
-.dispositivo[data-animation-step="3"] .pantalla{background-color:#3b434e;width:235px;height:133px;left:24px}
-.dispositivo[data-animation-step="3"] .botoncito{width:9px;height:37px;-webkit-border-radius:7px;border-radius:7px;background-color:#3b3e42;border:1px solid #9c9c9c;left:4px;bottom:112px;opacity:1;-ms-filter:none;filter:none}
+.dispositivo[data-animation-step="3"] .carcasa{background-color:#3b3e42;-webkit-border-radius:7px;border-radius:7px;border:1px solid #9c9c9c;height:206px;padding:8px;position:relative;width:122px;left:10px}
+.dispositivo[data-animation-step="3"] .pantalla{background-color:#3b434e;width:123px;height:185px;left:0}
+.dispositivo[data-animation-step="3"] .botoncito{width:37px;height:9px;-webkit-border-radius:7px;border-radius:7px;background-color:#3b3e42;border:1px solid #9c9c9c;left:40px;bottom:10px;opacity:1;-ms-filter:none;filter:none}
 .dispositivo[data-animation-step="3"] .soporte{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 .dispositivo[data-animation-step="3"] .apple{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 .dispositivo[data-animation-step="3"] .base{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
