@@ -97,9 +97,9 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
   
    	setInterval( function() {
             
-            $('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step);
+            $('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step).find('.pantalla a[data-img='+step+']').show().siblings().hide();
            // $('.dispositivo').find('.pantalla a img').css('opacity', 0);
-            if(step === 1)
+            /*if(step === 1)
             {
                 $('.dispositivo').find('.pantalla a img').attr('src','img/notebook.jpg');
                 
@@ -118,7 +118,7 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
             {
                 $('.dispositivo').find('.pantalla a img').attr('src','img/desktop.jpg');
                
-            }
+            }*/
 
 
     	
