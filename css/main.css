@@ -180,7 +180,7 @@ ul{margin:0;padding:0}
 #contact #info-form .form-input-block{margin-bottom:15px;}
 #contact #info-form .form-input-block input,#contact #info-form .form-input-block textarea{background:#303843;border:none;-webkit-border-radius:10px;border-radius:10px;color:#666;font-size:14px;padding:10px;width:100%}
 #contact #info-form .form-input-block textarea{height:90px}
-#contact #info-form .form-input-block button,#contact #info-form .form-input-block input[type=submit]{position:absolute;right:0}
+#contact #info-form .form-input-block button,#contact #info-form .form-input-block input[type=submit]{position:absolute;right:0;cursor:pointer}
 #contact #up-arrow{background:#303843;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;color:#545c68;display:block;font-size:1.5em;height:25px;padding:.5em;text-decoration:none;width:25px}
 #footer{background:#303843;min-height:350px;text-align:center;}
 #footer .border-title{display:inline-block}
