@@ -103,6 +103,7 @@ body{background:#f8f8f8;font-family:Arial}
 h1{font-family:'montserratbold'}
 p{line-height:1.5em}
 ul{margin:0;padding:0}
+.round{-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
 .header{height:60px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;width:100%;z-index:100;}
 .header #logo{margin-left:10px;margin-top:10px;width:200px}
 .header #btn_nav{background:#3b434e;color:#fff;cursor:pointer;font-size:1.5em;padding:.3em;right:20px;top:20px;}
@@ -157,11 +158,12 @@ ul{margin:0;padding:0}
 #about blockquote{color:#63ad73;font-size:1.5em;line-height:1.5em;margin:0 40px;width:275px}
 #testimonials{background:url("../img/bg_testimonials.jpg") repeat #3b434e;color:#fff;height:450px;}
 #testimonials .author{font-size:12px;font-style:italic;text-align:right}
+#testimonials .avatar{width:78px;height:78px;margin-left:5px;margin-top:-10px;border:3px solid #fff}
 #testimonials #testimonial-wrapper{margin:0 auto;padding-top:40px;padding-left:1em;width:95%}
 #testimonials .icon-bubbles{color:#fff;display:block;font-size:4em;margin-right:10px;padding-bottom:.5em}
 #testimonials #slider-testimonials{display:inline-block;font-size:14px;vertical-align:top;width:95%;}
 #testimonials #slider-testimonials .border-title{position:absolute;top:-25px;width:95%}
-#testimonials #slider-testimonials #testimonial-pager{z-index:100;position:relative;top:-310px;}
+#testimonials #slider-testimonials #testimonial-pager{z-index:100;position:relative;top:-270px;}
 #testimonials #slider-testimonials #testimonial-pager a{background-color:transparent;border:1px solid #fff;-webkit-border-radius:50%;border-radius:50%;color:#3b434e;cursor:pointer;display:inline-block;font-size:12px;margin:0 3px;padding:8px}
 #testimonials #slider-testimonials #testimonial-pager .cycle-pager-active{background-color:#fff}
 .page_about #testimonials{background-attachment:fixed;background-color:#a9bf04;background-image:url("../img/bg_home.jpg");background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover}
@@ -206,6 +208,7 @@ ul{margin:0;padding:0}
 .absolute{position:absolute}
 .relative{position:relative}
 .right{float:right}
+.left{float:left}
 .hidden{display:none}
 @media only screen and (min-width:  480px){#works #works-gallery #select-gallery{display:none}
 #works #works-gallery .tabs{display:block}
@@ -229,7 +232,7 @@ ul{margin:0;padding:0}
 #testimonials .icon-bubbles{display:inline-block;margin-top:10px;font-size:5em}
 #testimonials #slider-testimonials{font-size:16px;width:600px;}
 #testimonials #slider-testimonials .border-title{width:600px}
-#testimonials #slider-testimonials #testimonial-pager{top:-270px}
+#testimonials #slider-testimonials #testimonial-pager{top:-250px}
 #contact #info-form{width:450px}
 #works #works-gallery .tabs{width:560px;}
 #works #works-gallery .tabs input{width:120px}

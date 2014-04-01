@@ -97,7 +97,7 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
   
    	setInterval( function() {
             
-            $('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step).find('.pantalla a[data-img='+step+']').show().siblings().hide();
+            $('.dispositivo').attr('data-animation-step',step = ++step > steps ? 1 : step).find('.pantalla a[data-img='+step+']').show().siblings('a').hide();
           
   
   	}, duration / steps );
