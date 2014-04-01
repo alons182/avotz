@@ -55,7 +55,6 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
 		  menu 		= $('#menu'),
 		  btnMovil 	= $('#btn_nav');
 
-		
 
 	
 	 // NAV MOBILE
@@ -65,7 +64,7 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
 	    });
 	
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 610) {
+        if ($(this).scrollTop() > 150) {
             body.addClass("afix");
         } else {
             body.removeClass("afix");
