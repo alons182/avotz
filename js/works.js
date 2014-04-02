@@ -62,7 +62,8 @@ define(function (require) {
 			    html += WorkTemplate(work);
 			  }
 
-			  return html;
+
+			 return html;
 
 
 			}
