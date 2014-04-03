@@ -14,6 +14,7 @@ define(function (require) {
 		//LOAD WORKS
 			
 			function getWorks(callback){
+
 				$.ajax({
 		    			    
 				  url : 'data/works.json',
@@ -93,7 +94,26 @@ define(function (require) {
 			  
 			}
 			
-			 getWorks(fillWorksInfo);
+			 	getWorks(fillWorksInfo);  
+			/*initWorks();
+
+			 function initWorks(){
+			 	
+			 	 debugger
+			 	 if(localStorage.getItem('selectedWork'))
+		           {
+		               
+		               var selected = '.'+ localStorage.getItem('selectedWork'); 
+		               
+		                 getWorks(filterWorks(localStorage.getItem('selectedWork')));
+		               // localStorage.removeItem('selectedWork');
+		                console.log('selectedwork');
+		           }
+		           else
+		           	   getWorks(fillWorksInfo); 
+				 
+			 }*/
+			
 			
 
 			    
@@ -109,13 +129,14 @@ define(function (require) {
 			});
 
 			function filterWorks(option){
+				debugger
 				var result =  $('.result'),
 					selector = ".result",
-					selected =  option;
+					selected =   ( localStorage.getItem('selectedWork') ) ? localStorage.getItem('selectedWork') :option;
 
-				$("div.pagination").jPages("destroy");
-			      
-			      //currentPage = 1;
+				
+				  //$("div.pagination").jPages("destroy");
+			   
 			      	      
 			      result.show();
 			      
@@ -124,8 +145,11 @@ define(function (require) {
 			      result.hide();
 
 			      $(selector).show();
-			    	      
+			     
+			     localStorage.removeItem('selectedWork');
+			     
 			     initPagination();
+
 			}
 			
 
@@ -143,6 +167,8 @@ define(function (require) {
 		        next         : false,
 		        links        : "blank"
 		      });
+
+		    
 
 			}
 

@@ -1,7 +1,7 @@
 
 require.config({
 
-    baseUrl: './js',
+    baseUrl: '/js',
 
     paths: {
         jquery: 'vendor/jquery-1.10.2.min',
@@ -100,6 +100,15 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
           
   
   	}, duration / steps );
+
+
+    //SERVICES
+
+    $('div#services-info').find('article.service a').on('click',function(){
+      
+        localStorage.setItem('selectedWork', $(this).data('service'));
+        
+    });
 
 
 
