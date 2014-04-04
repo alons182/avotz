@@ -113,7 +113,7 @@ a{text-decoration:none;color:#f39c12;font-weight:bold}
 .header #menu{margin-top:10px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
 .header #menu ul{margin:0;padding:0;}
 .header #menu ul li{background:#63ad73;display:block;text-align:center;}
-.header #menu ul li a{color:#fff;display:block;font-family:'montserratregular';font-size:13px;padding:1.5em .4em;text-decoration:none;text-transform:uppercase}
+.header #menu ul li a{color:#fff;display:block;font-family:'montserratregular';font-size:13px;padding:1.5em .4em;text-decoration:none;text-transform:uppercase;font-weight:normal}
 .header #menu ul li:hover{background:#3b434e}
 .header #menu ul .current{background:#3b434e}
 #home{background-attachment:fixed;background-color:#a9bf04;background-image:url("../img/bg_home.jpg");background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover;}
