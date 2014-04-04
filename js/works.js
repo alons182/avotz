@@ -135,7 +135,7 @@ define(function (require) {
 					selected =   ( localStorage.getItem('selectedWork') ) ? localStorage.getItem('selectedWork') :option;
 
 				
-				  //$("div.pagination").jPages("destroy");
+				  $("div.pagination").jPages("destroy");
 			   
 			      	      
 			      result.show();
