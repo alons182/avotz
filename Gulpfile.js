@@ -73,7 +73,7 @@ gulp.task('requirejsBuild', function() {
     })
      .pipe(uglify({ compress: true }))    
     //.pipe(gulp.dest('./public/js')); // pipe it to the output DIR
-    .pipe(stripDebug())
+    //.pipe(stripDebug())
     .pipe(gulp.dest('./js')); // pipe it to the output DIR
 
     gulp.src('./js/vendor/require.js')
