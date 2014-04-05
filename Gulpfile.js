@@ -27,7 +27,7 @@ gulp.task('requirejsBuild', function() {
         out: 'main.min.js',
         name: 'main',
          paths: {
-            jquery: 'vendor/jquery-1.10.2.min',
+            jquery: 'vendor/jquery-1.11.0.min',
             validate:'vendor/jquery.validate.min',
             inview:'vendor/jquery.inview.min',
             shadowbox : 'vendor/shadowbox/shadowbox',

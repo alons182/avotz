@@ -4,7 +4,7 @@ require.config({
     baseUrl: '/js',
 
     paths: {
-        jquery: 'vendor/jquery-1.10.2.min',
+        jquery: 'vendor/jquery-1.11.0.min',
         validate:'vendor/jquery.validate.min',
         inview:'vendor/jquery.inview.min',
         shadowbox : 'vendor/shadowbox/shadowbox',
@@ -70,21 +70,6 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
             body.removeClass("afix");
         }
     });
-
-   
-    $('#up-arrow').on( 'click', goPage);
-    
-    function goPage(){
-		
-		var href = $(this).attr( 'href' );
-		
-		$('html, body').animate({
-			scrollTop: $( href ).offset().top
-		});
-		
-		return false;
-    }
-
 
 	
 
