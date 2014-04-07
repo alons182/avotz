@@ -203,7 +203,8 @@ a:hover{text-decoration:underline}
 .section-page .wrapper{padding-left:1em;padding-right:1em;padding-top:50px;padding-bottom:20px;}
 .section-page .wrapper h1{color:#3b434e;font-size:2.5em;line-height:1em;margin:0;text-align:center;text-transform:uppercase}
 .page_services .section-page .wrapper,.page_works .section-page .wrapper,.page_about .section-page .wrapper,.page_contact .section-page .wrapper{padding-top:100px}
-.btn_yellow{background:#ffc43a;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 3px 1px #f39c12;box-shadow:2px 3px 1px #f39c12;color:#b26500;display:inline-block;font-weight:bold;min-width:98px;padding:1em 4em;text-align:center;text-decoration:none}
+.btn_yellow{background:#ffc43a;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 3px 1px #f39c12;box-shadow:2px 3px 1px #f39c12;color:#b26500;display:inline-block;font-weight:bold;min-width:98px;padding:1em 4em;text-align:center;text-decoration:none;}
+.btn_yellow:hover{background:#ffc43a}
 .border-title{background:#63ad73;display:block;height:8px;margin:20px auto;width:200px}
 .border-large{width:600px}
 .white-space-fix{margin-bottom:-4px;margin-right:-4px}
@@ -234,8 +235,7 @@ a:hover{text-decoration:underline}
 #home article #info{position:absolute;width:350px;}
 #home article #info a{display:inline-block;left:33px;position:relative}
 #home article #devices-animation{display:block;right:100px}
-#services #services-info .service{display:inline-block;margin:0 1em 1em 1em;vertical-align:top;width:270px;}
-#services #services-info .service p{text-align:left}
+#services #services-info .service{display:inline-block;margin:0 1em 1em 1em;vertical-align:top;width:270px}
 #testimonials,#news{display:block}
 #testimonials #testimonial-wrapper{width:750px;padding-top:120px;padding-left:0}
 #testimonials .icon-bubbles{display:inline-block;margin-top:10px;font-size:5em}
