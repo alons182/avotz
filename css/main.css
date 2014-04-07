@@ -123,7 +123,7 @@ a:hover{text-decoration:underline}
 #home article #info h1{color:#fff;font-size:2.5em;line-height:1em;margin:0;text-transform:uppercase}
 #home article #info p{color:#fff}
 #home article #info a{display:block}
-#home article #info strong{color:#ffc43a}
+#home article #info strong{font-size:19px;color:#fff}
 #home article #devices-animation{display:none;right:80px}
 #services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
 #services .services-video{width:100%;}
