@@ -104,7 +104,8 @@ body{background:#f8f8f8;font-family:Arial}
 h1{font-family:'montserratbold'}
 p{line-height:1.8em}
 ul{margin:0;padding:0}
-a{text-decoration:none;color:#f39c12;font-weight:bold}
+a{text-decoration:none;color:#f39c12;font-weight:bold;}
+a:hover{text-decoration:underline}
 .round{-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
 .header{height:60px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;width:100%;z-index:100;}
 .header #logo{margin-left:10px;margin-top:10px;width:200px}
@@ -123,7 +124,6 @@ a{text-decoration:none;color:#f39c12;font-weight:bold}
 #home article #info p{color:#fff}
 #home article #info a{display:block}
 #home article #devices-animation{display:none;right:80px}
-#services a:hover{text-decoration:underline}
 #services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
 #services .services-video{width:100%;}
 #services .services-video video{width:100%;height:auto}
@@ -139,7 +139,6 @@ a{text-decoration:none;color:#f39c12;font-weight:bold}
 #services .habilidades li:hover{text-decoration:underline}
 #works{background:#3b434e;}
 #works h1,#works p{color:#fff}
-#works a:hover{text-decoration:underline}
 #works #works-gallery #select-gallery{background:#303843;border:none;-webkit-border-radius:10px;border-radius:10px;color:#fff;font-size:14px;margin:.5em;padding:10px;width:96%}
 #works #works-gallery .tabs{height:30px;margin:100px auto 0;position:relative;width:390px;}
 #works #works-gallery .tabs input{cursor:pointer;height:40px;left:0;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);top:0;width:90px;z-index:1000;}
