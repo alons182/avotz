@@ -182,11 +182,12 @@ a{text-decoration:none;color:#f39c12;font-weight:bold}
 #news #last-post ul li .date-post{margin-right:10px}
 #contact{background:url("../img/bg_avotz.png") no-repeat top right #3b434e;}
 #contact h1,#contact p,#contact h3{color:#fff}
-#contact #info-form{padding-bottom:100px;width:95%;}
+#contact #info-form{padding-bottom:100px;width:95%;position:relative;}
 #contact #info-form .form-input-block{margin-bottom:15px;}
 #contact #info-form .form-input-block input,#contact #info-form .form-input-block textarea{background:#303843;border:none;-webkit-border-radius:10px;border-radius:10px;color:#666;font-size:14px;padding:10px;width:100%}
 #contact #info-form .form-input-block textarea{height:90px}
 #contact #info-form .form-input-block button,#contact #info-form .form-input-block input[type=submit]{position:absolute;right:0;cursor:pointer}
+#contact #info-form address{color:#fff;line-height:1.8em;margin-bottom:20px}
 #contact #up-arrow{background:#303843;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;color:#545c68;display:block;font-size:1.5em;height:25px;padding:.5em;text-decoration:none;width:25px}
 #footer{background:#303843;min-height:350px;text-align:center;}
 #footer .border-title{display:inline-block}
@@ -241,7 +242,8 @@ a{text-decoration:none;color:#f39c12;font-weight:bold}
 #testimonials #slider-testimonials{font-size:16px;width:600px;}
 #testimonials #slider-testimonials .border-title{width:600px}
 #testimonials #slider-testimonials #testimonial-pager{top:-265px}
-#contact #info-form{width:450px}
+#contact #info-form{width:450px;}
+#contact #info-form address{position:absolute;right:-290px}
 #works #works-gallery .tabs{width:560px;}
 #works #works-gallery .tabs input{width:120px}
 #works #works-gallery .tabs label{padding:5px 10px;margin-right:30px}
