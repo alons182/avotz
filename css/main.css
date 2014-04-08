@@ -215,7 +215,7 @@ a:hover{text-decoration:underline}
 .border-large{width:600px}
 .white-space-fix{margin-bottom:-4px;margin-right:-4px}
 .afix header{background:#63ad73;height:70px}
-.form-btn{background:transparent;border:1px solid #63ad73;-webkit-border-radius:10px;border-radius:10px;color:#63ad73;padding:.5em 1em;font-weight:bold}
+.form-btn{background:transparent;border:1px solid #f39c12;-webkit-border-radius:10px;border-radius:10px;color:#f39c12;padding:.5em 1em;font-weight:bold}
 .error{color:#f39c12;font-size:13px}
 .ok{color:#a9bf04}
 .clear{clear:both}
@@ -226,6 +226,7 @@ a:hover{text-decoration:underline}
 .right{float:right}
 .left{float:left}
 .hidden{display:none}
+.naranja{color:#f39c12}
 .share{margin-bottom:15px;}
 .share span{display:inline-block;vertical-align:top}
 .share .stYoutube{margin-top:-10px}
