@@ -129,6 +129,10 @@ a:hover{text-decoration:underline}
 #services blockquote{float:none;text-align:center;border:5px solid #63ad73;padding:1.5em;}
 #services blockquote .icon{font-size:5em;color:#63ad73}
 #services .service h1{font-size:2em}
+#services .service .other-services{margin-top:20px;}
+#services .service .other-services p{margin-bottom:0;color:#63ad73}
+#services .service .other-services a{color:#63ad73;padding:.3em;font-size:2.5em;text-align:center;display:inline-block;}
+#services .service .other-services a:hover{color:#f39c12;text-decoration:none}
 #services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
 #services .services-video{width:100%;}
 #services .services-video video{width:100%;height:auto}
