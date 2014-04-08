@@ -7,7 +7,7 @@ define(function (require) {
         jPages            	= require('jpages'),
         validate            = require('validate'),
         inview				= require('inview'),
-        Shadowbox    		= require('shadowbox'),
+        colorbox    		= require('colorbox'),
         $resultOut 			= $('#results-content');
 
 
@@ -32,17 +32,17 @@ define(function (require) {
 			 
 		 	   switch(work.type) {
 		 	   	case 'multimedia': 
-		 	   		work.rel = 'shadowbox;width=480;height=340;';
+		 	   		work.rel = 'multimedia';
 		 	   		break;
 		 	   	case 'diseno':
-		 	   		work.rel = 'shadowbox';
+		 	   		work.rel = 'diseno';
 		 	   		break;
 		 	   	case 'sitio':
 		 	   		work.rel = '';
 		 	   		break;
 		 	   	
 		 	   	default:
-		 	   		work.rel = 'shadowbox';
+		 	   		work.rel = 'diseno';
 		 	   		break;
 		 	   }
 			 
@@ -87,10 +87,13 @@ define(function (require) {
 
 
 			  });
+
+			 
 			 
 			 initPagination();
-			 Shadowbox.init({ skipSetup: true });
-			 Shadowbox.setup(); 
+			
+			 $('article.diseno a').colorbox({rel:'diseno'});
+			 $("article.multimedia a").colorbox({iframe:true, innerWidth:640, innerHeight:390});
 			  
 			}
 			

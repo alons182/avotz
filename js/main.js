@@ -7,7 +7,7 @@ require.config({
         jquery: 'vendor/jquery-1.11.0.min',
         validate:'vendor/jquery.validate.min',
         inview:'vendor/jquery.inview.min',
-        shadowbox : 'vendor/shadowbox/shadowbox',
+        colorbox : 'vendor/jquery.colorbox-min',
         jpages: 'vendor/jPages.min',
         cycle2: 'vendor/jquery.cycle2.min',
         handlebars:'vendor/handlebars-v1.3.0'
@@ -28,9 +28,9 @@ require.config({
             deps: ['jquery'],
             exports: 'inview'
         },
-        'shadowbox': {
+        'colorbox': {
             deps: ['jquery'],
-            exports: 'Shadowbox'
+            exports: 'colorbox'
         },
         'jpages': {
             deps: ['jquery'],
