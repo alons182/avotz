@@ -1,5 +1,26 @@
 [
 	{
+		"id":14,
+		"name":"Guanaprint",
+		"type": "sitio",
+		"img": "sitios/guanaprint.jpg",
+		"link": "http://www.guanaprint.com"
+	},
+	{
+		"id":15,
+		"name":"Bortex",
+		"type": "sitio",
+		"img": "sitios/bortex.jpg",
+		"link": "http://www.bortexcr.com"
+	},
+	{
+		"id":16,
+		"name":"Green Life Tours",
+		"type": "sitio",
+		"img": "sitios/greenlife.jpg",
+		"link": "http://www.toursgreenlife.com"
+	},
+	{
 		"id":1,
 		"name":"Rentame liberia",
 		"type": "sitio",
