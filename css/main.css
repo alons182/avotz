@@ -126,7 +126,7 @@ a:hover{text-decoration:underline}
 #home article #info a{display:block}
 #home article #info strong{font-size:19px;color:#fff}
 #home article #devices-animation{display:none;right:80px}
-#services blockquote{float:none;text-align:center;border:5px solid #63ad73;padding:.5em;}
+#services blockquote{float:none;text-align:center;border:5px solid #63ad73;padding:1.5em;}
 #services blockquote .icon{font-size:5em;color:#63ad73}
 #services .service h1{font-size:2em}
 #services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
