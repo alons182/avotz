@@ -162,6 +162,8 @@ a:hover{text-decoration:underline}
 #works #works-gallery .pagination{margin:15px auto;text-align:center}
 #works #works-gallery #results-content{min-height:375px !important}
 #about blockquote{color:#63ad73;font-size:1.5em;line-height:1.5em;margin:0 40px;width:275px}
+#about figure{width:200px;}
+#about figure img{width:100%}
 #testimonials{background:url("../img/bg_testimonials.jpg") repeat #3b434e;color:#fff;height:450px;}
 #testimonials .author{font-size:12px;font-style:italic;text-align:right}
 #testimonials .avatar{width:78px;height:78px;margin-left:5px;margin-top:-10px;border:3px solid #fff}
