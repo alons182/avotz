@@ -34,6 +34,7 @@ gulp.task('requirejsBuild', function() {
             jpages: 'vendor/jPages.min',
             cycle2: 'vendor/jquery.cycle2.min',
             handlebars:'vendor/handlebars-v1.3.0'
+          
      
         },
         shim: {
@@ -64,6 +65,7 @@ gulp.task('requirejsBuild', function() {
             deps: ['jquery'],
             exports: 'Handlebars'
         },
+         
 
         
     },

@@ -11,6 +11,7 @@ require.config({
         jpages: 'vendor/jPages.min',
         cycle2: 'vendor/jquery.cycle2.min',
         handlebars:'vendor/handlebars-v1.3.0'
+        
 
        
     },
@@ -43,7 +44,8 @@ require.config({
         'handlebars': {
             deps: ['jquery'],
             exports: 'Handlebars'
-        },
+        }
+       
         
     }
 });
