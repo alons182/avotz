@@ -95,6 +95,8 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
         
     });
 
+     $('#about a.code_qr').colorbox();
+
 
 
 
