@@ -126,7 +126,7 @@ a:hover{text-decoration:underline}
 #home article #info a{display:block}
 #home article #info strong{font-size:19px;color:#fff}
 #home article #devices-animation{display:none;right:80px}
-#services blockquote{float:none;text-align:center;}
+#services blockquote{float:none;text-align:center;border:5px solid #63ad73;padding:.5em;}
 #services blockquote .icon{font-size:5em;color:#63ad73}
 #services .service h1{font-size:2em}
 #services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
@@ -179,6 +179,9 @@ a:hover{text-decoration:underline}
 #testimonials #slider-testimonials #testimonial-pager a{background-color:transparent;border:1px solid #fff;-webkit-border-radius:50%;border-radius:50%;color:#3b434e;cursor:pointer;display:inline-block;font-size:12px;margin:0 3px;padding:8px}
 #testimonials #slider-testimonials #testimonial-pager .cycle-pager-active{background-color:#fff}
 .page_about #testimonials{background-attachment:fixed;background-color:#a9bf04;background-image:url("../img/bg_home.jpg");background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover}
+.page_services #news{background:#3b434e;}
+.page_services #news h1,.page_services #news p,.page_services #news h3{color:#fff}
+.page_services #news #last-post ul li a{color:#fff}
 #news #last-post{margin-top:40px;}
 #news #last-post ul{list-style:none;}
 #news #last-post ul li{margin:30px 0;}
