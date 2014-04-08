@@ -226,7 +226,9 @@ a:hover{text-decoration:underline}
 .right{float:right}
 .left{float:left}
 .hidden{display:none}
-.share{margin-bottom:15px}
+.share{margin-bottom:15px;}
+.share span{display:inline-block;vertical-align:top}
+.share .stYoutube{margin-top:-10px}
 @media only screen and (min-width:  480px){#works #works-gallery #select-gallery{display:none}
 #works #works-gallery .tabs{display:block}
 }@media only screen and (min-width:  750px){.header{position:fixed;}
