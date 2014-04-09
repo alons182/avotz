@@ -202,10 +202,10 @@ a:hover{text-decoration:underline}
 #contact #info-form .form-input-block button,#contact #info-form .form-input-block input[type=submit]{position:absolute;right:0;cursor:pointer}
 #contact #info-form address{color:#fff;line-height:1.8em;margin-bottom:20px}
 #contact #up-arrow{background:#303843;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;color:#545c68;display:block;font-size:1.5em;height:25px;padding:.5em;text-decoration:none;width:25px}
-#footer{background:#303843;min-height:270px;text-align:center;}
-#footer .wrapper{padding-top:30px}
+#footer{background:#303843;min-height:230px;text-align:center;}
+#footer .wrapper{padding-top:20px}
 #footer .border-title{display:inline-block}
-#footer figure{margin-bottom:20px}
+#footer figure{margin-bottom:0}
 #footer #social{text-align:center;}
 #footer #social a{color:#959595;display:inline-block;font-size:2em;margin:5px;text-decoration:none;}
 #footer #social a:hover{color:#63ad73}
