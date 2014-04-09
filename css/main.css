@@ -131,8 +131,8 @@ a:hover{text-decoration:underline}
 #services .service h1{font-size:2em}
 #services .service .other-services{margin-top:20px;text-align:center;}
 #services .service .other-services p{margin-bottom:0;font-weight:bold}
-#services .service .other-services a{color:#63ad73;padding:.3em;font-size:2.5em;text-align:center;display:inline-block;}
-#services .service .other-services a:hover{color:#f39c12;text-decoration:none}
+#services .service .other-services a{color:#63ad73;padding:.3em;font-size:2.5em;text-align:center;display:inline-block;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;position:relative;top:0;}
+#services .service .other-services a:hover{color:#f39c12;text-decoration:none;top:-10px}
 #services .services-video,#services #services-info{display:inline-block;vertical-align:top;margin-top:40px}
 #services .services-video{width:100%;}
 #services .services-video video{width:100%;height:auto}
