@@ -98,9 +98,53 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
     });
 
      $('#about a.code_qr').colorbox();
+     var $result = $('#last-post');
+
+        function getLastPost(callback){
+
+                $.ajax({
+                            
+                  url : 'http://localhost/blogavotz/helpers/get_posts.php',
+                  dataType : 'jsonp',
+            
+
+                }).done(callback);
+        }
+
+        function postListTemplate(posts) {
+              var templateHtml = $.trim( $('#postTemplate').html() );
+
+             
+              var template = Handlebars.compile( templateHtml );
+
+                
+              return template(posts);
+
+            }
 
 
+       function fillPostInfo(jsonData) {
+              if (jsonData.error) {
+                return onError();
+              }
+            var posts = $.map(jsonData ,function(obj, index){
+                return {
+                    post_title : obj.post_title,
+                    post_date : obj.post_date,
+                    post_link : obj.guid,
+                    post_author : obj.post_author_name,
+                } 
+            });
+             
+            //console.log(posts);
+             var html = postListTemplate(posts);
+             
 
+              $result.html( html );
+              
+            }
+            
+        getLastPost(fillPostInfo);  
 
 });
 
