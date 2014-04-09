@@ -197,18 +197,32 @@
 	},
 	{
 		"id":26,
+		"name":"Opener Logo para Guana Fight",
+		"type": "multimedia",
+		"img": "multimedia/opener_guanafight.jpg",
+		"link": "http://www.youtube.com/v/C8ovSKSWfC0&autoplay=1"
+	},
+	{
+		"id":27,
+		"name":"Opener Logo para Guanaprint",
+		"type": "multimedia",
+		"img": "multimedia/opener_guanaprint.jpg",
+		"link": "https://www.youtube.com/v/26OXiTcbzdc&autoplay=1"
+	},
+	{
+		"id":28,
 		"name":"Nuestros Trabajos",
 		"type": "multimedia",
 		"img": "multimedia/spot_trabajos.jpg",
 		"link": "http://www.youtube.com/v/R7fpusSl7ZU&autoplay=1"
 	},
 	{
-		"id":27,
+		"id":29,
 		"name":"Navidad",
 		"type": "multimedia",
 		"img": "multimedia/msj_navidad.jpg",
 		"link": "http://www.youtube.com/v/4gEEWfkVsZE&autoplay=1"
 	}
-	
+
  
 ]
