@@ -33,7 +33,8 @@ gulp.task('requirejsBuild', function() {
             colorbox : 'vendor/jquery.colorbox-min',
             jpages: 'vendor/jPages.min',
             cycle2: 'vendor/jquery.cycle2.min',
-            handlebars:'vendor/handlebars-v1.3.0'
+            handlebars:'vendor/handlebars-v1.3.0',
+            timeago:'vendor/jquery.timeago'
           
      
         },
@@ -65,6 +66,11 @@ gulp.task('requirejsBuild', function() {
             deps: ['jquery'],
             exports: 'Handlebars'
         },
+         'timeago': {
+            deps: ['jquery'],
+            exports: 'timeago'
+        }
+       
          
 
         

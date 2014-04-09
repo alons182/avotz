@@ -10,7 +10,9 @@ require.config({
         colorbox : 'vendor/jquery.colorbox-min',
         jpages: 'vendor/jPages.min',
         cycle2: 'vendor/jquery.cycle2.min',
-        handlebars:'vendor/handlebars-v1.3.0'
+        handlebars:'vendor/handlebars-v1.3.0',
+        timeago:'vendor/jquery.timeago'
+        
         
 
        
@@ -44,13 +46,17 @@ require.config({
         'handlebars': {
             deps: ['jquery'],
             exports: 'Handlebars'
+        },
+         'timeago': {
+            deps: ['jquery'],
+            exports: 'timeago'
         }
        
         
     }
 });
 
-require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
+require(['jquery', 'cycle2','./works','./formvalidation','timeago'], function ($) {
 	  
 	  
 	  var body 		= $('body.page_home'),
@@ -104,7 +110,7 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
 
                 $.ajax({
                             
-                  url : 'http://localhost/blogavotz/helpers/get_posts.php',
+                  url : 'http://blog.avotz.com/helpers/get_posts.php',
                   dataType : 'jsonp',
             
 
@@ -136,7 +142,7 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
                 } 
             });
              
-            //console.log(posts);
+            console.log(jsonData);
              var html = postListTemplate(posts);
              
 
@@ -144,7 +150,9 @@ require(['jquery', 'cycle2','./works','./formvalidation'], function ($) {
               
             }
             
-        getLastPost(fillPostInfo);  
+        getLastPost(fillPostInfo); 
+
+        $('.date-post').timeago();
 
 });
 
