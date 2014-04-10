@@ -1,0 +1,704 @@
+
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+@import "devices.styl"
+
+@font-face {
+	font-family: 'montserratbold';
+	src: url('../fonts/montserrat-bold-webfont.eot');
+	src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+		 url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+		 url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'montserratregular';
+	src: url('../fonts/montserrat-regular-webfont.eot');
+	src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+		 url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+$lima = #a9bf04
+$amarillo = #ffc43a
+$turquesa = #63ad73
+$turquesa2 = #7cb585
+$oscuro = #3b434e
+$naranja = #f39c12
+
+body
+	background #f8f8f8
+	font-family Arial
+
+h1
+	font-family 'montserratbold'
+p 
+	line-height 1.8em
+
+ul 
+	margin 0
+	padding 0
+a 
+	text-decoration none
+	color $naranja
+	font-weight bold
+
+	&:hover 
+		text-decoration underline
+
+
+.round
+	border-radius 50%
+	overflow hidden
+.header
+	height 60px
+	transition: all .3s 
+	width 100%
+	z-index 100
+
+	#logo
+		
+		margin-left 10px
+		margin-top 10px
+		width 200px
+	#btn_nav
+		background $oscuro
+		color #FFF
+		cursor pointer
+		font-size 1.5em
+		padding .3em
+		right 20px
+		top 20px
+
+
+		.icon-menu
+			color $azul
+			vertical-align middle
+	#menu
+		margin-top 10px
+		transition all .3s
+
+		ul 
+			margin 0
+			padding 0
+
+			li 
+				background $turquesa
+				display block
+				text-align center
+
+				a 
+					color #fff
+					display block
+					font-family 'montserratregular'
+					font-size 13px
+					padding 1.5em .4em
+					text-decoration none
+					text-transform uppercase
+					font-weight normal
+					
+					
+				&:hover 
+					background $oscuro
+			.current
+				background $oscuro
+
+#home
+	background-attachment fixed
+	background-color $lima
+	background-image url('../img/bg_home.jpg')
+	background-position center  center
+	background-repeat no-repeat
+	background-size cover, cover
+
+	article
+		top 60px
+
+		#info
+			width 100%
+			
+			
+			h1
+				color #fff
+				font-size 2.5em
+				line-height 1em
+				margin 0
+				text-transform uppercase
+			p 
+				color #fff
+				
+			a 
+				display block
+
+			strong
+				font-size 19px
+				color #FFF
+				
+				
+				
+
+				
+		#devices-animation
+			display none
+			right 80px
+#services
+			
+	blockquote
+		float none
+		text-align center
+		border 5px solid $turquesa
+		padding 1.5em
+		.icon
+			font-size 5em
+			color $turquesa
+	.service
+		h1
+			font-size 2em
+
+		.other-services
+			margin-top 20px
+			text-align center
+			p 
+				margin-bottom 0
+				font-weight bold
+			a
+				color $turquesa
+				padding .3em
+				font-size 2.5em
+				text-align center
+				display inline-block
+				transition all .5s ease 
+				position relative
+				top 0
+
+				&:hover
+					color $naranja
+					text-decoration none
+					top -10px
+
+	
+	.services-video
+	#services-info
+		display inline-block
+		vertical-align top
+		margin-top 40px
+	.services-video
+		width 100%
+		
+
+		iframe
+			border 5px solid $turquesa 
+			
+		
+
+	#services-info
+				
+		.service 
+			display block
+			width 100%
+			
+			.icon
+				color $turquesa
+				display block
+				font-size 4em
+				
+			h3 
+				font-size 1.2em
+				font-weight bold
+				margin-bottom 0
+				margin-top 10px
+			a:hover
+				text-decoration underline 
+			
+	.habilidades
+		list-style none
+		li 
+			background $turquesa
+			margin .3em
+
+			&:nth-child(even)
+				background $turquesa2
+
+			&:before
+				content '+'
+				float left
+				color #FFF
+				padding .3em
+				background rgba(255,255,255,.2)
+			a 
+				color white
+				padding .5em 0em .5em 1.8em
+				display block
+				font-size .8em
+				text-decoration none
+				font-weight normal 
+			&:hover
+				text-decoration underline			
+#works
+	background $oscuro
+	
+	h1
+	p
+		color #fff
+	
+
+	
+	#works-gallery
+		
+		#select-gallery
+			background #303843
+			border none
+			border-radius 10px
+			color #FFF
+			font-size 14px
+			margin .5em
+			padding 10px
+			width 96%
+			
+		.tabs
+			height 30px
+			margin 100px auto 0
+			position relative
+			width 390px
+
+
+
+			input 
+				cursor pointer
+				height 40px
+				left 0px
+				opacity 0
+				top 0px
+				width 90px
+				z-index 1000
+				
+				&:hover + label
+					color $lima
+
+				&:checked + label 
+					background $turquesa
+					color #FFF
+					z-index 6
+
+			#tab-2
+				left 90px
+
+			#tab-3
+				left 189px
+
+			#tab-4
+				left 284px
+
+			label 
+				border-radius 10px
+				color #FFF
+				display block
+				float left
+				font-size .8em
+				height 30px
+				letter-spacing 1px
+				line-height 30px
+				margin-right 5px
+				padding 5px 0px
+				text-align center
+				text-transform uppercase
+				transition all 0.5s ease
+				width 90px
+		 
+				&:first-of-type 
+					z-index 4
+				&:after 
+					bottom -2px
+					content ''
+					display block
+					height 2px
+					left 0
+					position absolute
+					width 100%
+
+		 
+			.tab-label-2 
+				z-index 3
+			
+
+			.tab-label-3 
+				z-index 2
+			
+		 
+			.tab-label-4 
+				z-index 1
+
+
+		.trabajo
+			display inline-block
+			vertical-align top
+			width 50%//16.84%//270px
+			
+			.overlay
+				background rgba(59,67,78,0.4)
+				display block
+				height 98%
+				top 0
+				transition all 0.5s ease
+				width 100%
+
+			figure img
+				height 100%
+				width 100%
+
+
+			a
+				color white
+				display block
+				text-decoration none
+
+			&:hover 
+				.overlay
+					top -180px
+
+	
+
+		.pagination
+			margin: 15px auto;
+			text-align center
+		#results-content
+			min-height 375px !important
+#about
+	blockquote
+		text-align center
+		color $turquesa
+		line-height 1.5em
+		font-size 1em
+		figure 
+				
+			width 150px
+			border 5px solid $turquesa
+			padding 1.5em
+			margin 0 auto
+			img
+				width 100%
+#testimonials
+	background url('../img/bg_testimonials.jpg') repeat $oscuro
+	color white
+	height 450px
+	
+	.author
+		font-size 12px
+		font-style italic
+		text-align right
+	.avatar
+		width 78px
+		height 78px
+		margin-left 5px
+		margin-top -10px
+		border 3px solid white
+
+	#testimonial-wrapper
+		margin 0 auto
+		padding-top 40px//120px
+		padding-left 1em
+		width 95% //750px
+	
+	.icon-bubbles
+		color white
+		display block
+		font-size 4em
+		margin-right 10px
+		padding-bottom .5em
+		
+
+	#slider-testimonials
+		display inline-block
+		font-size 14px//18px
+		vertical-align top
+		width 95%//600px
+
+		.border-title
+			position absolute
+			top -25px
+			width 95%//600px
+
+		#testimonial-pager 
+			z-index 100
+			position relative
+			top -290px
+			a 
+				background-color transparent
+				border 1px solid white
+				border-radius 50%
+				color $oscuro
+				cursor pointer
+				display inline-block
+				font-size 12px
+				margin 0 3px
+				padding 8px
+
+			.cycle-pager-active 
+				background-color #fff
+
+.page_about 
+	#testimonials 
+		background-attachment fixed
+		background-color $lima
+		background-image url('../img/bg_home.jpg')
+		background-position center  center
+		background-repeat no-repeat
+		background-size cover, cover
+.page_services
+	#news
+		background $oscuro
+		
+		h1
+		p
+		h3
+			color #FFF
+		#last-post
+			ul 
+				li
+					a 
+						color #FFF
+
+#news
+	#last-post
+		margin-top 40px
+		
+		ul 
+			list-style none
+
+			li
+				margin 30px 0
+
+				a 
+					color $naranja
+					display block 
+					font-weight bold
+					text-decoration none
+					text-transform uppercase
+					
+					&:hover
+						text-decoration underline
+
+				span 
+					color #959595
+					display inline-block
+					font-size 13px
+
+				.date-post
+					margin-right 10px
+
+#contact
+	background url('../img/bg_avotz.png') no-repeat top right $oscuro
+	
+	h1
+	p
+	h3
+		color #fff
+
+	#info-form
+		padding-bottom 100px
+		width 95%//450px
+		position relative
+
+		.form-input-block
+			margin-bottom 15px
+			
+			input
+			textarea 
+				background #303843
+				border none
+				border-radius 10px
+				color #fff
+				font-size 14px
+				padding 10px
+				width 100%
+			textarea
+				height 90px
+
+			button
+			input[type=submit]
+				position absolute
+				right 0
+				cursor pointer
+		address
+			color #FFF
+			line-height 1.8em
+			margin-bottom 20px
+			
+
+	#up-arrow
+		background #303843
+		border-radius 10px 10px 0 0
+		color #545c68
+		display block
+		font-size 1.5em
+		height 25px
+		padding .5em
+		text-decoration none
+		width 25px 
+
+
+#footer
+	background #303843
+	min-height 230px
+	text-align center
+	.wrapper
+		padding-top 20px
+
+	.border-title
+		display inline-block
+
+	figure
+		margin-bottom 0
+
+	#social
+		text-align center
+
+		a 
+			color #959595
+			display inline-block
+			font-size 2em
+			margin 5px
+			text-decoration none
+			&:hover
+				color $turquesa
+
+	#copyright
+		background #282f38
+		bottom 0
+		color #959595
+		height 40px
+		width 100%
+
+		#copyright-wrapper
+			margin 0 auto
+
+		p 
+			margin 10px 0
+			font-size 13px
+			
+.bold 
+	font-weight bold 
+	color $turquesa
+		
+.wrapper
+	margin 0 auto
+	max-width 960px
+
+.section-page
+	min-height 450px
+
+	.wrapper
+
+		
+		padding-left 1em
+		padding-right 1em
+		padding-top 50px
+		padding-bottom 20px
+		
+		h1 
+			color $oscuro
+			font-size 2.5em
+			line-height 1em
+			margin 0
+			text-align center
+			text-transform uppercase
+
+.page_services
+.page_works
+.page_about
+.page_contact
+		.section-page
+			.wrapper
+				padding-top 100px
+				
+
+.btn_yellow
+	background $amarillo
+	border-radius 10px
+	box-shadow 2px 3px 1px $naranja
+	color #b26500
+	display inline-block
+	font-weight bold
+	min-width 98px
+	padding 1em 4em
+	text-align center
+	text-decoration none
+
+	&:hover
+		background #f6b92b
+		
+
+.border-title
+	background $turquesa
+	display block
+	height 8px
+	margin 20px auto
+	width 200px
+.border-large
+	width 600px
+
+.white-space-fix
+	margin-bottom -4px
+	margin-right -4px
+
+.afix 
+	header
+		background $turquesa
+		height 70px
+
+.form-btn
+	background transparent
+	border 1px solid $naranja
+	border-radius 10px
+	color $naranja
+	padding .5em 1em
+	font-weight bold
+
+.error
+	color $naranja
+	font-size 13px
+
+.ok
+	color $lima
+
+.clear 
+	clear both
+
+.overflow
+	overflow hidden
+.center-text
+	text-align center
+.absolute
+	position absolute
+.relative
+	position relative
+.right 
+	float right
+.left 
+	float left
+.hidden
+	display none
+.naranja
+	color $naranja
+.italic
+	font-style italic
+.share
+	margin-bottom 15px
+	span 
+		display inline-block
+		vertical-align top
+	.stYoutube
+		margin-top -10px
+
+@import "responsive.styl"	
+@import "shadowbox.styl"
+@import "jPages.styl"
+@import "animate.styl"
