@@ -189,7 +189,7 @@ a:hover{text-decoration:underline}
 #news #last-post{margin-top:40px;}
 #news #last-post ul{list-style:none;}
 #news #last-post ul li{margin:30px 0;}
-#news #last-post ul li a{color:#3b434e;display:block;font-weight:bold;text-decoration:none;text-transform:uppercase;}
+#news #last-post ul li a{color:#f39c12;display:block;font-weight:bold;text-decoration:none;text-transform:uppercase;}
 #news #last-post ul li a:hover{text-decoration:underline}
 #news #last-post ul li span{color:#959595;display:inline-block;font-size:13px}
 #news #last-post ul li .date-post{margin-right:10px}
