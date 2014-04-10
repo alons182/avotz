@@ -218,6 +218,13 @@
 	},
 	{
 		"id":29,
+		"name":"Servicios Avotz",
+		"type": "multimedia",
+		"img": "multimedia/services_avotz.jpg",
+		"link": "https://www.youtube.com/v/Y4xJ_GDXiZk&autoplay=1"
+	},
+	{
+		"id":30,
 		"name":"Navidad",
 		"type": "multimedia",
 		"img": "multimedia/msj_navidad.jpg",
