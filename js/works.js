@@ -90,7 +90,7 @@ define(function (require) {
 
 			 
 			 
-			 initPagination();
+			 //initPagination();
 			
 			 $('article.diseno a').colorbox({rel:'diseno'});
 			 $("article.multimedia a").colorbox({iframe:true, innerWidth:640, innerHeight:390});
@@ -125,21 +125,20 @@ define(function (require) {
 				
 				filterWorks($(this).data('selected'));
 				
-				
 			});
 			$('#select-gallery').on('change',function(){
 				filterWorks($(this).val());
 			});
 
 			function filterWorks(option){
-				debugger
+				//debugger
 				var result =  $('.result'),
 					selector = ".result",
 					selected =   ( localStorage.getItem('selectedWork') ) ? localStorage.getItem('selectedWork') :option;
 
 				
-				  $("div.pagination").jPages("destroy");
-			   
+				 // $("div.pagination").jPages("destroy");
+			      result.hide();
 			      	      
 			      result.show();
 			      
@@ -150,8 +149,13 @@ define(function (require) {
 			      $(selector).show();
 			     
 			     localStorage.removeItem('selectedWork');
-			     
-			     initPagination();
+
+			     /*if(option === 'all')
+				 {
+					
+				    initPagination();
+				 }*/
+			    
 
 			}
 			
