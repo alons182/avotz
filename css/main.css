@@ -137,9 +137,11 @@ a:hover{text-decoration:underline}
 #services .services-video{width:100%;}
 #services .services-video iframe{border:5px solid #63ad73}
 #services #services-info .service{display:block;width:100%;}
-#services #services-info .service .icon{color:#63ad73;display:block;font-size:4em}
-#services #services-info .service h3{font-size:1.2em;font-weight:bold;margin-bottom:0;margin-top:10px}
-#services #services-info .service a:hover{text-decoration:underline}
+#services #services-info .service .icon{color:#63ad73;display:block;font-size:4em;position:relative;top:0;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease}
+#services #services-info .service h3{font-size:1.2em;font-weight:bold;margin-bottom:0;margin-top:10px;color:#3b434e}
+#services #services-info .service a:hover{text-decoration:none;}
+#services #services-info .service a:hover .icon{top:-10px;color:#f39c12}
+#services #services-info .service p a:hover{text-decoration:underline}
 #services .habilidades{list-style:none;}
 #services .habilidades li{background:#63ad73;margin:.3em;}
 #services .habilidades li:nth-child(even){background:#7cb585}
