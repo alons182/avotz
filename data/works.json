@@ -7,25 +7,33 @@
 		"link": "http://www.guanaprint.com"
 	},
 	{
+		"id":2,
+		"name":"3monkies",
+		"type": "sitio",
+		"img": "sitios/3monkiescr.jpg",
+		"link": "http://www.3monkiescr.com"
+	},
+	
+	{
 		"id":32,
+		"name":"Green Life Tours",
+		"type": "sitio",
+		"img": "sitios/greenlife.jpg",
+		"link": "http://www.toursgreenlife.com"
+	},
+	{
+		"id":33,
 		"name":"Horizon Costa Rica",
 		"type": "sitio",
 		"img": "sitios/horizon.jpg",
 		"link": "http://www.horizoncostarica.com"
 	},
 	{
-		"id":33,
+		"id":34,
 		"name":"Bortex",
 		"type": "sitio",
 		"img": "sitios/bortex.jpg",
 		"link": "http://www.bortexcr.com"
-	},
-	{
-		"id":34,
-		"name":"Green Life Tours",
-		"type": "sitio",
-		"img": "sitios/greenlife.jpg",
-		"link": "http://www.toursgreenlife.com"
 	},
 	
 	{
@@ -35,13 +43,8 @@
 		"img": "sitios/rentameliberia.jpg",
 		"link": "http://www.rentameliberia.com"
 	},
-	{
-		"id":2,
-		"name":"3monkies",
-		"type": "sitio",
-		"img": "sitios/3monkiescr.jpg",
-		"link": "http://www.3monkiescr.com"
-	},
+		
+	
 	{
 		"id":3,
 		"name":"cepiacostarica",
