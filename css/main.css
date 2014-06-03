@@ -119,11 +119,12 @@ a:hover{text-decoration:underline}
 .header #menu ul li:hover{background:#3b434e}
 .header #menu ul .current{background:#3b434e}
 #home{background-attachment:fixed;background-color:#a9bf04;background-image:url("../img/bg_home.jpg");background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover,cover;-moz-background-size:cover,cover;background-size:cover,cover;}
-#home article{top:60px;}
+#home article{top:40px;}
 #home article #info{width:100%;}
 #home article #info h1{color:#fff;font-size:2.5em;line-height:1em;margin:0;text-transform:uppercase}
 #home article #info p{color:#fff}
 #home article #info a{display:block}
+#home article #info .contact{margin-bottom:10px}
 #home article #info strong{font-size:19px;color:#fff}
 #home article #devices-animation{display:none;right:80px}
 #services blockquote{float:none;text-align:center;border:5px solid #63ad73;padding:1.5em;}
@@ -216,7 +217,7 @@ a:hover{text-decoration:underline}
 #footer #copyright p{margin:10px 0;font-size:13px}
 .bold{font-weight:bold;color:#63ad73}
 .wrapper{margin:0 auto;max-width:960px}
-.section-page{min-height:450px;}
+.section-page{min-height:490px;}
 .section-page .wrapper{padding-left:1em;padding-right:1em;padding-top:50px;padding-bottom:20px;}
 .section-page .wrapper h1{color:#3b434e;font-size:2.5em;line-height:1em;margin:0;text-align:center;text-transform:uppercase}
 .page_services .section-page .wrapper,.page_works .section-page .wrapper,.page_about .section-page .wrapper,.page_contact .section-page .wrapper{padding-top:100px}
@@ -291,7 +292,7 @@ a:hover{text-decoration:underline}
 #services .services-video{width:20em}
 #services #services-info{margin-top:40px;width:39em;margin-left:.5em;}
 #services #services-info .service:nth-child(even){margin-right:0}
-}@media only screen and (min-width:  1100px){#home article #info{padding:0;position:absolute;width:475px;}
+}@media only screen and (min-width:  1100px){#home article #info{padding:0;position:absolute;width:475px;margin-top:-55px;}
 #home article #info h1{font-size:4em}
 #home article #devices-animation{right:0}
 #works #works-gallery .trabajo{width:16.84%}
