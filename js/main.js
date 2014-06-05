@@ -107,7 +107,7 @@ require(['jquery', 'cycle2','./works','./formvalidation','timeago'], function ($
      var $result = $('#last-post');
 
         function getLastPost(callback){
-
+            //ajax
                 $.ajax({
                             
                   url : 'http://www.avotz.com/blog/helpers/get_posts.php',
