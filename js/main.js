@@ -110,7 +110,7 @@ require(['jquery', 'cycle2','./works','./formvalidation','timeago'], function ($
 
                 $.ajax({
                             
-                  url : 'http://blog.avotz.com/helpers/get_posts.php',
+                  url : 'http://www.avotz.com/blog/helpers/get_posts.php',
                   dataType : 'jsonp',
             
 
