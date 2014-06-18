@@ -23,13 +23,20 @@
 	},
 	{
 		"id":33,
+		"name":"Uninpe",
+		"type": "sitio",
+		"img": "sitios/uninpe.jpg",
+		"link": "http://www.uninpe.com"
+	},
+	{
+		"id":34,
 		"name":"Horizon Costa Rica",
 		"type": "sitio",
 		"img": "sitios/horizon.jpg",
 		"link": "http://www.horizoncostarica.com"
 	},
 	{
-		"id":34,
+		"id":35,
 		"name":"Bortex",
 		"type": "sitio",
 		"img": "sitios/bortex.jpg",
