@@ -1,5 +1,13 @@
 [
 	{
+		"id":36,
+		"name":"Fashion Factory",
+		"type": "sitio",
+		"img": "sitios/fashionfactory.jpg",
+		"link": "http://www.fashionfactorycr.com"
+	},
+	{
+
 		"id":31,
 		"name":"Guanaprint",
 		"type": "sitio",
