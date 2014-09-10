@@ -223,7 +223,7 @@ a:hover{text-decoration:underline}
 .page_services .section-page .wrapper,.page_works .section-page .wrapper,.page_about .section-page .wrapper,.page_contact .section-page .wrapper{padding-top:100px}
 .btn_yellow,.btn_red{background:#ffc43a;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 3px 1px #f39c12;box-shadow:2px 3px 1px #f39c12;color:#b26500;display:inline-block;font-weight:bold;min-width:98px;padding:1em 4em;text-align:center;text-decoration:none;}
 .btn_yellow:hover,.btn_red:hover{background:#f6b92b}
-.btn_red{background:#f26c52;-webkit-box-shadow:2px 3px 1px #c63b20;box-shadow:2px 3px 1px #c63b20;color:#fff;}
+.btn_red{background:#f00;-webkit-box-shadow:2px 3px 1px #c63b20;box-shadow:2px 3px 1px #c63b20;color:#fff;}
 .btn_red:hover{background:#e74c2e}
 .border-title{background:#63ad73;display:block;height:8px;margin:20px auto;width:200px}
 .border-large{width:600px}
