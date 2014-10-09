@@ -1,5 +1,12 @@
 [
 	{
+		"id":37,
+		"name":"Best Quality",
+		"type": "sitio",
+		"img": "sitios/bestquality.jpg",
+		"link": "http://www.best-qualitys.com"
+	},
+	{
 		"id":36,
 		"name":"Fashion Factory",
 		"type": "sitio",
