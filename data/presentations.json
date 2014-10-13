@@ -1,0 +1,18 @@
+[
+	{
+		"id":1,
+		"name":"E-marketing & Web Sites, the big picture",
+		"img": "presentaciones/e-marketing.png",
+		"link": "/presentaciones/e-marketing-and-websites.html",
+		"author": "Gerardo Oporto Zuñiga",
+		"date": "2013-10-07"
+	},
+	{
+		"id":2,
+		"name":"Marketing Digital",
+		"img": "presentaciones/marketing-digital.png",
+		"link": "/presentaciones/marketing-digital.html",
+		"author": "Gerardo Oporto Zuñiga",
+		"date": "2013-10-13"
+	}
+]

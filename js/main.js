@@ -56,7 +56,7 @@ require.config({
     }
 });
 
-require(['jquery', 'cycle2','./works','./formvalidation','timeago'], function ($) {
+require(['jquery', 'cycle2','./works','./presentations','./formvalidation','timeago'], function ($) {
 	  
 	  
 	  var body 		= $('body.page_home'),
@@ -153,6 +153,8 @@ require(['jquery', 'cycle2','./works','./formvalidation','timeago'], function ($
         getLastPost(fillPostInfo); 
 
         $('.date-post').timeago();
+
+   
 
 });
 
