@@ -37,12 +37,10 @@ define(function (require) {
               if (jsonData.error) {
                 return onError();
               }
-              console.log(jsonData);
-           
+                       
             
              var html = presentationsListTemplate(jsonData);
-             console.log(html);
-
+             
              $resultOut.html( html );
               
             }
