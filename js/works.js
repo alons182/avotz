@@ -17,7 +17,7 @@ define(function (require) {
 
 				$.ajax({
 		    			    
-				  url : 'data/works.json',
+				  url : '/data/works.json',
 				  dataType : 'json',
 		  	
 
