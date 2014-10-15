@@ -208,7 +208,7 @@ a:hover{text-decoration:underline}
 #contact #up-arrow{background:#303843;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;color:#545c68;display:block;font-size:1.5em;height:25px;padding:.5em;text-decoration:none;width:25px}
 #presentations iframe,#presentations .presentation-description{display:inline-block;vertical-align:top;margin-right:1em}
 #presentations iframe{width:100%}
-#presentations .presentation-description{width:385px;margin-right:0}
+#presentations .presentation-description{width:430px;margin-right:0}
 #footer{background:#303843;min-height:230px;text-align:center;}
 #footer .wrapper{padding-top:20px}
 #footer .border-title{display:inline-block}
