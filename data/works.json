@@ -1,5 +1,12 @@
 [
 	{
+		"id":38,
+		"name":"Guanabikers",
+		"type": "sitio",
+		"img": "sitios/guanabikers.jpg",
+		"link": "http://www.guanabikers.com"
+	},
+	{
 		"id":37,
 		"name":"Best Quality",
 		"type": "sitio",
