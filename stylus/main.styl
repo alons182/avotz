@@ -111,6 +111,26 @@ a
 					background $oscuro
 			.current
 				background $oscuro
+				
+			.submenu
+				display none
+				position absolute
+				background $turquesa
+				padding .5em 
+				text-align left
+				
+				li 
+					margin 0
+					border none
+					a 
+						color #FFF
+						padding .5em
+						display block
+					
+						&:hover
+							background $lima
+							color #FFF
+	
 
 #home
 	background-attachment fixed
@@ -406,6 +426,10 @@ a
 	color white
 	height 450px
 	
+	.opinion
+		p 
+			font-size 14px
+	
 	.author
 		font-size 12px
 		font-style italic
@@ -445,7 +469,7 @@ a
 		#testimonial-pager 
 			z-index 100
 			position relative
-			top -290px
+			top -30px
 			a 
 				background-color transparent
 				border 1px solid white

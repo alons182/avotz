@@ -11,7 +11,8 @@ require.config({
         jpages: 'vendor/jPages.min',
         cycle2: 'vendor/jquery.cycle2.min',
         handlebars:'vendor/handlebars-v1.3.0',
-        timeago:'vendor/jquery.timeago'
+        timeago:'vendor/jquery.timeago',
+        hoverintent:'vendor/jquery.hoverIntent.minified'
         
         
 
@@ -50,13 +51,17 @@ require.config({
          'timeago': {
             deps: ['jquery'],
             exports: 'timeago'
+        },
+        'hoverintent': {
+            deps: ['jquery'],
+            exports: 'hoverintent'
         }
        
         
     }
 });
 
-require(['jquery', 'cycle2','./works','./presentations','./formvalidation','timeago'], function ($) {
+require(['jquery', 'cycle2','./works','./presentations','./formvalidation','timeago','hoverintent'], function ($) {
 	  
 	  
 	  var body 		= $('body.page_home'),
@@ -70,6 +75,17 @@ require(['jquery', 'cycle2','./works','./presentations','./formvalidation','time
 	        menu.toggle();
 	       
 	    });
+
+        menu.find(".parent").hoverIntent({
+        over: function() {
+                  $(this).find(">.submenu").slideDown(200 );
+                },
+        out:  function() {
+                  $(this).find(">.submenu").slideUp(200);
+                },
+        timeout: 200
+
+        });
 	
     $(window).scroll(function () {
         if ($(this).scrollTop() > 150) {

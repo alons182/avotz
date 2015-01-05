@@ -34,7 +34,8 @@ gulp.task('requirejsBuild', function() {
             jpages: 'vendor/jPages.min',
             cycle2: 'vendor/jquery.cycle2.min',
             handlebars:'vendor/handlebars-v1.3.0',
-            timeago:'vendor/jquery.timeago'
+            timeago:'vendor/jquery.timeago',
+            hoverintent:'vendor/jquery.hoverIntent.minified'
           
      
         },
@@ -69,6 +70,10 @@ gulp.task('requirejsBuild', function() {
          'timeago': {
             deps: ['jquery'],
             exports: 'timeago'
+        },
+        'hoverintent': {
+            deps: ['jquery'],
+            exports: 'hoverintent'
         }
        
          
