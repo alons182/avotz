@@ -51,13 +51,6 @@
 		"link": "http://www.uninpe.com"
 	},
 	{
-		"id":34,
-		"name":"Horizon Costa Rica",
-		"type": "sitio",
-		"img": "sitios/horizon.jpg",
-		"link": "http://www.horizoncostarica.com"
-	},
-	{
 		"id":35,
 		"name":"Bortex",
 		"type": "sitio",
@@ -273,3 +266,5 @@
 
  
 ]
+
+
