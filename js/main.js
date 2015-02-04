@@ -12,8 +12,8 @@ require.config({
         cycle2: 'vendor/jquery.cycle2.min',
         handlebars:'vendor/handlebars-v1.3.0',
         timeago:'vendor/jquery.timeago',
-        hoverintent:'vendor/jquery.hoverIntent.minified'
-        
+        hoverintent:'vendor/jquery.hoverIntent.minified',
+        stickyfloat:'vendor/stickyfloat.min'
         
 
        
@@ -55,25 +55,36 @@ require.config({
         'hoverintent': {
             deps: ['jquery'],
             exports: 'hoverintent'
+        },
+        'stickyfloat': {
+            deps: ['jquery'],
+            exports: 'stickyfloat'
         }
        
         
     }
 });
 
-require(['jquery', 'cycle2','./works','./presentations','./formvalidation','timeago','hoverintent'], function ($) {
+require(['jquery', 'cycle2','./works','./presentations','./formvalidation','timeago','hoverintent','stickyfloat'], function ($) {
 	  
 	  
 	  var body 		= $('body.page_home'),
 		  menu 		= $('#menu'),
 		  btnMovil 	= $('#btn_nav');
-
+          
+         
         //POPUP
-        $.colorbox({
-            href:"popup.html"//,
+        if(body.length > 0 ){
+            $.colorbox({
+                href:"/popup.html"//,
+                //width: 650,
+                });
+        }
+        $('.btn-regalo').stickyfloat({ duration: 400,offsetY: 180 });
+	    $('.btn-regalo').colorbox({
+            href:"/popup.html"//,
             //width: 650,
             });
-	
 	 // NAV MOBILE
 	    btnMovil.click(function(){
 	        menu.toggle();

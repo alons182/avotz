@@ -35,8 +35,8 @@ gulp.task('requirejsBuild', function() {
             cycle2: 'vendor/jquery.cycle2.min',
             handlebars:'vendor/handlebars-v1.3.0',
             timeago:'vendor/jquery.timeago',
-            hoverintent:'vendor/jquery.hoverIntent.minified'
-          
+            hoverintent:'vendor/jquery.hoverIntent.minified',
+            stickyfloat:'vendor/stickyfloat.min'
      
         },
         shim: {
@@ -74,6 +74,10 @@ gulp.task('requirejsBuild', function() {
         'hoverintent': {
             deps: ['jquery'],
             exports: 'hoverintent'
+        },
+        'stickyfloat': {
+            deps: ['jquery'],
+            exports: 'stickyfloat'
         }
        
          
