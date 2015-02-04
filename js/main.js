@@ -68,7 +68,11 @@ require(['jquery', 'cycle2','./works','./presentations','./formvalidation','time
 		  menu 		= $('#menu'),
 		  btnMovil 	= $('#btn_nav');
 
-
+        //POPUP
+        $.colorbox({
+            href:"popup.html"//,
+            //width: 650,
+            });
 	
 	 // NAV MOBILE
 	    btnMovil.click(function(){
