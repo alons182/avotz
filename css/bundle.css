@@ -249,6 +249,13 @@ a:hover{text-decoration:underline}
 #presentations .presentation-description,#presentations iframe{display:inline-block;vertical-align:top;margin-right:1em}
 #presentations iframe{width:100%}
 #presentations .presentation-description{width:430px;margin-right:0}
+#responsabilidad .project-resp{margin-bottom:2em;padding:.5em;min-height:170px;border-bottom:5px solid #63ad73;position:relative}
+#responsabilidad .project-resp .image{position:absolute;width:270px}
+#responsabilidad .project-resp .image a{display:block}
+#responsabilidad .project-resp .image img{width:100%}
+#responsabilidad .project-resp .info{margin-left:285px}
+#responsabilidad .project-resp h3{margin:0}
+#responsabilidad .project-resp small{color:#a9bf04}
 #footer{background:#303843;min-height:230px;text-align:center}
 #footer .wrapper{padding-top:20px}
 #footer .border-title{display:inline-block}
