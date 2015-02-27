@@ -109,12 +109,16 @@
         <a href="#" class="btn-regalo"><img src="img/btn-regalo.png" alt="Regalo" /></a>
         <script id="workTemplate" type="text/x-handlebars-template">
 
-          <article class="white-space-fix trabajo relative overflow result {{ type }} animated wobble">
-
+          <article class="white-space-fix trabajo relative overflow result {{ type }}  " style="background-image:url('/img/trabajos/{{ img }}')">
                 <figure>
                     <a href="{{ link }}" target="_blank" rel="{{ rel }}"  >
-                    <div class="overlay absolute"></div>
-                        <img src="img/blank.png" alt="{{ name }}" data-src="img/trabajos/{{ img }}" />
+                    <h3 class="trabajo-title">{{ name }}</h3>
+                        <!--<img src="img/blank.png" alt="{{ name }}" data-src="img/trabajos/{{ img }}" />-->
+                        {{#if stick}}
+                          <p class="trabajo-stick">{{{ stick }}}</p>
+                        {{^}}
+
+                        {{/if}}
                     </a>
                 </figure>
           </article>
