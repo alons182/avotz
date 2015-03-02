@@ -19,6 +19,8 @@
             href:"/popup.html"//,
             //width: 650,
             });
+      $('.gallery-clases').colorbox({rel:'gallery-clases'});
+      $('.gallery-inauguracion').colorbox({rel:'gallery-inauguracion'});
 	 // NAV MOBILE
 	    btnMovil.click(function(){
 	        menu.toggle();
