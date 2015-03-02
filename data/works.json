@@ -1,5 +1,13 @@
 [
 	{
+		"id":39,
+		"name":"Sueños de Vida",
+		"type": "sitio",
+		"img": "sitios/suenos.jpg",
+		"stick": "Complejo  <br/> Sistema Interno",
+		"link": "http://www.suenosdevidacr.com"
+	},
+	{
 		"id":38,
 		"name":"Guanabikers",
 		"type": "sitio",
@@ -63,7 +71,8 @@
 		"name":"Horizon",
 		"type": "sitio",
 		"img": "sitios/horizon.jpg",
-		"link": "http://www.horizoncostarica.com"
+		"link": "http://www.horizoncostarica.com",
+		"stick": "Sitios Web <br/> Gemelos"
 	},
 
 	{
@@ -71,7 +80,8 @@
 		"name":"Rentame liberia",
 		"type": "sitio",
 		"img": "sitios/rentameliberia.jpg",
-		"link": "http://www.rentameliberia.com"
+		"link": "http://www.rentameliberia.com",
+		"stick": "Sitios Web <br/> Gemelos"
 	},
 
 
