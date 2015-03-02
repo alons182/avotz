@@ -58,6 +58,13 @@
 		"img": "sitios/bortex.jpg",
 		"link": "http://www.bortexcr.com"
 	},
+	{
+		"id":36,
+		"name":"Horizon",
+		"type": "sitio",
+		"img": "sitios/horizon.jpg",
+		"link": "http://www.horizoncostarica.com"
+	},
 
 	{
 		"id":1,
@@ -73,7 +80,8 @@
 		"name":"cepiacostarica",
 		"type": "sitio",
 		"img": "sitios/cepia.jpg",
-		"link": "http://www.cepiacostarica.org"
+		"link": "http://www.cepiacostarica.org",
+		"stick": "Donado"
 	},
 	{
 		"id":4,
@@ -115,7 +123,8 @@
 		"name":"manosabiertasliberia",
 		"type": "sitio",
 		"img": "sitios/manosabiertas.jpg",
-		"link": "http://manosabiertasliberia.avotz.com"
+		"link": "http://manosabiertasliberia.avotz.com",
+		"stick": "Donado"
 	},
 	{
 		"id":10,

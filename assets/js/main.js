@@ -14,11 +14,11 @@
                 //width: 650,
                 });
         }
-        $('.btn-regalo').stickyfloat({ duration: 400,offsetY: 180 });
+       /* $('.btn-regalo').stickyfloat({ duration: 400,offsetY: 180 });
 	    $('.btn-regalo').colorbox({
             href:"/popup.html"//,
             //width: 650,
-            });
+            });*/
       $('.gallery-clases').colorbox({rel:'gallery-clases'});
       $('.gallery-inauguracion').colorbox({rel:'gallery-inauguracion'});
 	 // NAV MOBILE
