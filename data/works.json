@@ -4,7 +4,7 @@
 		"name":"Guanacaste Viajes",
 		"type": "sitio",
 		"img": "sitios/guanacasteviajes.jpg",
-		
+		"stick": "Recien <br/> Lanzado",
 		"link": "http://www.airporttransfercostarica.com"
 	},
 	{
@@ -12,7 +12,7 @@
 		"name":"Sueños de Vida",
 		"type": "sitio",
 		"img": "sitios/suenos.jpg",
-		"stick": "Complejo  <br/> Sistema Interno",
+		"stick": "Recien Lanzando <br/><br/> Complejo  <br/> Sistema Interno",
 		"link": "http://www.suenosdevidacr.com"
 	},
 	{
@@ -20,7 +20,7 @@
 		"name":"Guanabikers",
 		"type": "sitio",
 		"img": "sitios/guanabikers.jpg",
-		
+		"stick": "Recien <br/> Lanzado",		
 		"link": "http://www.guanabikers.com"
 	},
 	{
