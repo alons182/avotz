@@ -1221,7 +1221,7 @@ a:hover {
   -webkit-background-size: 150%;
   -moz-background-size: 150%;
   background-size: 150%;
-  background-position: center center;
+  background-position: top left;
   background-repeat: no-repeat;
   height: 250px;
   -webkit-transition: all 0.3s ease;

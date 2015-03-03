@@ -201,7 +201,7 @@ a:hover{text-decoration:underline}
 #works #works-gallery .tabs .tab-label-2{z-index:3}
 #works #works-gallery .tabs .tab-label-3{z-index:2}
 #works #works-gallery .tabs .tab-label-4{z-index:1}
-#works #works-gallery .trabajo{display:inline-block;vertical-align:top;width:100%;-webkit-background-size:150%;-moz-background-size:150%;background-size:150%;background-position:center center;background-repeat:no-repeat;height:250px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease}
+#works #works-gallery .trabajo{display:inline-block;vertical-align:top;width:100%;-webkit-background-size:150%;-moz-background-size:150%;background-size:150%;background-position:top left;background-repeat:no-repeat;height:250px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease}
 #works #works-gallery .trabajo-stick{position:absolute;right:15px;background:rgba(165,164,0,.9);max-width:90px;width:50%;margin:0;text-align:center;font-size:10px;padding:1.5em 0;line-height:13px}
 #works #works-gallery .trabajo-title{position:absolute;text-align:center;width:80%;background:rgba(38,42,50,.9);bottom:10%;margin:0;padding:.5em 0;left:10%;text-transform:uppercase;font-weight:300;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease}
 #works #works-gallery .trabajo .overlay{display:block;height:98%;top:0;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease;-ms-transition:all .5s ease;transition:all .5s ease;width:100%}
