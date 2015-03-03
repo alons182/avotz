@@ -1316,6 +1316,19 @@ a:hover {
   border-top: 10px solid #63ad73;
   margin-top: 2em;
 }
+#works .works-middle {
+  padding: 2.5em 0px;
+  background: oscuro;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+#works .works-middle p {
+  font-size: 1em;
+}
+#works .works-middle.turquesa {
+  background: #63ad73;
+}
 #about blockquote {
   text-align: center;
   color: #63ad73;

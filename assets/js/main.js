@@ -289,6 +289,12 @@
       var html = '';
 
       for (var i = 0; i < works.length; i++) {
+        
+        if (i == 16 ) {
+
+          html += $.trim( $('#workTemplateMiddle').html() );
+        }
+
         var work = works[i];
         html += WorkTemplate(work);
       }

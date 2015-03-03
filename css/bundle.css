@@ -212,6 +212,9 @@ a:hover{text-decoration:underline}
 #works #works-gallery .trabajo:hover a{background:rgba(59,67,78,0)}
 #works #works-gallery .pagination{margin:15px auto;text-align:center}
 #works #works-gallery #results-content{min-height:375px!important;border-top:10px solid #63ad73;margin-top:2em}
+#works .works-middle{padding:2.5em 0;background:oscuro;text-align:center;color:#fff;font-size:1.5em}
+#works .works-middle p{font-size:1em}
+#works .works-middle.turquesa{background:#63ad73}
 #about blockquote{text-align:center;color:#63ad73;line-height:1.5em;font-size:1em}
 #about blockquote figure{width:150px;border:5px solid #63ad73;padding:1.5em;margin:0 auto}
 #about blockquote figure img{width:100%}
