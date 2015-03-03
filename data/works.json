@@ -1,5 +1,13 @@
 [
 	{
+		"id":40,
+		"name":"Guanacaste Viajes",
+		"type": "sitio",
+		"img": "sitios/guanacasteviajes.jpg",
+		
+		"link": "http://www.airporttransfercostarica.com"
+	},
+	{
 		"id":39,
 		"name":"Sueños de Vida",
 		"type": "sitio",
@@ -12,7 +20,7 @@
 		"name":"Guanabikers",
 		"type": "sitio",
 		"img": "sitios/guanabikers.jpg",
-		"stick": "Recien <br/> Lanzado",
+		
 		"link": "http://www.guanabikers.com"
 	},
 	{
