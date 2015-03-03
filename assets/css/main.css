@@ -1218,9 +1218,9 @@ a:hover {
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  -webkit-background-size: 120%;
-  -moz-background-size: 120%;
-  background-size: 120%;
+  -webkit-background-size: 150%;
+  -moz-background-size: 150%;
+  background-size: 150%;
   background-position: center center;
   background-repeat: no-repeat;
   height: 250px;
@@ -1291,9 +1291,9 @@ a:hover {
   transition: all 0.3s ease;
 }
 #works #works-gallery .trabajo:hover {
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: 140%;
+  -moz-background-size: 140%;
+  background-size: 140%;
 }
 #works #works-gallery .trabajo:hover .trabajo-title {
   bottom: 0;
