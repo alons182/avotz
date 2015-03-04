@@ -8,22 +8,13 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync');
     var reload      = browserSync.reload;
 
-  // Static server
+  // Dynamic server
  gulp.task('browser-sync', function() {
        browserSync({
           proxy: "avotz/"
       });
       
   });
-
-  // or...
-
-  /*gulp.task('browser-sync', function() {
-      browserSync({
-          proxy: "http://avotz/"
-      });
-  });*/
-
 
 gulp.task('js', function () {
   gulp.src([
@@ -45,7 +36,8 @@ gulp.task('js', function () {
     .pipe(uglify({ compress: true }))
     .pipe(stripDebug())
     .pipe(concat('bundle.js'))
-    .pipe(gulp.dest('./js'));
+    .pipe(gulp.dest('./js'))
+    .pipe(reload({stream:true}));
 
 });
 
@@ -53,24 +45,27 @@ gulp.task('js', function () {
 gulp.task('stylus', function () {
   gulp.src('./assets/stylus/main.styl')
     .pipe(stylus({use: [nib()]}))
-    .pipe(gulp.dest('./assets/css/'));
+    .pipe(gulp.dest('./assets/css/'))
+
 });
 
 gulp.task('css', function () {
   gulp.src(['./assets/css/colorbox.css','./assets/css/main.css'])
     .pipe(minifyCSS({ keepSpecialComments: '*', keepBreaks: '*'}))
     .pipe(concat('bundle.css'))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./css'))
+    .pipe(reload({stream:true}));
 });
 
 
 
 
 gulp.task('watch', function () {
-    gulp.watch(['./assets/js/**/*.js'],['js']).on('change', reload);
+    gulp.watch(['./assets/js/**/*.js'],['js']);
     gulp.watch(['./assets/stylus/**/*.styl'],['stylus']);
-    gulp.watch(['./assets/css/**/*.css'],['css']).on('change', reload);
+    gulp.watch(['./assets/css/**/*.css'],['css']);
     gulp.watch("./*.html").on('change', reload);
+    gulp.watch("./*.php").on('change', reload);
 
 });
 
