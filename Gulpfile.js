@@ -4,7 +4,25 @@ var gulp        = require('gulp'),
     minifyCSS   = require('gulp-minify-css'),
     stylus      = require('gulp-stylus'),
     nib         = require('nib'),
-    concat      = require('gulp-concat');
+    concat      = require('gulp-concat'),
+    browserSync = require('browser-sync');
+    var reload      = browserSync.reload;
+
+  // Static server
+ gulp.task('browser-sync', function() {
+       browserSync({
+          proxy: "avotz/"
+      });
+      
+  });
+
+  // or...
+
+  /*gulp.task('browser-sync', function() {
+      browserSync({
+          proxy: "http://avotz/"
+      });
+  });*/
 
 
 gulp.task('js', function () {
@@ -49,10 +67,11 @@ gulp.task('css', function () {
 
 
 gulp.task('watch', function () {
-    gulp.watch(['./assets/js/**/*.js'],['js']);
+    gulp.watch(['./assets/js/**/*.js'],['js']).on('change', reload);
     gulp.watch(['./assets/stylus/**/*.styl'],['stylus']);
-    gulp.watch(['./assets/css/**/*.css'],['css']);
+    gulp.watch(['./assets/css/**/*.css'],['css']).on('change', reload);
+    gulp.watch("./*.html").on('change', reload);
 
 });
 
-gulp.task('default', [ 'js','stylus','css', 'watch' ]);
+gulp.task('default', [ 'js','stylus','css','browser-sync' ,'watch']);

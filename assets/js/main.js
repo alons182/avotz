@@ -156,7 +156,7 @@
 
      				$.post(url, formInput, function(data){
 
-     							utils.limpiaForm(contactForm);
+     							limpiaForm(contactForm);
 
 
 
