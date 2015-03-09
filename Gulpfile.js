@@ -64,8 +64,8 @@ gulp.task('watch', function () {
     gulp.watch(['./assets/js/**/*.js'],['js']);
     gulp.watch(['./assets/stylus/**/*.styl'],['stylus']);
     gulp.watch(['./assets/css/**/*.css'],['css']);
-    gulp.watch("./*.html").on('change', reload);
-    gulp.watch("./*.php").on('change', reload);
+    gulp.watch("./**/*.html").on('change', reload);
+    gulp.watch("./**/*.php").on('change', reload);
 
 });
 
