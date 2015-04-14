@@ -265,6 +265,69 @@
 		"link": "img/trabajos/disenos/paintball.jpg"
 	},
 	{
+		"id":50,
+		"name":"Comprame Liberia logo opener",
+		"type": "multimedia",
+		"img": "multimedia/opener-comprame.jpg",
+		"link": "https://www.youtube.com/v/rzUrRV94X90&autoplay=1"
+	},
+	{
+		"id":49,
+		"name":"Primero en noticias Logo Opener",
+		"type": "multimedia",
+		"img": "multimedia/opener-primero-noticias.jpg",
+		"link": "https://www.youtube.com/v/V8JvbwVNd9w&autoplay=1"
+	},
+	{
+		"id":48,
+		"name":"Rentame Logo opener",
+		"type": "multimedia",
+		"img": "multimedia/opener-rentame.jpg",
+		"link": "https://www.youtube.com/v/87-SgGjEP4g&autoplay=1"
+	},
+	{
+		"id":47,
+		"name":"Construcción de casas (Rentame)",
+		"type": "multimedia",
+		"img": "multimedia/construccion-rentame.jpg",
+		"link": "https://www.youtube.com/v/x1o5NMookI4&autoplay=1"
+	},
+	{
+		"id":46,
+		"name":"Anuncio Rentame 2",
+		"type": "multimedia",
+		"img": "multimedia/rentame2.jpg",
+		"link": "https://www.youtube.com/v/wtnZe6NtJIk&autoplay=1"
+	},
+	{
+		"id":45,
+		"name":"Anuncio Rentame 1",
+		"type": "multimedia",
+		"img": "multimedia/rentame1.jpg",
+		"link": "https://www.youtube.com/v/buWyIcjHCco&autoplay=1"
+	},
+	{
+		"id":44,
+		"name":"Avotz Ingenieria",
+		"type": "multimedia",
+		"img": "multimedia/avotz-ingenieria.jpg",
+		"link": "https://www.youtube.com/v/hiSCwXg3dWE&autoplay=1"
+	},
+	{
+		"id":43,
+		"name":"get social",
+		"type": "multimedia",
+		"img": "multimedia/get-social.jpg",
+		"link": "https://www.youtube.com/v/_57tK8806Qg&autoplay=1"
+	},
+	{
+		"id":42,
+		"name":"bortex",
+		"type": "multimedia",
+		"img": "multimedia/bortex.jpg",
+		"link": "https://www.youtube.com/v/lJOKHUIWB18&autoplay=1"
+	},
+	{
 		"id":26,
 		"name":"Opener Logo para Guana Fight",
 		"type": "multimedia",
