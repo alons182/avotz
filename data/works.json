@@ -285,27 +285,7 @@
 		"img": "multimedia/opener-rentame.jpg",
 		"link": "https://www.youtube.com/v/87-SgGjEP4g&autoplay=1"
 	},
-	{
-		"id":47,
-		"name":"Construcción de casas (Rentame)",
-		"type": "multimedia",
-		"img": "multimedia/construccion-rentame.jpg",
-		"link": "https://www.youtube.com/v/x1o5NMookI4&autoplay=1"
-	},
-	{
-		"id":46,
-		"name":"Anuncio Rentame 2",
-		"type": "multimedia",
-		"img": "multimedia/rentame2.jpg",
-		"link": "https://www.youtube.com/v/wtnZe6NtJIk&autoplay=1"
-	},
-	{
-		"id":45,
-		"name":"Anuncio Rentame 1",
-		"type": "multimedia",
-		"img": "multimedia/rentame1.jpg",
-		"link": "https://www.youtube.com/v/buWyIcjHCco&autoplay=1"
-	},
+	
 	{
 		"id":44,
 		"name":"Avotz Ingenieria",

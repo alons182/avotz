@@ -150,9 +150,9 @@ a:hover{text-decoration:underline}
 .header #menu ul li{background:#63ad73;display:block;text-align:center}
 .header #menu ul li a{color:#fff;display:block;font-family:montserratregular;font-size:13px;padding:1.5em .4em;text-decoration:none;text-transform:uppercase;font-weight:400}
 .header #menu ul .current,.header #menu ul li:hover{background:#3b434e}
-.header #menu ul .submenu{display:none;position:absolute;background:#63ad73;padding:.5em;text-align:left}
-.header #menu ul .submenu li{margin:0;border:none}
-.header #menu ul .submenu li a{color:#fff;padding:.5em;display:block}
+.header #menu ul .submenu{display:none;position:absolute;background:#3b434e;padding:.5em;text-align:left;left:0;right:0}
+.header #menu ul .submenu li{margin:0;border:none;display:block}
+.header #menu ul .submenu li a{color:#fff;padding:1em;display:block}
 .header #menu ul .submenu li a:hover{background:#a9bf04;color:#fff}
 #home{background:url(../img/bg_home.jpg) center center/cover no-repeat fixed #a9bf04;-webkit-background-size:cover,cover;-moz-background-size:cover,cover}
 #home article{top:40px}
@@ -249,9 +249,10 @@ a:hover{text-decoration:underline}
 #contact #info-form .form-input-block button,#contact #info-form .form-input-block input[type=submit]{position:absolute;right:0;cursor:pointer}
 #contact #info-form address{color:#fff;line-height:1.8em;margin-bottom:20px}
 #contact #up-arrow{background:#303843;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;color:#545c68;display:block;font-size:1.5em;height:25px;padding:.5em;text-decoration:none;width:25px}
-#presentations .presentation-description,#presentations iframe{display:inline-block;vertical-align:top;margin-right:1em}
+#presentations .iframe-block,#presentations .presentation-description{display:inline-block;vertical-align:top;margin-right:1em}
 #presentations iframe{width:100%}
 #presentations .presentation-description{width:430px;margin-right:0}
+#presentations .btn_yellow{padding:.5em}
 #responsabilidad .project-resp{margin-bottom:2em;padding:.5em;min-height:170px;border-bottom:5px solid #63ad73;position:relative}
 #responsabilidad .project-resp .image{position:absolute;width:270px}
 #responsabilidad .project-resp .image a{display:block}
@@ -311,7 +312,7 @@ a:hover{text-decoration:underline}
 .header #menu ul li{background:0 0;border-top:2px solid transparent;display:inline-block;vertical-align:top}
 .header #menu ul li a{color:#fff;display:block;font-family:montserratregular;font-size:13px;padding:1.5em .4em;text-decoration:none;text-transform:uppercase}
 .header #menu ul .current,.header #menu ul li:hover{background:0 0;border-top-color:#fff}
-.header #menu ul .submenu{display:none;position:absolute;background:#63ad73;padding:.5em;text-align:left}
+.header #menu ul .submenu{display:none;position:absolute;background:#63ad73;padding:.5em;text-align:left;left:auto;right:auto}
 .header #menu ul .submenu li:hover{background:0 0;border:none}
 #home article{padding:0 1em;top:100px}
 #home article #info{position:absolute;width:350px}
@@ -355,7 +356,7 @@ a:hover{text-decoration:underline}
 #home article #devices-animation{right:0}
 #works #works-gallery .trabajo{width:25%;height:300px}
 #presentations,#presentations h1{text-align:left}
-#presentations iframe{width:500px}}
+#presentations .iframe-block{width:500px}}
 #sb-info-inner,#sb-loading-inner,#sb-title-inner,div.sb-message{font-family:HelveticaNeue-Light,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none}
 #sb-overlay{position:relative;height:100%;width:100%}

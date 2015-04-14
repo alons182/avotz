@@ -115,16 +115,19 @@ a
 			.submenu
 				display none
 				position absolute
-				background $turquesa
+				background $oscuro//$turquesa
 				padding .5em
 				text-align left
+				left 0
+				right 0
 
 				li
 					margin 0
 					border none
+					display block
 					a
 						color #FFF
-						padding .5em
+						padding 1em
 						display block
 
 						&:hover
@@ -656,7 +659,7 @@ a
 		width 25px
 
 #presentations
-	iframe
+	.iframe-block
 	.presentation-description
 		display inline-block
 		vertical-align top
@@ -668,6 +671,8 @@ a
 	.presentation-description
 		width 430px
 		margin-right 0
+	.btn_yellow
+		padding .5em .5em
 		
 #responsabilidad
 	.project-resp

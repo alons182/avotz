@@ -950,17 +950,20 @@ a:hover {
 .header #menu ul .submenu {
   display: none;
   position: absolute;
-  background: #63ad73;
+  background: #3b434e;
   padding: 0.5em;
   text-align: left;
+  left: 0;
+  right: 0;
 }
 .header #menu ul .submenu li {
   margin: 0;
   border: none;
+  display: block;
 }
 .header #menu ul .submenu li a {
   color: #fff;
-  padding: 0.5em;
+  padding: 1em;
   display: block;
 }
 .header #menu ul .submenu li a:hover {
@@ -1522,7 +1525,7 @@ a:hover {
   text-decoration: none;
   width: 25px;
 }
-#presentations iframe,
+#presentations .iframe-block,
 #presentations .presentation-description {
   display: inline-block;
   vertical-align: top;
@@ -1534,6 +1537,9 @@ a:hover {
 #presentations .presentation-description {
   width: 430px;
   margin-right: 0;
+}
+#presentations .btn_yellow {
+  padding: 0.5em 0.5em;
 }
 #responsabilidad .project-resp {
   margin-bottom: 2em;
@@ -1804,6 +1810,8 @@ a:hover {
     background: #63ad73;
     padding: 0.5em;
     text-align: left;
+    left: auto;
+    right: auto;
   }
   .header #menu ul .submenu li:hover {
     background: transparent;
@@ -1972,7 +1980,7 @@ a:hover {
   #presentations h1 {
     text-align: left;
   }
-  #presentations iframe {
+  #presentations .iframe-block {
     width: 500px;
   }
 }
