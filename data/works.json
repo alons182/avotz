@@ -1,5 +1,13 @@
 [
 	{
+		"id":7,
+		"name":"frame",
+		"type": "sitio",
+		"img": "sitios/frame.jpg",
+		"stick": "Rediseñando",
+		"link": "http://www.frame.cr"
+	},
+	{
 		"id":41,
 		"name":"Ondabrava Radio",
 		"type": "sitio",
@@ -130,13 +138,7 @@
 		"img": "sitios/asipower.jpg",
 		"link": "http://www.asipower.com"
 	},
-	{
-		"id":7,
-		"name":"frame",
-		"type": "sitio",
-		"img": "sitios/frame.jpg",
-		"link": "http://www.frame.cr"
-	},
+	
 	{
 		"id":8,
 		"name":"liberiaeasy",
