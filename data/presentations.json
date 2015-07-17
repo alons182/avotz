@@ -14,5 +14,13 @@
 		"link": "/presentaciones/marketing-digital.html",
 		"author": "Gerardo Oporto Zuñiga",
 		"date": "2013-10-13"
+	},
+	{
+		"id":2,
+		"name":"Porque los website para moviles importan",
+		"img": "presentaciones/infografia-moviles.png",
+		"link": "/presentaciones/infografia-moviles.html",
+		"author": "Gerardo Oporto Zuñiga",
+		"date": "2015-07-08"
 	}
 ]

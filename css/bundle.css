@@ -312,6 +312,7 @@ a:hover{text-decoration:underline}
 .header #menu ul li{background:0 0;border-top:2px solid transparent;display:inline-block;vertical-align:top}
 .header #menu ul li a{color:#fff;display:block;font-family:montserratregular;font-size:13px;padding:1.5em .4em;text-decoration:none;text-transform:uppercase}
 .header #menu ul .current,.header #menu ul li:hover{background:0 0;border-top-color:#fff}
+.header #menu ul .parent:after{content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #fff;position:relative;right:-45px;top:-25px}
 .header #menu ul .submenu{display:none;position:absolute;background:#63ad73;padding:.5em;text-align:left;left:auto;right:auto}
 .header #menu ul .submenu li:hover{background:0 0;border:none}
 #home article{padding:0 1em;top:100px}

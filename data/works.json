@@ -1,14 +1,29 @@
 [
 	{
-		"id":7,
-		"name":"frame",
+		
+		"name":"Radio Zona Alta",
+		"type": "sitio",
+		"img": "sitios/zona-alta.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://www.radiozonaalta.com"
+	},
+	{
+		
+		"name":"Puravida Teaching",
+		"type": "sitio",
+		"img": "sitios/puravida.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://www.puravidateaching.com"
+	},
+	{
+				"name":"frame",
 		"type": "sitio",
 		"img": "sitios/frame.jpg",
 		"stick": "Recién lanzado",
 		"link": "http://www.frame.cr"
 	},
 	{
-		"id":41,
+		
 		"name":"Ondabrava Radio",
 		"type": "sitio",
 		"img": "sitios/ondabrava.jpg",
@@ -16,7 +31,7 @@
 		"link": "http://www.ondabravaradio.com"
 	},
 	{
-		"id":40,
+		
 		"name":"Guanacaste Viajes",
 		"type": "sitio",
 		"img": "sitios/guanacasteviajes.jpg",
@@ -24,7 +39,7 @@
 		"link": "http://www.airporttransfercostarica.com"
 	},
 	{
-		"id":39,
+		
 		"name":"Sueños de Vida",
 		"type": "sitio",
 		"img": "sitios/suenos.jpg",
@@ -32,7 +47,7 @@
 		"link": "http://www.suenosdevidacr.com"
 	},
 	{
-		"id":38,
+		
 		"name":"Guanabikers",
 		"type": "sitio",
 		"img": "sitios/guanabikers.jpg",
@@ -40,58 +55,57 @@
 		"link": "http://www.guanabikers.com"
 	},
 	{
-		"id":37,
+		
 		"name":"Best Quality",
 		"type": "sitio",
 		"img": "sitios/bestquality.jpg",
 		"link": "http://www.best-qualitys.com"
 	},
 	{
-		"id":36,
+		
 		"name":"Fashion Factory",
 		"type": "sitio",
 		"img": "sitios/fashionfactory.jpg",
-		"link": "http://www.fashionfactorycr.com"
+		"link": "http://fashion.avotz.com/"
 	},
 	{
 
-		"id":31,
+		
 		"name":"Guanaprint",
 		"type": "sitio",
 		"img": "sitios/guanaprint.jpg",
 		"link": "http://www.guanaprint.com"
 	},
 	{
-		"id":2,
-		"name":"3monkies",
+				"name":"3monkies",
 		"type": "sitio",
 		"img": "sitios/3monkiescr.jpg",
 		"link": "http://www.3monkiescr.com"
 	},
 
 	{
-		"id":32,
+		
 		"name":"Green Life Tours",
 		"type": "sitio",
 		"img": "sitios/greenlife.jpg",
 		"link": "http://www.toursgreenlife.com"
 	},
 	{
-		"id":33,
+		
 		"name":"Uninpe",
 		"type": "sitio",
 		"img": "sitios/uninpe.jpg",
 		"link": "http://www.uninpe.com"
 	},
 	{
-		"id":35,
+		
 		"name":"Bortex",
 		"type": "sitio",
 		"img": "sitios/bortex.jpg",
 		"link": "http://www.bortexcr.com"
 	},
 	{
-		"id":36,
+		
 		"name":"Horizon",
 		"type": "sitio",
 		"img": "sitios/horizon.jpg",
@@ -100,8 +114,7 @@
 	},
 
 	{
-		"id":1,
-		"name":"Rentame liberia",
+				"name":"Rentame liberia",
 		"type": "sitio",
 		"img": "sitios/rentameliberia.jpg",
 		"link": "http://www.rentameliberia.com",
@@ -110,178 +123,221 @@
 
 
 	{
-		"id":3,
-		"name":"cepiacostarica",
+				"name":"cepiacostarica",
 		"type": "sitio",
 		"img": "sitios/cepia.jpg",
 		"link": "http://www.cepiacostarica.org",
 		"stick": "Donado"
 	},
 	{
-		"id":4,
-		"name":"yokue",
+				"name":"yokue",
 		"type": "sitio",
 		"img": "sitios/yokue.jpg",
 		"link": "http://www.yokue.com"
 	},
 	{
-		"id":5,
-		"name":"calitur",
+				"name":"calitur",
 		"type": "sitio",
 		"img": "sitios/calitur.jpg",
 		"link": "http://www.calitur.com"
 	},
 	{
-		"id":6,
-		"name":"asipower",
+				"name":"asipower",
 		"type": "sitio",
 		"img": "sitios/asipower.jpg",
 		"link": "http://www.asipower.com"
 	},
 	
 	{
-		"id":8,
-		"name":"liberiaeasy",
+				"name":"liberiaeasy",
 		"type": "sitio",
 		"img": "sitios/liberiaeasy.jpg",
 		"link": "http://www.liberiaeasy.com"
 	},
 	{
-		"id":9,
-		"name":"manosabiertasliberia",
+				"name":"manosabiertasliberia",
 		"type": "sitio",
 		"img": "sitios/manosabiertas.jpg",
 		"link": "http://manosabiertasliberia.avotz.com",
 		"stick": "Donado"
 	},
 	{
-		"id":10,
+		
 		"name":"ststalentohumano",
 		"type": "sitio",
 		"img": "sitios/sts.jpg",
 		"link": "http://www.ststalentohumano.com"
 	},
 	{
-		"id":11,
+		
 		"name":"marinatamborcr",
 		"type": "sitio",
 		"img": "sitios/marinatambor.jpg",
 		"link": "http://www.marinatamborcr.com"
 	},
 	{
-		"id":12,
+		
 		"name":"libreriaverbodivino",
 		"type": "sitio",
 		"img": "sitios/verbodivino.jpg",
 		"link": "http://www.libreriaverbodivino.com"
 	},
 	{
-		"id":13,
+		
 		"name":"alebrijesdearenal",
 		"type": "sitio",
 		"img": "sitios/alebrijes.jpg",
 		"link": "http://www.alebrijesdearenal.com"
 	},
 	{
-		"id":14,
+		
+		"name":"Bortex",
+		"type": "diseno",
+		"img": "disenos/bortex2_thumb.jpg",
+		"link": "img/trabajos/disenos/bortex2.jpg"
+	},
+	{
+		
+		"name":"Bortex",
+		"type": "diseno",
+		"img": "disenos/bortex_thumb.jpg",
+		"link": "img/trabajos/disenos/bortex.jpg"
+	},
+	{
+		
+		"name":"Banner Primero en Noticias",
+		"type": "diseno",
+		"img": "disenos/primero-noticias-banner_thumb.jpg",
+		"link": "img/trabajos/disenos/primero-noticias-banner.jpg"
+	},
+	{
+		
+		"name":"Cepia Aeróbicos",
+		"type": "diseno",
+		"img": "disenos/cepia-aerobicos_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-aerobicos.jpg"
+	},
+	{
+		
+		"name":"Ondabrava",
+		"type": "diseno",
+		"img": "disenos/ondabrava_thumb.jpg",
+		"link": "img/trabajos/disenos/ondabrava.jpg"
+	},
+	{
+		
+		"name":"Rolltech (Frame)",
+		"type": "diseno",
+		"img": "disenos/rolltech_thumb.jpg",
+		"link": "img/trabajos/disenos/rolltech.jpg"
+	},
+	{
+		
+		"name":"Primero en noticias",
+		"type": "diseno",
+		"img": "disenos/primero-noticias-fb_thumb.jpg",
+		"link": "img/trabajos/disenos/primero-noticias-fb.jpg"
+	},
+	{
+		
 		"name":"waterkingdom",
 		"type": "diseno",
 		"img": "disenos/waterkingdom_thumb.jpg",
 		"link": "img/trabajos/disenos/waterkingdom.jpg"
 	},
 	{
-		"id":15,
+		
 		"name":"planea",
 		"type": "diseno",
 		"img": "disenos/planea_thumb.jpg",
 		"link": "img/trabajos/disenos/planea.jpg"
 	},
 	{
-		"id":16,
+		
 		"name":"mundial17",
 		"type": "diseno",
 		"img": "disenos/mundial17_thumb.jpg",
 		"link": "img/trabajos/disenos/mundial17.jpg"
 	},
 	{
-		"id":17,
+		
 		"name":"mundial17_2",
 		"type": "diseno",
 		"img": "disenos/mundial17_2_thumb.jpg",
 		"link": "img/trabajos/disenos/mundial17_2.jpg"
 	},
 	{
-		"id":18,
+		
 		"name":"sts",
 		"type": "diseno",
 		"img": "disenos/sts_thumb.jpg",
 		"link": "img/trabajos/disenos/sts.jpg"
 	},
 	{
-		"id":19,
+		
 		"name":"calitur",
 		"type": "diseno",
 		"img": "disenos/calitur_thumb.jpg",
 		"link": "img/trabajos/disenos/calitur.jpg"
 	},
 	{
-		"id":20,
+		
 		"name":"ceramica-chorotega",
 		"type": "diseno",
 		"img": "disenos/ceramica-chorotega_thumb.jpg",
 		"link": "img/trabajos/disenos/ceramica-chorotega.jpg"
 	},
 	{
-		"id":21,
+		
 		"name":"baloncesto",
 		"type": "diseno",
 		"img": "disenos/baloncesto_thumb.jpg",
 		"link": "img/trabajos/disenos/baloncesto.jpg"
 	},
 	{
-		"id":22,
+		
 		"name":"escuela-emanuel",
 		"type": "diseno",
 		"img": "disenos/escuela-emanuel_thumb.jpg",
 		"link": "img/trabajos/disenos/escuela-emanuel.jpg"
 	},
 	{
-		"id":23,
+		
 		"name":"manos-abiertas",
 		"type": "diseno",
 		"img": "disenos/manos-abiertas_thumb.jpg",
 		"link": "img/trabajos/disenos/manos-abiertas.jpg"
 	},
 	{
-		"id":24,
+		
 		"name":"monteverde",
 		"type": "diseno",
 		"img": "disenos/monteverde_thumb.jpg",
 		"link": "img/trabajos/disenos/monteverde.jpg"
 	},
 	{
-		"id":25,
+		
 		"name":"paintball",
 		"type": "diseno",
 		"img": "disenos/paintball_thumb.jpg",
 		"link": "img/trabajos/disenos/paintball.jpg"
 	},
 	{
-		"id":50,
+		
 		"name":"Comprame Liberia logo opener",
 		"type": "multimedia",
 		"img": "multimedia/opener-comprame.jpg",
 		"link": "https://www.youtube.com/v/rzUrRV94X90&autoplay=1"
 	},
 	{
-		"id":49,
+		
 		"name":"Primero en noticias Logo Opener",
 		"type": "multimedia",
 		"img": "multimedia/opener-primero-noticias.jpg",
 		"link": "https://www.youtube.com/v/V8JvbwVNd9w&autoplay=1"
 	},
 	{
-		"id":48,
+		
 		"name":"Rentame Logo opener",
 		"type": "multimedia",
 		"img": "multimedia/opener-rentame.jpg",
@@ -289,56 +345,56 @@
 	},
 	
 	{
-		"id":44,
+		
 		"name":"Avotz Ingenieria",
 		"type": "multimedia",
 		"img": "multimedia/avotz-ingenieria.jpg",
 		"link": "https://www.youtube.com/v/hiSCwXg3dWE&autoplay=1"
 	},
 	{
-		"id":43,
+		
 		"name":"get social",
 		"type": "multimedia",
 		"img": "multimedia/get-social.jpg",
 		"link": "https://www.youtube.com/v/_57tK8806Qg&autoplay=1"
 	},
 	{
-		"id":42,
+		
 		"name":"bortex",
 		"type": "multimedia",
 		"img": "multimedia/bortex.jpg",
 		"link": "https://www.youtube.com/v/lJOKHUIWB18&autoplay=1"
 	},
 	{
-		"id":26,
+		
 		"name":"Opener Logo para Guana Fight",
 		"type": "multimedia",
 		"img": "multimedia/opener_guanafight.jpg",
 		"link": "http://www.youtube.com/v/C8ovSKSWfC0&autoplay=1"
 	},
 	{
-		"id":27,
+		
 		"name":"Opener Logo para Guanaprint",
 		"type": "multimedia",
 		"img": "multimedia/opener_guanaprint.jpg",
 		"link": "https://www.youtube.com/v/26OXiTcbzdc&autoplay=1"
 	},
 	{
-		"id":28,
+		
 		"name":"Nuestros Trabajos",
 		"type": "multimedia",
 		"img": "multimedia/spot_trabajos.jpg",
 		"link": "http://www.youtube.com/v/R7fpusSl7ZU&autoplay=1"
 	},
 	{
-		"id":29,
+		
 		"name":"Servicios Avotz",
 		"type": "multimedia",
 		"img": "multimedia/services_avotz.jpg",
 		"link": "https://www.youtube.com/v/Y4xJ_GDXiZk&autoplay=1"
 	},
 	{
-		"id":30,
+		
 		"name":"Navidad",
 		"type": "multimedia",
 		"img": "multimedia/msj_navidad.jpg",
