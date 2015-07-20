@@ -191,6 +191,153 @@
 	},
 	{
 		
+		"name":"Cepia Voleibol",
+		"type": "diseno",
+		"img": "disenos/cepia-voleibol_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-voleibol.jpg"
+	},
+	{
+		
+		"name":"Cepia Curso Tela Aérea",
+		"type": "diseno",
+		"img": "disenos/cepia-tela-aerea_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-tela-aerea.jpg"
+	},
+	{
+		
+		"name":"Party Time (Tarjeta de regalo)",
+		"type": "diseno",
+		"img": "disenos/party-time-regalo_thumb.jpg",
+		"link": "img/trabajos/disenos/party-time-regalo.jpg"
+	},
+	{
+		
+		"name":"Onda Brava (Servilletero)",
+		"type": "diseno",
+		"img": "disenos/ondabrava-servilletero2_thumb.jpg",
+		"link": "img/trabajos/disenos/ondabrava-servilletero2.jpg"
+	},
+	{
+		
+		"name":"Onda Brava (Servilletero)",
+		"type": "diseno",
+		"img": "disenos/ondabrava-servilletero_thumb.jpg",
+		"link": "img/trabajos/disenos/ondabrava-servilletero.jpg"
+	},
+	{
+		
+		"name":"Cepia Reparacion Celulares",
+		"type": "diseno",
+		"img": "disenos/cepia-celulares_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-celulares.jpg"
+	},
+	{
+		
+		"name":"Primero en Noticias",
+		"type": "diseno",
+		"img": "disenos/primero-noticias2_thumb.jpg",
+		"link": "img/trabajos/disenos/primero-noticias2.jpg"
+	},
+	{
+		
+		"name":"Rolltech",
+		"type": "diseno",
+		"img": "disenos/rolltech2_thumb.jpg",
+		"link": "img/trabajos/disenos/rolltech2.jpg"
+	},
+	{
+		
+		"name":"Party Time Flyer",
+		"type": "diseno",
+		"img": "disenos/party-time-flyer_thumb.jpg",
+		"link": "img/trabajos/disenos/party-time-flyer.jpg"
+	},
+	{
+		
+		"name":"Cepia Computación",
+		"type": "diseno",
+		"img": "disenos/cepia-computacion_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-computacion.jpg"
+	},
+	{
+		
+		"name":"Party Time (Viernes Negro)",
+		"type": "diseno",
+		"img": "disenos/party-time-viernesnegro_thumb.jpg",
+		"link": "img/trabajos/disenos/party-time-viernesnegro.jpg"
+	},
+	{
+		
+		"name":"Party Time (San Valentin)",
+		"type": "diseno",
+		"img": "disenos/party-time-sanvalentin_thumb.jpg",
+		"link": "img/trabajos/disenos/party-time-sanvalentin.jpg"
+	},
+	{
+		
+		"name":"Party Time (Navidad)",
+		"type": "diseno",
+		"img": "disenos/party-time-navidad_thumb.jpg",
+		"link": "img/trabajos/disenos/party-time-navidad.jpg"
+	},
+	{
+		
+		"name":"Party Time",
+		"type": "diseno",
+		"img": "disenos/party-time_thumb.jpg",
+		"link": "img/trabajos/disenos/party-time.jpg"
+	},
+	{
+		
+		"name":"Pilares",
+		"type": "diseno",
+		"img": "disenos/pilares_thumb.jpg",
+		"link": "img/trabajos/disenos/pilares.jpg"
+	},
+	{
+		
+		"name":"Diamante",
+		"type": "diseno",
+		"img": "disenos/diamante_thumb.jpg",
+		"link": "img/trabajos/disenos/diamante.jpg"
+	},
+	{
+		
+		"name":"Cepia Curso Ingles",
+		"type": "diseno",
+		"img": "disenos/cepia-curso-ingles_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-curso-ingles.jpg"
+	},
+	{
+		
+		"name":"Cepia Clases Ingles",
+		"type": "diseno",
+		"img": "disenos/cepia-clases-ingles_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-clases-ingles.jpg"
+	},
+	{
+		
+		"name":"Cepia Mujer",
+		"type": "diseno",
+		"img": "disenos/cepia-mujer_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-mujer.jpg"
+	},
+	{
+		
+		"name":"Cepia Educación",
+		"type": "diseno",
+		"img": "disenos/cepia-educacion_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-internet.jpg"
+	},
+	{
+		
+		"name":"Cepia Internet",
+		"type": "diseno",
+		"img": "disenos/cepia-internet_thumb.jpg",
+		"link": "img/trabajos/disenos/cepia-internet.jpg"
+	},
+	{
+		
 		"name":"Bortex",
 		"type": "diseno",
 		"img": "disenos/bortex2_thumb.jpg",
