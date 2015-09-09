@@ -1395,6 +1395,7 @@ a:hover {
   z-index: 100;
   position: relative;
   top: -30px;
+  display: none;
 }
 #testimonials #slider-testimonials #testimonial-pager a {
   background-color: transparent;
