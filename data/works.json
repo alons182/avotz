@@ -1,10 +1,17 @@
 [
 	{
 		
+		"name":"J&P Coach Group",
+		"type": "sitio",
+		"img": "sitios/jp.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://jpcoachgroup.com/"
+	},
+	{
+		
 		"name":"Radio Zona Alta",
 		"type": "sitio",
 		"img": "sitios/zona-alta.jpg",
-		"stick": "Recién lanzado",
 		"link": "http://www.radiozonaalta.com"
 	},
 	{
@@ -12,14 +19,12 @@
 		"name":"Puravida Teaching",
 		"type": "sitio",
 		"img": "sitios/puravida.jpg",
-		"stick": "Recién lanzado",
 		"link": "http://www.puravidateaching.com"
 	},
 	{
 				"name":"frame",
 		"type": "sitio",
 		"img": "sitios/frame.jpg",
-		"stick": "Recién lanzado",
 		"link": "http://www.frame.cr"
 	},
 	{
@@ -27,7 +32,6 @@
 		"name":"Ondabrava Radio",
 		"type": "sitio",
 		"img": "sitios/ondabrava.jpg",
-		"stick": "Recién <br/> Lanzado",
 		"link": "http://www.ondabravaradio.com"
 	},
 	{
@@ -35,7 +39,6 @@
 		"name":"Guanacaste Viajes",
 		"type": "sitio",
 		"img": "sitios/guanacasteviajes.jpg",
-		"stick": "Recién <br/> Lanzado",
 		"link": "http://www.airporttransfercostarica.com"
 	},
 	{
@@ -43,7 +46,7 @@
 		"name":"Sueños de Vida",
 		"type": "sitio",
 		"img": "sitios/suenos.jpg",
-		"stick": "Recién Lanzando <br/><br/> Complejo  <br/> Sistema Interno",
+		"stick": "Complejo  <br/> Sistema Interno",
 		"link": "http://www.suenosdevidacr.com"
 	},
 	{
@@ -51,7 +54,6 @@
 		"name":"Guanabikers",
 		"type": "sitio",
 		"img": "sitios/guanabikers.jpg",
-		"stick": "Recién <br/> Lanzado",		
 		"link": "http://www.guanabikers.com"
 	},
 	{
