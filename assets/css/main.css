@@ -1513,6 +1513,11 @@ a:hover {
   color: #fff;
   line-height: 1.8em;
   margin-bottom: 20px;
+  width: 100%;
+}
+#contact #info-form address iframe {
+  border: none;
+  width: 100%;
 }
 #contact #up-arrow {
   background: #303843;
@@ -1897,6 +1902,7 @@ a:hover {
   #contact #info-form address {
     position: absolute;
     right: -490px;
+    top: -80px;
   }
   #works #works-gallery .tabs {
     width: 560px;
