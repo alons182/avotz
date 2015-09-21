@@ -1347,6 +1347,64 @@ a:hover {
 #about blockquote figure img {
   width: 100%;
 }
+.team {
+  padding-top: 49px;
+  background-color: #f3f3f3;
+}
+.team__container {
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 4em;
+}
+.team__person {
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  position: relative;
+}
+.team__person__social a {
+  font-size: 3rem;
+  display: inline-block;
+  padding: 0.5rem;
+}
+.team__person__social a:hover {
+  color: #7cb585;
+  text-decoration: none;
+}
+.team__person--gerardo {
+  background-image: url("../img/gerardo_thumb.jpg");
+}
+.team__person--alonso {
+  background-image: url("../img/alonso_thumb.jpg");
+}
+.team__person--left {
+  background-position: top left;
+}
+.team__person--right {
+  background-position: top right;
+}
+.team__person__title {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.team__person__subtitle {
+  color: #63ad73;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.team__title {
+  background-color: #3b434e;
+  padding: 1.8rem 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
 #testimonials {
   background: url("../img/bg_testimonials.jpg") repeat #3b434e;
   color: #fff;
@@ -1762,6 +1820,15 @@ a:hover {
   #works #works-gallery .tabs {
     display: block;
   }
+  .team__person {
+    padding-top: 45%;
+  }
+  .team__person--gerardo {
+    background-image: url("../img/gerardo.jpg");
+  }
+  .team__person--alonso {
+    background-image: url("../img/alonso.jpg");
+  }
 }
 @media only screen and (min-width: 750px) {
   .header {
@@ -1975,7 +2042,60 @@ a:hover {
     margin-right: 0;
   }
 }
+@media only screen and (min-width: 940px) {
+  .team__container {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    max-width: 90em;
+  }
+  .team__container:before,
+  .team__container:after {
+    content: "";
+    display: table;
+  }
+  .team__container:after {
+    clear: both;
+  }
+  .team__person {
+    padding-top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  .team__person:before,
+  .team__person:after {
+    content: "";
+    display: table;
+  }
+  .team__person:after {
+    clear: both;
+  }
+  .team__person__info {
+    max-width: 38.8125em;
+  }
+  .team__person__info--right {
+    float: right;
+  }
+  .team__person__info--left {
+    float: left;
+  }
+  .team__person--left {
+    background-position: -20em 0;
+  }
+  .team__person--right {
+    background-position: 0em 0;
+  }
+}
 @media only screen and (min-width: 1100px) {
+  .team__person {
+    min-height: 650px;
+  }
+  .team__person--left {
+    background-position: -17em 0;
+  }
+  .team__person--right {
+    background-position: -17em 0;
+  }
   #home article #info {
     padding: 0;
     position: absolute;
@@ -2000,6 +2120,53 @@ a:hover {
   }
   #presentations .iframe-block {
     width: 500px;
+  }
+}
+@media only screen and (min-width: 1145px) {
+  .team__person {
+    min-height: 700px;
+  }
+  .team__person--left {
+    background-position: -10em 0;
+  }
+  .team__person--right {
+    background-position: -10em 0;
+  }
+}
+@media only screen and (min-width: 1260px) {
+  .team__person {
+    min-height: 745px;
+  }
+  .team__person--left {
+    background-position: -5em 0;
+  }
+  .team__person--right {
+    background-position: -15em 0;
+  }
+  .team__person__info {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .team__container {
+    width: 75%;
+  }
+  .team__person {
+    font-size: 1.3rem;
+  }
+  .team__person__title {
+    font-size: 2.5rem;
+  }
+  .team__person__subtitle {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .team__person--left {
+    background-position: top right;
+  }
+  .team__person--right {
+    background-position: top left;
   }
 }
 #sb-title-inner,

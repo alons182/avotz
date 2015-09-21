@@ -485,6 +485,60 @@ a
 			margin 0 auto
 			img
 				width 100%
+
+.team
+	padding-top 49px
+	background-color #F3F3F3
+	
+	&__container
+		margin 0 auto
+		width 90%
+		margin-bottom 4em
+	&__person
+		padding-top 70%//45%
+		background-repeat no-repeat
+		background-size contain
+		position relative
+		
+		&__social
+			a
+				font-size 3rem
+				display inline-block
+				padding .5rem
+				&:hover
+					color $turquesa2
+					text-decoration none
+		
+		
+		
+		&--gerardo
+			background-image url('../img/gerardo_thumb.jpg')
+		&--alonso
+			background-image url('../img/alonso_thumb.jpg')	
+		&--left
+			background-position top left
+		&--right
+			background-position top right	
+		&__title
+			text-transform uppercase
+			font-size 1.8rem
+			margin-bottom .5rem
+		&__subtitle
+			color $turquesa
+			margin 0
+			text-transform uppercase
+			font-weight bold
+			font-size 1.3rem
+	&__title
+		background-color $oscuro
+		padding 1.8rem 0
+		margin-bottom 0
+		text-align center
+		color white
+		text-transform uppercase
+
+		
+							
 #testimonials
 	background url('../img/bg_testimonials.jpg') repeat $oscuro
 	color white
@@ -621,7 +675,7 @@ a
 		padding-bottom 100px
 		width 95%//450px
 		position relative
-
+		
 		.form-input-block
 			margin-bottom 15px
 
@@ -647,6 +701,7 @@ a
 			line-height 1.8em
 			margin-bottom 20px
 			width 100%//350px
+			
 			iframe 
 				border none
 				width 100%
