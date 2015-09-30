@@ -7,6 +7,22 @@
 			.tabs
 				display block
 	.team
+		&__features
+			&__container
+				display flex
+				flex-wrap wrap 
+				justify-content space-between
+				padding-top 5rem
+			&__item
+				width 45%
+				text-align center
+				margin-bottom 3rem
+				&__icon
+					font-size 4rem
+					float none
+					width 150px 
+					height 150px
+					margin 0 auto
 		&__person
 			padding-top 45%
 	
@@ -215,7 +231,8 @@
 			text-align center
 
 
-
+	
+				
 
 
 @media only screen and (min-width:  870px)
@@ -287,7 +304,14 @@
 			&--left
 				background-position -17em 0
 			&--right
-				background-position -17em 0	
+				background-position -17em 0
+		&__features
+			&__item
+				width 22%
+				&__icon
+					width 200px
+					height 200px
+					font-size 5rem	
 	#home
 		article
 			#info

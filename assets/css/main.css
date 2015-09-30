@@ -496,8 +496,8 @@ table {
 }
 @font-face {
   font-family: 'avotz';
-  src: url("../fonts/avotz.eot?1fjwi");
-  src: url("../fonts/avotz.eot?#iefix1fjwi") format('embedded-opentype'), url("../fonts/avotz.woff?1fjwi") format('woff'), url("../fonts/avotz.ttf?1fjwi") format('truetype'), url("../fonts/avotz.svg?1fjwi#avotz") format('svg');
+  src: url("../fonts/avotz.eot?oryxob");
+  src: url("../fonts/avotz.eot?oryxob#iefix") format('embedded-opentype'), url("../fonts/avotz.ttf?oryxob") format('truetype'), url("../fonts/avotz.woff?oryxob") format('woff'), url("../fonts/avotz.svg?oryxob#avotz") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -514,10 +514,7 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-youtube:before {
-  content: "\f167";
-}
-.icon-bubbles:before {
+.icon-bubble:before {
   content: "\e600";
 }
 .icon-wordpress:before {
@@ -525,12 +522,6 @@ table {
 }
 .icon-html5:before {
   content: "\e602";
-}
-.icon-stats:before {
-  content: "\e608";
-}
-.icon-linkedin:before {
-  content: "\e609";
 }
 .icon-tools:before {
   content: "\e603";
@@ -546,6 +537,27 @@ table {
 }
 .icon-googleplus:before {
   content: "\e607";
+}
+.icon-stats:before {
+  content: "\e608";
+}
+.icon-linkedin:before {
+  content: "\e609";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-eye:before {
+  content: "\f06e";
+}
+.icon-group:before {
+  content: "\f0c0";
+}
+.icon-exchange:before {
+  content: "\f0ec";
 }
 .cuadro {
   position: relative;
@@ -1351,6 +1363,63 @@ a:hover {
   padding-top: 49px;
   background-color: #f3f3f3;
 }
+.team__features {
+  background-color: #e3e3e3;
+}
+.team__features__container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.team__features__item {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.team__features__item__icon {
+  font-size: 2rem;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #63ad73;
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  float: right;
+  margin-top: -20px;
+}
+.team__features__item__icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.team__features__item__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #63ad73;
+  position: relative;
+}
+.team__features__item__title:after {
+  height: 5px;
+  width: 100px;
+  margin: 0 auto;
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  display: block;
+  left: 50%;
+  bottom: -12px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
 .team__container {
   margin: 0 auto;
   width: 90%;
@@ -1398,6 +1467,7 @@ a:hover {
   font-size: 1.3rem;
 }
 .team__title {
+  margin-top: 0;
   background-color: #3b434e;
   padding: 1.8rem 0;
   margin-bottom: 0;
@@ -1820,6 +1890,39 @@ a:hover {
   #works #works-gallery .tabs {
     display: block;
   }
+  .team__features__container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -o-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding-top: 5rem;
+  }
+  .team__features__item {
+    width: 45%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .team__features__item__icon {
+    font-size: 4rem;
+    float: none;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
   .team__person {
     padding-top: 45%;
   }
@@ -2095,6 +2198,14 @@ a:hover {
   }
   .team__person--right {
     background-position: -17em 0;
+  }
+  .team__features__item {
+    width: 22%;
+  }
+  .team__features__item__icon {
+    width: 200px;
+    height: 200px;
+    font-size: 5rem;
   }
   #home article #info {
     padding: 0;

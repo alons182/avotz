@@ -490,6 +490,49 @@ a
 	padding-top 49px
 	background-color #F3F3F3
 	
+	&__features
+		background-color #e3e3e3
+		&__container
+			width 90%
+			margin 0 auto
+			padding 2rem 0
+		&__item
+			position relative
+			margin-bottom 4rem
+			&__icon
+				font-size 2rem
+				background-color white
+				border-radius 50%
+				color $turquesa
+				display block
+				width 60px
+				height 60px
+				position relative
+				float right
+				margin-top -20px
+				i 
+					position absolute
+					top 50%
+					left 50%
+					transform translate(-50%, -50%)
+			&__title 
+				text-transform uppercase
+				font-size 2rem
+				color $turquesa
+				position relative
+				&:after
+					height 5px 
+					width 100px 
+					margin 0 auto 
+					content ''
+					background-color white
+					position absolute
+					display block
+					left 50%
+					bottom -12px
+					transform translate(-50%, 0)
+					
+					
 	&__container
 		margin 0 auto
 		width 90%
@@ -530,6 +573,7 @@ a
 			font-weight bold
 			font-size 1.3rem
 	&__title
+		margin-top 0
 		background-color $oscuro
 		padding 1.8rem 0
 		margin-bottom 0
