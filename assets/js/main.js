@@ -77,7 +77,7 @@
             //ajax
                 $.ajax({
 
-                  url : 'http://www.avotz.com/blog/helpers/get_posts.php',
+                  url : 'https://www.avotz.com/blog/helpers/get_posts.php',
                   dataType : 'jsonp',
 
 
