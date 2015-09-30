@@ -368,7 +368,7 @@ a:hover{text-decoration:underline}
 #services .services-video{width:20em}
 #services #services-info{margin-top:40px;width:39em;margin-left:.5em}
 #services #services-info .service:nth-child(even){margin-right:0}}
-@media only screen and (min-width:940px){.team__container{margin-top:10em;margin-bottom:10em;max-width:90em}
+@media only screen and (min-width:940px){.team__container{margin-top:7em;margin-bottom:10em;max-width:90em}
 .team__container:after,.team__container:before{content:"";display:table}
 .team__container:after{clear:both}
 .team__person{padding-top:0;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover}
@@ -391,13 +391,15 @@ a:hover{text-decoration:underline}
 .team__person--left,.team__person--right{background-position:-10em 0}}
 @media only screen and (min-width:1260px){.team__person{min-height:745px}
 .team__person--left{background-position:-5em 0}
-.team__person--right{background-position:-15em 0}
+.team__person--right{background-position:-10em 0}
 .team__person__info{width:50%}}
-@media only screen and (min-width:1366px){.team__container{width:75%}
-.team__person{font-size:1.3rem}
+@media only screen and (min-width:1368px){.team__container{width:75%}
+.team__person{font-size:1.2rem}
+.team__person--left{background-position:-10em 0}
+.team__person--right{background-position:-15em 0}
 .team__person__title{font-size:2.5rem}
 .team__person__subtitle{font-size:1.5rem}}
-@media only screen and (min-width:1500px){.team__person--left{background-position:top right}
+@media only screen and (min-width:1680px){.team__person--left{background-position:top right}
 .team__person--right{background-position:top left}}
 #sb-info-inner,#sb-loading-inner,#sb-title-inner,div.sb-message{font-family:HelveticaNeue-Light,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none}
