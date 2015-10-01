@@ -234,6 +234,7 @@ a:hover{text-decoration:underline}
 .team__person{padding-top:70%;background-repeat:no-repeat;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain;position:relative}
 .team__person__social a{font-size:3rem;display:inline-block;padding:.5rem}
 .team__person__social a:hover{color:#7cb585;text-decoration:none}
+.team__person__social a img:hover{filter:hue-rotate(90deg) grayscale(.7);-webkit-filter:hue-rotate(90deg) grayscale(.7)}
 .team__person--gerardo{background-image:url(../img/gerardo_thumb.jpg)}
 .team__person--alonso{background-image:url(../img/alonso_thumb.jpg)}
 .team__person--left{background-position:top left}

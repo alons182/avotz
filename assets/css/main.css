@@ -1442,6 +1442,10 @@ a:hover {
   color: #7cb585;
   text-decoration: none;
 }
+.team__person__social a img:hover {
+  filter: hue-rotate(90deg) grayscale(0.7);
+  -webkit-filter: hue-rotate(90deg) grayscale(0.7);
+}
 .team__person--gerardo {
   background-image: url("../img/gerardo_thumb.jpg");
 }
