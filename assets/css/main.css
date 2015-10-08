@@ -1936,6 +1936,9 @@ a:hover {
   .team__person--alonso {
     background-image: url("../img/alonso.jpg");
   }
+  .team__person--dylan {
+    background-image: url("../img/dylan.jpg");
+  }
 }
 @media only screen and (min-width: 750px) {
   .header {
