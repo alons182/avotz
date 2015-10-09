@@ -237,6 +237,7 @@ a:hover{text-decoration:underline}
 .team__person__social a img:hover{filter:hue-rotate(90deg) grayscale(.7);-webkit-filter:hue-rotate(90deg) grayscale(.7)}
 .team__person--gerardo{background-image:url(../img/gerardo_thumb.jpg)}
 .team__person--alonso{background-image:url(../img/alonso_thumb.jpg)}
+.team__person--dylan{background-image:url(../img/dylan_thumb.jpg)}
 .team__person--left{background-position:top left}
 .team__person--right{background-position:top right}
 .team__person__title{text-transform:uppercase;font-size:1.8rem;margin-bottom:.5rem}
@@ -286,7 +287,7 @@ a:hover{text-decoration:underline}
 #responsabilidad .project-resp h3{margin:0}
 #responsabilidad .project-resp small{color:#a9bf04}
 #footer{background:#303843;min-height:230px;text-align:center}
-#footer .wrapper{padding-top:20px}
+#footer .wrapper{padding-top:20px;padding-bottom:40px}
 #footer .border-title{display:inline-block}
 #footer figure{margin-bottom:0}
 #footer #social{text-align:center}
@@ -295,6 +296,9 @@ a:hover{text-decoration:underline}
 #footer #copyright{background:#282f38;bottom:0;color:#959595;height:40px;width:100%}
 #footer #copyright #copyright-wrapper{margin:0 auto}
 #footer #copyright p{margin:10px 0;font-size:13px}
+#footer .certificado-analitycs{width:50px;vertical-align:middle;display:inline-block}
+#footer .certificado-analitycs img{width:100%}
+#footer #siteseal{display:inline-block;vertical-align:middle}
 .bold{font-weight:700;color:#63ad73}
 .wrapper{margin:0 auto;max-width:960px}
 .section-page{min-height:490px}

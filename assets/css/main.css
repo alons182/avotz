@@ -1452,6 +1452,9 @@ a:hover {
 .team__person--alonso {
   background-image: url("../img/alonso_thumb.jpg");
 }
+.team__person--dylan {
+  background-image: url("../img/dylan_thumb.jpg");
+}
 .team__person--left {
   background-position: top left;
 }
@@ -1712,6 +1715,7 @@ a:hover {
 }
 #footer .wrapper {
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 #footer .border-title {
   display: inline-block;
@@ -1745,6 +1749,18 @@ a:hover {
 #footer #copyright p {
   margin: 10px 0;
   font-size: 13px;
+}
+#footer .certificado-analitycs {
+  width: 50px;
+  vertical-align: middle;
+  display: inline-block;
+}
+#footer .certificado-analitycs img {
+  width: 100%;
+}
+#footer #siteseal {
+  display: inline-block;
+  vertical-align: middle;
 }
 .bold {
   font-weight: bold;
