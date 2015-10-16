@@ -1955,6 +1955,9 @@ a:hover {
   .team__person--dylan {
     background-image: url("../img/dylan.jpg");
   }
+  #footer {
+    position: relative;
+  }
   #footer .certificado-analitycs {
     position: absolute;
     right: 90px;
