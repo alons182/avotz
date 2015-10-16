@@ -339,7 +339,8 @@ a:hover{text-decoration:underline}
 .team__person{padding-top:45%}
 .team__person--gerardo{background-image:url(../img/gerardo.jpg)}
 .team__person--alonso{background-image:url(../img/alonso.jpg)}
-.team__person--dylan{background-image:url(../img/dylan.jpg)}}
+.team__person--dylan{background-image:url(../img/dylan.jpg)}
+#footer .certificado-analitycs{position:absolute;right:15px;bottom:45px;width:90px}}
 @media only screen and (min-width:750px){.header{position:fixed}
 .header #logo{float:left}
 .header #btn_nav{display:none}
