@@ -21,7 +21,8 @@ gulp.task('js', function () {
       './assets/js/vendor/jquery-1.11.2.min.js',
       './assets/js/vendor/jquery.validate.min.js',
       './assets/js/vendor/jquery.inview.min.js',
-      './assets/js/vendor/jquery.colorbox-min.js',
+       './assets/js/vendor/jquery.colorbox.js',
+      './assets/js/vendor/jquery.magnific-popup.js',
       './assets/js/vendor/jPages.min.js',
       './assets/js/vendor/jquery.cycle2.min.js',
       './assets/js/vendor/handlebars-v1.3.0.js',
@@ -50,7 +51,7 @@ gulp.task('stylus', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src(['./assets/css/colorbox.css','./assets/css/main.css'])
+  gulp.src(['./assets/css/colorbox.css','./assets/css/magnific-popup.css','./assets/css/main.css'])
     .pipe(minifyCSS({ keepSpecialComments: '*', keepBreaks: '*'}))
     .pipe(concat('bundle.css'))
     .pipe(gulp.dest('./css'))

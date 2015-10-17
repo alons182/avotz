@@ -8,17 +8,34 @@
 
 
         //POPUP
+        
        /* if(body.length > 0 ){
             $.colorbox({
                 href:"/popup.html"//,
                 //width: 650,
                 });
         }*/
-       /* $('.btn-regalo').stickyfloat({ duration: 400,offsetY: 180 });
-	    $('.btn-regalo').colorbox({
+       /* $('.btn-regalo').stickyfloat({ duration: 400,offsetY: 180 });*/
+	    /*$('.btn-regalo').colorbox({
             href:"/popup.html"//,
             //width: 650,
             });*/
+       /*$('.btn-regalo').magnificPopup({
+        type: 'iframe', 
+        src: '/popup.html'
+      });*/
+    if(body.length > 0 ){
+       $.magnificPopup.open({
+          items: {
+            src: '/popup.html'
+          },
+          type: 'iframe',
+         
+          // You may add options here, they're exactly the same as for $.fn.magnificPopup call
+          // Note that some settings that rely on click event (like disableOn or midClick) will not work here
+        }, 0);
+     }
+      
       $('.gallery-clases').colorbox({rel:'gallery-clases'});
       $('.gallery-inauguracion').colorbox({rel:'gallery-inauguracion'});
 	 // NAV MOBILE
