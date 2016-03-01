@@ -1,6 +1,21 @@
 [
 	{
 		
+		"name":"Diamante Eco Adventure Park",
+		"type": "sitio",
+		"img": "sitios/diamante.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://diamanteecoadventurepark.com/"
+	},
+	{
+		
+		"name":"Adventure Play Ground",
+		"type": "sitio",
+		"img": "sitios/apg.jpg",
+		"link": "http://adventureplaygd.com/"
+	},
+	{
+		
 		"name":"Guanacaste Vende",
 		"type": "sitio",
 		"img": "sitios/guanacastevende.jpg",
