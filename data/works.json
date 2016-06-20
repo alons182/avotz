@@ -1,10 +1,34 @@
 [
 	{
 		
+		"name":"Municipal Liberia",
+		"type": "sitio",
+		"img": "sitios/municipal-liberia.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://municipalliberia.com/"
+	},
+	{
+		
+		"name":"Costa Rica Brokers",
+		"type": "sitio",
+		"img": "sitios/costarica-brokers.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://costarica-brokers.com/"
+	},
+	{
+		
+		"name":"Marina Charters",
+		"type": "sitio",
+		"img": "sitios/marina-charters.jpg",
+		"stick": "En Desarrollo",
+		"link": "http://marinacharterscr.com/"
+	},
+
+	{
+		
 		"name":"Diamante Eco Adventure Park",
 		"type": "sitio",
 		"img": "sitios/diamante.jpg",
-		"stick": "Recién lanzado",
 		"link": "http://diamanteecoadventurepark.com/"
 	},
 	{
