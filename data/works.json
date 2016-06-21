@@ -1,6 +1,14 @@
 [
 	{
 		
+		"name":"Guanacaste Howler Travel",
+		"type": "sitio",
+		"img": "sitios/howlertravel.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://guanacastehowlertravel.com/"
+	},
+	{
+		
 		"name":"Municipal Liberia",
 		"type": "sitio",
 		"img": "sitios/municipal-liberia.jpg",
