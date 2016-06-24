@@ -1,6 +1,14 @@
 [
 	{
 		
+		"name":"Sonnsolar",
+		"type": "sitio",
+		"img": "sitios/sonnsolar.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://sonnsolar.com/"
+	},
+	{
+		
 		"name":"Guanacaste Howler Travel",
 		"type": "sitio",
 		"img": "sitios/howlertravel.jpg",
@@ -20,7 +28,6 @@
 		"name":"Costa Rica Brokers",
 		"type": "sitio",
 		"img": "sitios/costarica-brokers.jpg",
-		"stick": "Recién lanzado",
 		"link": "http://costarica-brokers.com/"
 	},
 	{
