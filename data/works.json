@@ -1,4 +1,5 @@
 [
+	
 	{
 		
 		"name":"Sonnsolar",
@@ -6,6 +7,14 @@
 		"img": "sitios/sonnsolar.jpg",
 		"stick": "Recién lanzado",
 		"link": "http://sonnsolar.com/"
+	},
+	{
+		
+		"name":"Vivenda",
+		"type": "sitio",
+		"img": "sitios/vivenda.jpg",
+		"stick": "Recién lanzado",
+		"link": "http://www.vivendacr.com/"
 	},
 	{
 		
