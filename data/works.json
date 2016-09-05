@@ -2,6 +2,14 @@
 	
 	{
 		
+		"name":"Ondabrava Radio",
+		"type": "sitio",
+		"img": "sitios/ondabrava2.jpg",
+		"stick": "Recién Actualizado",
+		"link": "http://www.ondabravaradio.com"
+	},
+	{
+		
 		"name":"Sonnsolar",
 		"type": "sitio",
 		"img": "sitios/sonnsolar.jpg",
@@ -96,13 +104,7 @@
 		"img": "sitios/frame.jpg",
 		"link": "http://www.frame.cr"
 	},
-	{
-		
-		"name":"Ondabrava Radio",
-		"type": "sitio",
-		"img": "sitios/ondabrava.jpg",
-		"link": "http://www.ondabravaradio.com"
-	},
+	
 	{
 		
 		"name":"Guanacaste Viajes",
