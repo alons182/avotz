@@ -264,6 +264,133 @@
 	},
 	{
 		
+		"name":"Marcador",
+		"type": "diseno",
+		"img": "disenos/marcador_thumb.jpg",
+		"link": "img/trabajos/disenos/marcador.jpg"
+	},
+	{
+		
+		"name":"Afiche Liberia femenino",
+		"type": "diseno",
+		"img": "disenos/afiche-liberia-femenino_thumb.jpg",
+		"link": "img/trabajos/disenos/afiche-liberia-femenino.jpg"
+	},
+	{
+		
+		"name":"Banner Municipal Liberia",
+		"type": "diseno",
+		"img": "disenos/banner-ml_thumb.jpg",
+		"link": "img/trabajos/disenos/banner-ml.jpg"
+	},
+	{
+		
+		"name":"Convocatoria Sele",
+		"type": "diseno",
+		"img": "disenos/convocatoria-sele_thumb.jpg",
+		"link": "img/trabajos/disenos/convocatoria-sele.jpg"
+	},
+	{
+		
+		"name":"Afiche Curso Ingles",
+		"type": "diseno",
+		"img": "disenos/curso-ingles_thumb.jpg",
+		"link": "img/trabajos/disenos/curso-ingles.jpg"
+	},
+	{
+		
+		"name":"Afiche Curso Rescate Acuatico",
+		"type": "diseno",
+		"img": "disenos/rescate-acuatico_thumb.jpg",
+		"link": "img/trabajos/disenos/rescate-acuatico.jpg"
+	},
+	{
+		
+		"name":"Afiche Partido Liberia Femenino",
+		"type": "diseno",
+		"img": "disenos/partido-femenino_thumb.jpg",
+		"link": "img/trabajos/disenos/partido-femenino.jpg"
+	},
+	{
+		
+		"name":"Logo Showdreams",
+		"type": "diseno",
+		"img": "disenos/logo-showdreams_thumb.jpg",
+		"link": "img/trabajos/disenos/logo-showdreams.jpg"
+	},
+	{
+		
+		"name":"Logo Guanacasteviajes",
+		"type": "diseno",
+		"img": "disenos/guanacasteviajes_thumb.jpg",
+		"link": "img/trabajos/disenos/guanacasteviajes.jpg"
+	},
+	{
+		
+		"name":"Banner Kenneth Garcia",
+		"type": "diseno",
+		"img": "disenos/banner-kg_thumb.jpg",
+		"link": "img/trabajos/disenos/banner-kg.jpg"
+	},
+	{
+		
+		"name":"Logo Guanacastevende",
+		"type": "diseno",
+		"img": "disenos/logo-gtevende_thumb.jpg",
+		"link": "img/trabajos/disenos/logo-gtevende.jpg"
+	},
+	{
+		
+		"name":"Logo Green Tours Life",
+		"type": "diseno",
+		"img": "disenos/logo-green-tours_thumb.jpg",
+		"link": "img/trabajos/disenos/logo-green-tours.jpg"
+	},
+	{
+		
+		"name":"Gol",
+		"type": "diseno",
+		"img": "disenos/gol_thumb.jpg",
+		"link": "img/trabajos/disenos/gol.jpg"
+	},
+	{
+		
+		"name":"Logo Howler",
+		"type": "diseno",
+		"img": "disenos/logo-howler_thumb.jpg",
+		"link": "img/trabajos/disenos/logo-howler.jpg"
+	},
+	{
+		
+		"name":"Banner Jugadora",
+		"type": "diseno",
+		"img": "disenos/banner-jugadora_thumb.jpg",
+		"link": "img/trabajos/disenos/banner-jugadora.jpg"
+	},
+	{
+		
+		"name":"Logo Real Abel",
+		"type": "diseno",
+		"img": "disenos/real-abel_thumb.jpg",
+		"link": "img/trabajos/disenos/real-abel.jpg"
+	},
+	{
+		
+		"name":"Rifa Cine",
+		"type": "diseno",
+		"img": "disenos/rifa-cine_thumb.jpg",
+		"link": "img/trabajos/disenos/rifa-cine.jpg"
+	},
+	{
+		
+		"name":"Banner Partido Femenino",
+		"type": "diseno",
+		"img": "disenos/banner-partido-femenino_thumb.jpg",
+		"link": "img/trabajos/disenos/banner-partido-femenino.jpg"
+	},
+	
+	{
+		
 		"name":"Cepia Voleibol",
 		"type": "diseno",
 		"img": "disenos/cepia-voleibol_thumb.jpg",
