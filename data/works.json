@@ -1,5 +1,75 @@
 [
-	
+	{
+		
+		"name":"Rentame Santa Cruz",
+		"type": "sitio",
+		"img": "sitios/rentamesanta.jpg",
+		"stick": "Sitio web gemelo",
+		"link": "http://rentamesantacruz.com/"
+	},
+	{
+		
+		"name":"Pexs CR",
+		"type": "sitio",
+		"img": "sitios/pexscr.jpg",
+		"link": "http://www.pexscr.com/"
+	},
+	{
+		
+		"name":"Sibu Tours",
+		"type": "sitio",
+		"img": "sitios/sibutours.jpg",
+		"link": "http://www.sibutourscostarica.com/"
+	},
+	{
+		
+		"name":"No Limit Adventures",
+		"type": "sitio",
+		"img": "sitios/nolimitsadventure.jpg",
+		"link": "http://nolimitadventurescr.com/"
+	},
+	{
+		
+		"name":"Green Go Costa Rica",
+		"type": "sitio",
+		"img": "sitios/greengo.jpg",
+		"link": "http://greengocostarica.com/"
+	},
+	{
+		
+		"name":"Lazy Lizard Sailing",
+		"type": "sitio",
+		"img": "sitios/sailinglizard.jpg",
+		"link": "https://lazylizardsailing.com/"
+	},
+	{
+		
+		"name":"Lizard Tours",
+		"type": "sitio",
+		"img": "sitios/lizard.jpg",
+		"link": "https://lizardtours.com/"
+	},
+	{
+		
+		"name":"Airport Transportation Costa Rica",
+		"type": "sitio",
+		"img": "sitios/airporttransportation.jpg",
+		"link": "https://airporttransportationcostarica.com/"
+	},
+	{
+		
+		"name":"Costa Rica Best trips",
+		"type": "sitio",
+		"img": "sitios/besttrips.jpg",
+		"link": "https://costaricabesttrips.com/"
+	},
+	{
+		
+		"name":"Savannah Trek",
+		"type": "sitio",
+		"img": "sitios/savannah.jpg",
+		"link": "http://savannahtrekcr.com/"
+	},
 	{
 		
 		"name":"Ondabrava Radio",
