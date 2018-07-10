@@ -1,5 +1,68 @@
 [
 	{
+		"name": "Rincon de la Vieja Shuttle",
+		"type": "sitio",
+		"img": "sitios/rinconshuttle.jpg",
+		"stick": "Sitio",
+		"link": "http://rincondelaviejashuttle.com/"
+	},
+	{
+		"name": "Buggy Tours Costa Rica",
+		"type": "sitio",
+		"img": "sitios/buggytours.jpg",
+		"stick": "Sitio",
+		"link": "http://buggytourscostarica.com/"
+	},
+	{
+		"name": "Costa Rica Outdoors Tours",
+		"type": "sitio",
+		"img": "sitios/croutdoors.jpg",
+		"stick": "Sitio",
+		"link": "http://costaricaoutdoorstours.com/"
+	},
+	{
+		"name": "Costa Rica Private Tours",
+		"type": "sitio",
+		"img": "sitios/crprivate.jpg",
+		"stick": "Sitio",
+		"link": "http://costaricaprivatetours.net/"
+	},
+	{
+		"name": "Cañon de la vieja",
+		"type": "sitio",
+		"img": "sitios/canyondelavieja.jpg",
+		"stick": "Sitio",
+		"link": "https://www.thecanyonlodge.com/"
+	},
+	{
+		"name": "La carreta",
+		"type": "sitio",
+		"img": "sitios/lacarreta.jpg",
+		"stick": "Sitio",
+		"link": "http://grupolacarretacr.com/"
+	},
+	{
+		"name": "Terra Tour Nosara",
+		"type": "sitio",
+		"img": "sitios/terratours.jpg",
+		"stick": "Sitio",
+		"link": "http://terratournosara.com/"
+	},
+	{
+		"name": "El Coco Tours",
+		"type": "sitio",
+		"img": "sitios/elcocotours.jpg",
+		"stick": "Sitio",
+		"link": "https: //www.elcocotours.com/"
+	},
+	{
+		"name": "Go Travel",
+		"type": "sitio",
+		"img": "sitios/gotravelcrc.jpg",
+		"stick": "Sitio",
+		"link": "http://gotravelcrc.com/"
+	},
+	{
 		
 		"name":"Rentame Santa Cruz",
 		"type": "sitio",
@@ -149,10 +212,10 @@
 	},
 	{
 		
-		"name":"J&P Coach Group",
+		"name":"Integra",
 		"type": "sitio",
-		"img": "sitios/jp.jpg",
-		"link": "http://jpcoachgroup.avotz.com/"
+		"img": "sitios/integra.jpg",
+		"link": "http://integrapmo.com/"
 	},
 	{
 		
